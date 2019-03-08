@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>完善信息</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<script src="__JS__/jquery-1.11.3.min.js"></script>
+	<link rel="stylesheet" href="__CSS__/font/iconfont.css">
+	<style>
+		li,ul{
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	.fl{
+		float: left;
+	}
+	.fr{
+		float: right;
+	}
+	body{
+		margin: 0;
+		padding: 0;
+		font-size: 10px;
+		color: #fff;
+	}
+	a{
+		color: #fff;
+		text-decoration: none;
+	}
+		body{
+			margin: 0;
+			padding: 0;
+			font-size: 10px;
+		    background: #f9f9f9;
+		}
+		form{
+			width: 300px;
+			height: auto;
+			margin: 0 auto;
+		    margin-top: 20px;
+		}
+		input{
+			display: block;
+			width: 270px;
+			margin: 0 auto;
+			margin-top: 10px;
+			height: 30px;
+			border: none;
+			border-bottom: 1px solid #444;
+			padding-left: 10px;
+			outline: none;
+		}
+
+		button{
+		    width: 280px;
+		    display: block;
+		    margin: 0 auto;
+		    height: 35px;
+		    background: #e4393c;
+		    color: #fff;
+		    border-radius: 10px;
+		    margin-top: 20px;
+		}
+		.box1{
+			border: 1px solid #444;
+		    border-radius: 10px;
+		    background: #fff;
+		    box-shadow: 1px 1px 1px 1px #ddd;
+		    padding-bottom: 10px;
+		}
+		#daili{
+			border: none;
+		}
+		.box2{
+			border: 1px solid #444;
+			margin-top: 10px;
+			overflow: hidden;
+			border-radius: 10px;
+			box-shadow: 1px 1px 1px 1px #ddd;
+		}
+		.box2 input{
+			width:140px;
+			margin: 0;
+			float: left;
+			border: none;
+			padding-left: 20px;
+		}
+		.box2 span{
+			width: 80px;
+			text-align: center;
+			float: right;
+			line-height: 35px;
+			padding: 0 20px;
+			background: #0067AC;
+			color: #fff;
+		}
+/* footer */
+#footer{
+	height: 50px;
+	width: 100%;
+	background: #131224;
+	position: fixed;
+	bottom: 0;
+}
+#footer ul>li{
+   width: 25%;
+   text-align:  center;
+   height: 50px;
+   color: #999;
+}
+#footer ul>li>a{
+	display: block;
+    line-height: 20px;
+    width: 100%;
+    color: #999;
+}
+#footer ul>li>a>p{
+    margin:0;
+    margin-top: 5px;
+}
+#footer ul> .active{
+	color: #0067AC;
+}
+#footer ul> .active>a{
+	color: #0067AC;
+}
+		#footer ul>li>a p{
+		    margin-top:5px;
+		}
+	</style>
+</head>
+<body>
+<div style="height:50px;width:100%;text-align:center;line-height:50px;background:#0067AC;color:#fff;font-size:20px;">
+	    <a href="" style="float:left;margin-top:8px;margin-left:10px;height:30px;width:30px;border-radius:30px;"><img src="__IMG__/lf.png" width="100%";></a><span style="margin-left:-51px;">我的客户</span>
+	</div>
+	<form  method="post" action="{:U('Weixin/Index/do_preinfo')}">
+	<div class="box1">
+		<input type="hidden" name="uid" value="{$rshy['uid']}"/>
+		<input type ="text" placeholder="请输入您的真实姓名"   name="username" id="name">
+		<input type ="text" placeholder="输入您的身份证号"   name="idcard" id="uid">
+		<input type ="text" placeholder="输入您的银行卡号"   name="bankno" id="car">
+	</div>
+		<button type="submit">完善信息</button>
+	</form>
+	  
+	<div id="hint" style="display:none;position: fixed;top:0;left:0;width:100%;height:100%;background: rgba(0,0,0,.5);font-family:'微软雅黑'">
+		<div class="box" style="position: absolute;top:50%;left:50%;background:#fff;width: 300px;height: 100px;border-radius: 10px;margin-left:-150px;margin-top: -50px; ">
+		    <h1 style="width: 100%;color: #444;text-align: center;font-weight: 500;line-height: 30px;margin:0;padding:0;">警告</h1>
+		    <p class="con" style="width: 100%;color: #444;text-align: center;font-size: 16px;line-height: 35px;border-bottom: 1px solid #DEDEDE;margin:0;padding:0;">手机号格式有误</p>
+		    <p class="close" style="width: 100%;text-align: center;color: #222;line-height: 34px;font-size: 20px;color: #0E90D2;margin:0;padding:0;">确&nbsp;&nbsp;&nbsp;定</p>
+		</div>
+	</div>
+	<script>
+	  function openAlert(itme,str){
+       	     $("#hint h1").html(itme);
+             $("#hint .con").html(str);
+             $("#hint").show();
+       }
+       function closeAlert(){
+       	$("#hint").hide();
+       }
+		   function code(){
+			    openAlert("提示","发送成功");
+			   var pd=/^(13[0-9]|14[0-9]|15[0-9]|18[0-9])\d{8}$/;
+			   if(pd.test($("#tel").val())){
+				$(".box2 span").css({"background":"#ddd","color":"#444"}).html("60秒重新发送").unbind("click");
+				var num=59;
+				var time=setInterval(function(){
+                      $("span").html(num-- + "后重新发送");
+                      if(num<0){
+                      	clearTimeout(time);
+                      	$(".box2 span").css({"background":"#e4393c","color":"#fff"}).html("重新发送");
+                      	$(".box2 span").bind("click",code);
+                      }
+				},1000);
+			   }else{
+				   openAlert("提示","手机号码不正确！");
+			   }
+	        }
+	        $(function(){
+				$("#hint .close").click(function(){
+					closeAlert();
+				})
+                $(".box2 span").bind("click",code);
+			  
+	        })
+	</script>
+</body>
+</html>

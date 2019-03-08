@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link type="text/css" rel="stylesheet" href="__PUBLIC__/web/css/lib.css?2">
+   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1, minimum-scale=1.0"/>
+   <meta content="telephone=no" name="format-detection">
+    <title>个人资料</title>
+    <script src="__PUBLIC__/web/js/jquery-1.8.3.min.js"></script>
+    <link rel="stylesheet" href="__PUBLIC__/web/css/weui.min.css"/>
+    <link rel="stylesheet" href="__PUBLIC__/web/css/jquery-weui.min.css">
+    <link href="__PUBLIC__/web/css/font-awesome.min.css" rel="stylesheet">
+    <link href="__PUBLIC__/web/fonts/iconfont.css" rel="stylesheet">
+    <script src="__PUBLIC__/web/js/layer.js"></script>
+	<style>
+		form{
+			padding: 10px 20px;
+		}
+		.form-input-group{
+			margin-bottom: 10px;border: 1px solid #02d2f5;border-radius:5px;padding: 2px 10px;height: 30px;line-height: 30px
+		}
+		.form-input-group span{
+			padding-right: 10px;border-right: 1px solid #02d2f5;color: rgba(255,255,225,.5);font-size: 14px;
+		}
+		.form-sub{
+			display:block;margin-bottom: 5px;background:#02d2f5;border-radius:25px;height: 40px;line-height: 40px;text-align: center;width: 100%;border:0;color: #fff;
+		}
+		form input:focus{
+			outline: none;
+		}
+
+	</style>
+</head>
+<body>
+   <div style="position: fixed;z-index: -1000;width: 100%;height: 100vh;top:0;left: 0;"><img src="__PUBLIC__/web/img/body_bg.jpg" style="width:100%;height: 100vh"></div>
+    <header class="header">
+        <span class="header_l" style="padding-left: 0"><a href="javascript:history.go(-1);"><img src="__PUBLIC__/web/img/back.png" style="display: inline-block;height: 40px"></a></span>
+        <span class="header_c">个人资料</span>
+		<span style="position: absolute;right: 40px;top: 0px;text-align:center;width:70px;white-space:nowrap; overflow:hidden; text-overflow:ellipsis;font-size: 12px; ">{$userData['ue_truename']}</span>
+        <span class="header_r"><a href="/index.php/Home/Index/index"><i class="fa fa-user"></i></a></span>
+    </header>
+    <div class="height40;"></div>
+    <!--顶部结束-->
+    <!--列表开始-->
+	
+	<form action="/Index.php/Home/Info/zlxg/" id="myform7" method="POST" style="margin-bottom:80px;font-size:14px" onsubmit="return false;">
+		<ul style="width: 80%;margin-left: 10%;color: #fff" >
+	
+		<foreach name="list" item="v">
+			<li style="text-align: center;width:100%"><div style="width: 60px;height: 60px;margin-bottom: 10px;border-radius: 100%" src= ></div></li>
+			
+			<!-- <li style="height: 30px;line-height: 30px;width:100%">身&nbsp;&nbsp;&nbsp;&nbsp;份：<span></span>&nbsp;&nbsp; <if condition = "$v.sfjl eq 0">普通会员</if> <if condition = "$v.sfjl eq 1">会长</if></li> -->
+			<li style="height: 30px;line-height: 30px;margin-top: 5px;width:100%">会员帐号：&nbsp;&nbsp;&nbsp;{$v.ue_account}</li>
+			<li style="height: 30px;line-height: 30px;margin-top: 5px;width:100%">会员等级：&nbsp;&nbsp;&nbsp;
+					<if condition = "$v.level eq 0">会员(未激活)</if>
+					<if condition = "$v.level eq 1">GEC矿工</if>
+					<if condition = "$v.level eq 2">公会会长</if>
+					<if condition = "$v.level eq 3">创业大使</if>
+					<if condition = "$v.level eq 4">环保大使</if>
+					<if condition = "$v.level eq 5">国际大使</if>
+			</li>	
+			<li style="height: 30px;line-height: 30px;margin-top: 5px;width:100%"><span style="display:inline-block;width:28%;">昵&nbsp;&nbsp;&nbsp;&nbsp;称：</span><input type="text" name="nickname"  value="{$v.ue_truename}"style="height: 30px;line-height: 30px;width: 69%;border-radius: 5px;border: 1px solid #eeeeee;padding-left: 5px" <if condition="$xgcs egt 1">disabled="true"</if>/></li>
+			
+				<li style="height: 30px;line-height: 30px;margin-top: 5px;width:100%;display:none;"><span style="display:inline-block;width:28%;">国籍：</span>
+				
+				<select class="dfinput" name="guoji" id="guoji">
+						<option value='CN'>中国</option> 
+						
+						<option value='AF'>阿富汗 </option>
+						<option value='AL'>阿尔巴尼亚</option> 
+						<option value='AD'>安道尔</option> 
+						<option value='AO'>安哥拉</option> 
+						<option value='AI'>安圭拉</option> 
+						<option value='AQ'>南极洲 </option>
+						<option value='AG'>安提瓜和巴布达</option> 
+						<option value='AR'>阿根廷 </option>
+						<option value='AM'>亚美尼亚 </option>
+						<option value='AW'>阿鲁巴</option> 
+						<option value='AU'>澳大利亚 </option>
+						<option value='AT'>奥地利 </option>
+						<option value='AZ'>阿塞拜疆 </option>
+						<option value='AE'>阿拉伯</option>
+						<option value='BS'>巴哈马</option> 
+						<option value='BH'>巴林 </option>
+						<option value='BD'>孟加拉 </option>
+						<option value='BB'>巴巴多斯</option> 
+						<option value='BY'>白俄罗斯 </option>
+						<option value='BZ'>伯利兹</option> 
+						<option value='BE'>比利时 </option>
+						<option value='BJ'>贝宁 </option>
+						<option value='BM'>百慕大</option> 
+						<option value='BT'>不丹 </option>
+						<option value='BO'>玻利维亚</option> 
+						<option value='BA'>波黑 </option>
+						<option value='BW'>博茨瓦纳 </option>
+						<option value='BV'>布维岛</option> 
+						<option value='BR'>巴西 </option>
+						<option value='BN'>文莱 </option>
+						<option value='BG'>保加利亚</option> 
+						<option value='BF'>布其纳法索</option> 
+						<option value='BI'>布隆迪</option> 
+						<option value='CM'>喀麦隆</option> 
+						<option value='CA'>加拿大 </option>
+						<option value='CV'>佛得角 </option>
+						
+					    <option value='CL'>智利 </option>
+						
+						<option value='CX'>圣诞岛</option> 
+						<option value='CC'>可可岛 </option>
+						<option value='CO'>哥伦比亚</option> 
+						<option value='CH'>瑞士</option> 
+						<option value='CG'>刚果</option> 
+						<option value='CK'>库克群岛</option> 
+						<option value='CR'>哥斯达黎加</option> 
+
+						<option value='CI'>象牙海岸 </option>
+						<option value='CU'>古巴 </option>
+						<option value='CY'>塞浦路斯 </option>
+						<option value='CZ'>捷克共和国 </option>
+						<option value='DK'>丹麦 </option>
+						<option value='DJ'>吉布提 </option>
+						<option value='DM'>多明哥 </option>
+						<option value='DE'>德国 </option>
+						<option value='DO'>多米尼加 </option>
+						<option value='DZ'>阿尔及利亚 </option>
+						<option value='EC'>厄瓜多尔 </option>
+						<option value='EG'>埃及 </option>
+						<option value='EH'>西撒哈拉 </option>
+						<option value='ES'>西班牙 </option>
+						<option value='EE'>爱沙尼亚 </option>
+						<option value='ET'>埃塞俄比亚 </option>
+						<option value='FJ'>斐济 </option>
+						<option value='FK'>福克兰群岛 </option>
+						<option value='FI'>芬兰 </option>
+						<option value='FR'>法国 </option>
+						<option value='FM'>密克罗尼西亚 </option>
+						<option value='GA'>加蓬 </option>
+						<option value='GQ'>赤道几内亚 </option>
+						<option value='GF'>法属圭亚那</option> 
+						<option value='GM'>冈比亚 </option>
+						<option value='GE'>格鲁吉亚</option> 
+						<option value='GH'>加纳 </option>
+						<option value='GI'>直布罗陀</option> 
+						<option value='GR'>希腊 </option>
+						<option value='GL'>格陵兰 </option>
+						<option value='GB'>英国 </option>
+						<option value='GD'>格林纳达 </option>
+						<option value='GP'>瓜德罗普 </option>
+						<option value='GU'>关岛 </option>
+						<option value='GT'>危地马拉 </option>
+						<option value='GN'>几内亚</option> 
+						<option value='GW'>几内亚比绍 </option>
+						<option value='GY'>圭亚那 </option>
+						<option value='HR'>克罗地亚 </option>
+						<option value='HT'>海地 </option>
+						<option value='HN'>洪都拉斯</option> 
+						<option value='HK'>中国香港 </option>
+						<option value='HU'>匈牙利 </option>
+						<option value='IS'>冰岛 </option>
+						<option value='IN'>印度 </option>
+						<option value='ID'>印度尼西亚</option> 
+						<option value='IR'>伊朗 </option>
+						<option value='IQ'>伊拉克</option> 
+
+
+						
+						<option value='IE'>爱尔兰 </option>
+						<option value='IL'>以色列 </option>
+						<option value='IT'>意大利 </option>
+						<option value='JM'>牙买加 </option>
+						<option value='JP'>日本 </option>
+						<option value='JO'>约旦 </option>
+						<option value='KZ'>哈萨克斯坦 </option>
+						<option value='KE'>肯尼亚 </option>
+						<option value='KI'>基里巴斯 </option>
+						<option value='KP'>朝鲜</option> 
+						<option value='KR'>韩国 </option>
+						<option value='KH'>柬埔寨 </option>
+						<option value='KM'>科摩罗 </option>
+						<option value='KW'>科威特 </option>
+						<option value='KG'>吉尔吉斯斯坦 </option>
+						<option value='KY'>开曼群岛</option> 
+						<option value='LA'>老挝 </option>
+						<option value='LK'>斯里兰卡</option> 
+						<option value='LV'>拉托维亚 </option>
+						<option value='LB'>黎巴嫩 </option>
+						<option value='LS'>莱索托 </option>
+						<option value='LR'>利比里亚 </option>
+						<option value='LY'>利比亚 </option>
+						<option value='LI'>列支敦士登 </option>
+						<option value='LT'>立陶宛 </option>
+						<option value='LU'>卢森堡 </option>
+						<option value='LC'>圣卢西亚 </option>
+						<option value='MO'>中国澳门 </option>
+						<option value='MG'>马达加斯加 </option>
+						<option value='MW'>马拉维 </option>
+						<option value='MY'>马来西亚 </option>
+						<option value='MV'>马尔代夫 </option>
+						<option value='ML'>马里 </option>
+						<option value='MT'>马耳他 </option>
+						<option value='MH'>马绍尔群岛</option> 
+						<option value='MR'>毛里塔尼亚 </option>
+						<option value='MU'>毛里求斯 </option>
+						<option value='MX'>墨西哥 </option>
+						<option value='MD'>摩尔多瓦 </option>
+						<option value='MC'>摩纳哥 </option>
+						<option value='MN'>蒙古 </option>
+						<option value='MS'>蒙特塞拉特 </option>
+						<option value='MA'>摩洛哥 </option>
+						<option value='MZ'>莫桑比克 </option>
+						<option value='MM'>缅甸 </option>
+						
+
+
+						<option value='NA'>纳米比亚 </option>
+						<option value='NR'>瑙鲁 </option>
+						<option value='NP'>尼泊尔 </option>
+						<option value='NL'>荷兰 </option>
+						<option value='NT'>中立区 </option>
+						<option value='NC'>新喀里多尼亚 </option>
+						<option value='NZ'>新西兰 </option>
+						<option value='NI'>尼加拉瓜 </option>
+						<option value='NE'>尼日尔 </option>
+						<option value='NG'>尼日利亚 </option>
+						<option value='NU'>纽埃 </option>
+						<option value='NF'>诺福克岛 </option>
+						<option value='NO'>挪威 </option>
+						<option value='OM'>阿曼 </option>
+						<option value='PK'>巴基斯坦 </option>
+						<option value='PF'>法属玻里尼西亚 </option>
+						<option value='PW'>帕劳 </option>
+						<option value='PA'>巴拿马 </option>
+						<option value='PG'>巴布亚新几内亚</option> 
+						<option value='PY'>巴拉圭 </option>
+						<option value='PE'>秘鲁 </option>
+						<option value='PH'>菲律宾 </option>
+						<option value='PN'>皮特开恩群岛 </option>
+						<option value='PL'>波兰 </option>
+						<option value='PT'>葡萄牙 </option>
+						<option value='PR'>波多黎各（美） </option>
+						<option value='QA'>卡塔尔 </option>
+						<option value='RO'>罗马尼亚 </option>
+						<option value='RU'>俄罗斯联邦 </option>
+						<option value='RW'>卢旺达 </option>
+						<option value='SV'>萨尔瓦多 </option>
+						<option value='SH'>圣赫勒那 </option>
+						<option value='SM'>圣马力诺 </option>
+						<option value='SA'>沙特阿拉伯 </option>
+						<option value='SN'>塞内加尔</option>
+						<option value='SC'>塞舌尔</option>
+						<option value='SL'>塞拉利昂</option>
+						<option value='SG'>新加坡 </option>
+						<option value='SK'>斯洛伐克 </option>
+						<option value='SI'>斯洛文尼亚 </option>
+						<option value='SB'>所罗门群岛</option>
+						<option value='SO'>索马里 </option>
+						<option value='SD'>苏丹 </option>
+						<option value='SR'>苏里南 </option> -->
+						<option value='SZ'>斯威士兰 </option>
+				</select>
+		
+				</li>
+			
+			<if condition="$yzm eq 1">
+				<li style="height: 30px;line-height: 30px;margin-top: 5px;width:100%"><span style="display:inline-block;width:28%;">手机号：</span><input type="tel" placeholder="请输入手机号" name="phone" value="{$v.phone}" required="required" id="phone" style="height: 30px;line-height: 30px;width: 69%;border-radius: 5px;border: 1px solid #eeeeee;padding-left: 5px">
+				</li>
+			</if>
+			<if condition="$yzm eq 2">
+			<li style="height: 30px;line-height: 30px;margin-top: 5px;width:100%"><span style="display:inline-block;width:28%;">手机号：</span><input type="tel" placeholder="请输入手机号" name="phone" value="{$v.phone}" required="required" id="phone" disabled="true" style="height: 30px;line-height: 30px;width: 69%;border-radius: 5px;border: 1px solid #eeeeee;padding-left: 5px">
+			</li>
+			</if>
+			
+			<!--<li class="code"style="height: 30px;line-height: 30px;margin-top: 5px;width:100%"><i style="display:inline-block;width:27%;">验证码：</i>
+			<input type="text" placeholder="请输入验证码" name="code" id="code" class="fl"style="height: 30px;line-height: 30px;width: 37%;border-radius: 5px;border: 1px solid #eeeeee;padding-left: 5px">
+				<span class="fr"style="height: 30px;line-height: 30px;background-color: #288eff;display: inline-block;width: 30%;text-align: center;font-size: 0.8em;border-radius: 5px;color: #fff">发送验证码</span>
+			</li>-->
+			
+
+			
+			<li style="height: 30px;line-height: 30px;margin-top: 5px;width:100%"><span style="display:inline-block;width:28%;">BTC钱包：</span><input type="text" name="btc"  value="{$v.btcaddress}" placeholder="如没有请留空"style="height: 30px;line-height: 30px;width: 69%;border-radius: 5px;border: 1px solid #eeeeee;padding-left: 5px" <if condition="$xgcs egt 1">disabled="true"</if>/></li>
+			
+			<li style="height: 30px;line-height: 30px;margin-top: 5px;width:100%"><span style="display:inline-block;width:28%;">姓名：</span><input type="text" name="zhxm" id="u_name" value="{$v.zhxm}" placeholder="请输入开户名"style="height: 30px;line-height: 30px;width: 69%;border-radius: 5px;border: 1px solid #eeeeee;padding-left: 5px" <if condition="$xgcs egt 1">disabled="true"</if>/></li>
+			
+			<li style="height: 30px;line-height: 30px;margin-top: 5px;width:100%"><span style="display:inline-block;width:28%;">身份证：</span><input type="text" name="idcard"  value="{$v.idcard}" placeholder="请输入你的身证号"style="height: 30px;line-height: 30px;width: 69%;border-radius: 5px;border: 1px solid #eeeeee;padding-left: 5px" <if condition="$xgcs egt 1">disabled="true"</if>/></li>
+
+			
+			<li style="height: 30px;line-height: 30px;margin-top: 5px;width:100%"><span style="display:inline-block;width:28%;">银行名称：</span><input type="text" id="uname" name="yhmc"  value="{$v.yhmc}" placeholder="请输入银行名称"style="height: 30px;line-height: 30px;width: 69%;border-radius: 5px;border: 1px solid #eeeeee;padding-left: 5px" <if condition="$xgcs egt 1">disabled="true"</if>/></li>
+			
+			
+			
+			<li style="height: 30px;line-height: 30px;margin-top: 5px;width:100%"><span style="display:inline-block;width:28%;">银行卡号：</span><input type="text" name="banknum" id="bankName" value="{$v.yhzh}"  onpaste="this.value=this.value.replace(/[^\d]/g,'')" onkeyup="this.value=this.value.replace(/[^\d]/g,'')" placeholder="请输入你的银行卡号"style="height: 30px;line-height: 30px;width: 69%;border-radius: 5px;border: 1px solid #eeeeee;padding-left: 5px" <if condition="$xgcs egt 1">disabled="true"</if>/></li>
+			<li style="height: 30px;line-height: 30px;margin-top: 5px;width:100%"><span style="display:inline-block;width:28%;">支付宝：</span><input type="text"id="zhiFu" name="zfbb"  value="{$v.zfb}" placeholder="请输入你的支付宝账号"style="height: 30px;line-height: 30px;width: 69%;border-radius: 5px;border: 1px solid #eeeeee;padding-left: 5px" <if condition="$xgcs egt 1">disabled="true"</if>/></li>
+			<li style="height: 30px;line-height: 30px;margin-top: 5px;width:100%"><span style="display:inline-block;width:28%;">微信号：</span><input type="text" id="weiXin" name="weixin" value="{$v.weixin}" placeholder="请输入你的微信账号"style="height: 30px;line-height: 30px;width: 69%;border-radius: 5px;border: 1px solid #eeeeee;padding-left: 5px" <if condition="$xgcs egt 1">disabled="true"</if>/></li>
+			
+			<!-- wk sfz  S -->
+			<li style=" line-height: 30px;margin-top: 5px;width:100%">
+			<span style="display:inline-block;width:40%;">手持身份证：</span>
+			<span style="display:inline-block;"><a href="__PUBLIC__/Home/images/3.png" target="_blank"> 查看示例图片</a></span></li>
+			 <if condition="$v.ue_sfz eq ''"> 
+			<input type="file" name="img[]"   onchange="preview(this)" style="height: 30px;line-height: 30px;width: 60%;border-radius: 5px;border: 1px solid #eeeeee;padding-left: 5px">
+			<input type="hidden" id="tx_img" name="tx_img" value="{$v.ue_sfz}"/>
+			 </if>
+			<div id="preview">
+				<if condition="$v.ue_sfz">
+				<img src="{$v.ue_sfz}" width="200px;" >
+				</if>
+			</div>
+			
+			
+			</li>
+<script>
+			//上传图片
+function preview(file)  
+{  	 
+ 
+	var prevDiv = document.getElementById('preview');  
+	if (file.files && file.files[0]){  
+		 var reader = new FileReader();  
+		  reader.onload = function(evt){  
+		  prevDiv.innerHTML = '<img src="' + evt.target.result + '" width="200px"  />';  
+		   document.getElementById('tx_img').value = evt.target.result;  
+		  doUpload();
+		}    
+		 reader.readAsDataURL(file.files[0]);  
+	}else{  
+			prevDiv.innerHTML = '<div class="img" style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod=scale,src=\'' + file.value + '\'"></div>';  
+		 }  
+} 
+function doUpload() {  
+     var formData = new FormData($( "#myform7" )[0]);  
+     $.ajax({  
+         
+          url: 'http://'+window.location.host+'/Index.php/Home/Info/myziliao1' ,  
+          type: 'POST',  
+          data: formData,  
+          async: false,  
+          cache: false,  
+          contentType: false,  
+          processData: false,  
+          success: function (returndata) {  
+              var prevDiv = document.getElementById('preview');  
+			   prevDiv.innerHTML = '<img src="' + returndata + '" width="200px"  />';  
+		   document.getElementById('tx_img').value = returndata;  
+          },  
+          error: function (returndata) {  
+              alert('图片太大，请更换后上传');  
+          }  
+     });  
+}  
+</script>
+<!-- wk sfz  E -->
+			
+			
+			<if condition="$yzm eq 2">
+			<li style="height: 30px;line-height: 30px;margin-top: 5px;width:100%"><span style="display:inline-block;width:28%;"></span><input type="hidden" placeholder="请输入手机号" name="phone"value="{$v.phone}"  required="required" id="phone" style="height: 30px;line-height: 30px;width: 69%;border-radius: 5px;border: 1px solid #eeeeee;padding-left: 5px">
+			</li>
+			</if>
+		
+			
+			<!-- wk   -->
+			<if condition = "$v.level eq 0"> 
+				<if condition="$v.ue_sfz neq ''">
+					<li><input type="button"  value="等待审核中" style="width: 100%;height: 30px;line-height: 30px;border-radius: 5px;border: 0px; background-color:#288eff;margin-top: 5px;color: #FFFFFF;-webkit-appearance: none;"/></li>
+				<else />
+				<li><input type="submit" class="tijiao" value="提交审核" style="width: 100%;height: 30px;line-height: 30px;border-radius: 5px;border: 0px; background-color:#288eff;margin-top: 5px;color: #FFFFFF;-webkit-appearance: none;"/></li>
+				</if>
+			<else />
+			<li><input type="button"  value="审核成功" style="width: 100%;height: 30px;line-height: 30px;border-radius: 5px;border: 0px; background-color:#288eff;margin-top: 5px;color: #FFFFFF;-webkit-appearance: none;"/></li>
+			</if>
+			<!-- wk   -->
+			<span style="font-size:12px;text-align:center;margin-left:7%">温馨提示：交易帐户绑定后不可修改，请认真填写，此账户信息将作为交易时付款信息，务必确认帐户资料填写正确</span>
+		
+		</foreach>	
+		</ul>
+	</form>
+</div>
+<!--底部开始-->
+<style>
+    .footer ul li{
+        width: 25%;
+    }
+</style>
+		<div class="footer">
+     <ul>
+        <li><a href="/index.php/Shop/Index/" class="block"><i class="iconfont">&#xe620;</i>矿机商城</a></li> <li><a href="/index.php/Home/Info/mykuangche/" class="block"><i class="iconfont">&#xe612;</i>我的矿机</a></li> <li><a href="/index.php/Home/Info/Index/" class="block"><i class="iconfont">&#xe61e;</i>交易中心</a></li>       <li><a href="/index.php/Home/Index/Index/" class="block"><i class="iconfont">&#xe619;</i>个人中心</a></li>
+   
+    </ul>
+</div>
+<!--底部结束-->
+<script src="__PUBLIC__/web/js/jquery-weui.min.js"></script>
+<script>
+  function code(){
+	   	      var pd=/^1[3|4|5|7|8][0-9]\d{4,8}$/;
+	   	      if(pd.test($("#phone").val())){
+	   	    	$.ajax({
+					url:"{:U('Index.php/Home/Ajax/xgzlmobile')}",
+					type:"POST",
+					data:{mobile:$("#phone").val()},
+					dataType:"json",
+					success:function(data){
+							$.alert(data,"提示");
+					}
+				})
+				$(".code span").css({"background":"#ddd","color":"#444"}).html("60秒重新发送").unbind("click");
+				var num=59;
+				var time=setInterval(function(){
+                      $(".code span").html(num-- + "后重新发送");
+					  if(num<0){
+                      	clearTimeout(time);
+                      	$(".code span").css({"background":"#288eff","color":"#fff"}).html("发送成功");
+						$(".code span").bind("click",mycode);
+                      }
+                      
+				},1000);
+			}else{
+             $.alert("手机不正确","提示");
+			}
+	        }
+			  function mycode(){
+		        $.confirm('<input type="text" id="phcode" style="display: inline-block;width: 35%;outline:none;height: 24px;border:1px solid #ddd;"><img src="/admin.php/Home/login/verify" onClick="this.src='+"'/admin.php/Home/login/verify?'"+'+Math.random();"  style="display: inline-block;width: 40%;height: 24px;border:1px solid #ddd;margin-left:10px;vertical-align:bottom;">',"请输入验证码",function(){
+				  $.showLoading("正在验证");
+				  $.ajax({
+				      url:"{:U('Index.php/Home/Login/phcode')}",
+					  type:"post",
+					  data:{vercode:$("#phcode").val()},
+					  dataType:"json",
+					  success:function(data){
+						  if(data.status==1){
+						    code();
+						  }else{
+						    $.alert("验证码错误");
+						  }
+					  },error:function(){
+					    $.alert("网络错误");
+					  },complete:function(){
+					  $.hideLoading();
+					  }
+				  })
+				})
+		   }
+    $(function(){
+        $(".code span").bind("click",mycode);
+		$(".tijiao").bind("click",function(){
+			$.confirm("收款资料绑定后不可修改，</br>您确定提交吗？",function(){											
+		      var xingming=/^[\u4e00-\u9fa5]{1,20}$/;
+			  var yinhang=/^[\u4e00-\u9fa5]{1,20}$/;
+			  var kahao=/\d{16,19}/;
+			  var zhifubao=/^\w{1,}$/;
+			  var weixinhao=/^\w{1,}$/;
+			  var msmcode=$('#code').val();
+			  if(msmcode==""){
+				 $.alert("验证码不能为空","提示");
+				 return false;
+			  }
+			  if(xingming.test($("#u_name").val())){
+				if(yinhang.test($("#uname").val())){
+					if(kahao.test($("#bankName").val())){
+						if(zhifubao.test($("#zhiFu").val())){
+							if(weixinhao.test($("#weiXin").val())){
+									//myform7.submit();
+									$.showLoading("正在提交");
+									$.ajax({
+									  url:"/Index.php/Home/Info/zlxg/",
+									  type:"post",
+									  data:$("#myform7").serialize(),
+									  dataType:"json",
+									  success:function(data){
+									    if(data.status==1){
+										   $.alert(data.info,function(){
+										   location.href=data.link;
+										   })
+										}else{
+										$.alert(data.info);
+										}
+									  },error:function(){
+									    $.alert("网络错误");
+									  },complete:function(){
+									  $.hideLoading();
+									  }
+									})
+							}else{
+								 $.alert("请输入正确的微信号","提示");
+								return false;
+							}
+							
+						}else{
+							$.alert("请输入正确的支付宝帐号","提示");
+							return false;
+						}
+					
+					}else{
+						$.alert("请输入正确的银行卡号","提示");
+						return false;
+					}
+					
+				}else{
+					$.alert("请输入正确的银行信息","提示");
+					return false;
+				}
+			  }else{
+				$.alert("请输入正确的姓名","提示");
+				return false;
+			  }
+			  });
+		  })
+    });
+</script>
+</body>
+</html>

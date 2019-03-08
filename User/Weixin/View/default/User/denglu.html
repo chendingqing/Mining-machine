@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="zh">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <title>登录</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="wap-font-scale" content="no">
+	<link rel="stylesheet" href="__PUBLIC__/reg/css/style.css">
+	<link rel="stylesheet" href="__PUBLIC__/reg/css/common.css">
+</head>
+<body class="page-mobile ">
+    <div class="wrapper login-wrapper">
+    <!-- logo S -->
+    <div class="wx-logo">
+    </div>
+    <!-- logo E -->
+    <!-- 登录输入表单 S -->
+    <div class="login-form def-m mb10">
+        <ul class="com-columns span2">
+            <li class="comc-item">
+                <div class="com-formbox">
+                    <label class="formbox-hd" for="username"><i class="iconfont icon-user"></i>&nbsp;</label>
+                    <span class="formbox-bd"><input  type="tel" id="username" name="tel"  onkeyup="this.value=this.value.replace(/ /g,'')" maxlength="11" class="input-txt" placeholder="请输入手机号" /></span>
+                </div>
+            </li>
+            <li class="comc-item">
+                <div class="com-formbox">
+                    <label class="formbox-hd" for="password"><i class="iconfont icon-lock"></i>&nbsp;</label>
+                    <span class="formbox-bd"><input  type="password" id="password" name="usrPwd" onkeyup="this.value=this.value.replace(/ /g,'')" maxlength="16" class="input-txt" placeholder="请输入交易密码" /></span>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <!-- 登录输入表单 E -->
+    <!-- 通用按钮 S -->
+    <div class="def-p com-btnbox mb10">
+        <a href="javascript:void(0);" class="btn btn-1 btn-dis" id="login_btn">登录</a>
+    </div>
+    <!-- 通用按钮 E -->
+
+    <!-- 忘记密码 S -->
+    <div class="def-p txtr">
+        <a href="/Index.php/weixin/User/userfind/" class="fz13 link" id="findPwd_btn">忘记密码</a>
+    </div>
+    <!-- 忘记密码 E -->
+
+    <!-- 底部的注册按钮 S -->
+    <div class="login-btm">
+        <a href="/Index.php/weixin/User/reg/" class="btn" id="register_btn">没有帐号？请注册</a>
+    </div>
+    <!-- 底部的注册按钮 E -->
+</div>
+<!-- 登录主要内容 E -->
+</div>
+<script type='text/javascript'>var ROOT = "";</script>
+<script src="js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/reg/js/common.js"></script>
+<script type="text/javascript" src="__PUBLIC__/reg/js/login.js"></script>
+<div class="loading-wrapper" style="display: none;">
+<div class="loading-area">
+<div id="floatingBarsG1" class="floatingBarsG"></div>
+<p id="msg">登录中...</p> 
+</div>
+<div class="mask" style="opacity: 0.3;"></div>
+</div>
+	</body>
+</html>

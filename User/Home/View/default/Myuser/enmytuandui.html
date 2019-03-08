@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link type="text/css" rel="stylesheet" href="__PUBLIC__/web/css/lib.css?2">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1, minimum-scale=1.0"/>
+	<meta content="telephone=no" name="format-detection">
+	<title>Miners guild</title>
+	<script src="__PUBLIC__/web/js/jquery-1.8.3.min.js"></script>
+	<link rel="stylesheet" href="__PUBLIC__/web/css/weui.min.css"/>
+	<link rel="stylesheet" href="__PUBLIC__/web/css/jquery-weui.min.css">
+	<link href="__PUBLIC__/web/css/font-awesome.min.css" rel="stylesheet">
+	<link href="__PUBLIC__/web/fonts/iconfont.css" rel="stylesheet">
+	<script src="__PUBLIC__/web/js/layer.js"></script>
+</head>
+<body>
+	<div style="position: fixed;z-index: -1000;width: 100%;height: 100vh;top:0;left: 0;"><img src="__PUBLIC__/web/img/body_bg.jpg" style="width:100%;height: 100vh"></div>
+	<header class="header">
+		<span class="header_l" style="padding-left: 0"><a href="javascript:history.go(-1);"><img src="__PUBLIC__/web/img/back.png" style="display: inline-block;height: 40px"></a></span>
+		<span class="header_c">Miners guild</span>
+		<span class="header_r"><a href="/index.php/Home/Index/enindex/"><i class="fa fa-user"></i></a></span>
+	</header>
+	<div class="height40"></div>
+	
+	<!--顶部结束-->
+	{$tjtreestr}
+	<div class="height55"></div>
+	<script language="javascript">
+function findtree(userid,url){
+		var nextree=$('#nextree_'+userid);
+		var treeimg=$('#tree_'+userid);
+		if(nextree.css('display')=='none'){
+			nextree.css('display','block');
+			if(treeimg.attr('src')=='/Public/images/tree_minus.gif'){
+				treeimg.attr('src','/Public/images/tree_minusl.gif');
+			}else{
+				treeimg.attr('src','/Public/images/tree_minus.gif');	
+			}
+			nextree.html('loading.........');
+		}else{
+			nextree.css('display','none');	
+			if(treeimg.attr('src')=='/Public/images/tree_minus.gif'){
+				treeimg.attr('src','/Public/images/tree_plus.gif');
+			}else{
+				treeimg.attr('src','/Public/images/tree_minus.gif');	
+			}
+			
+		}
+		
+		$.get(url, {userid:userid}, function (data, textStatus){
+			if(textStatus=='success'){
+				nextree.html(data);
+			}else{
+				nextree.html('failed');
+			}
+		});
+		
+		
+}
+</script>
+	<script>
+		function pay(){
+			$.ajax({
+				type:'post',
+				url:'/tixian.html',
+				data:"money="+$("#money").val(),
+				dataType:'json',
+				success:function(msg){
+                        alert(msg.msg);
+                        location.reload();
+				}
+			});
+		}
+	</script>
+<!--底部开始-->
+<style>
+	.footer ul li{
+		width: 25%;
+	}
+</style>
+<div class="footer">
+    <ul>
+        <li><a href="/index.php/Shop/Index/enindex/" class="block"><i class="iconfont">&#xe604;</i>Mills Mall</a></li>
+		<li><a href="/index.php/Home/Info/enmykuangche/" class="block"><i class="iconfont">&#xe601;</i>My mine</a></li>
+        <li><a href="/index.php/Home/Info/enIndex/" class="block"><i class="iconfont">&#xe645;</i>Trading market</a></li>
+        <li><a href="/index.php/Home/Index/enIndex/" class="block"><i class="iconfont">&#xe684;</i>Personal Center</a></li>
+    </ul>
+</div>
+	<!--底部结束-->
+	<script src="__PUBLIC__/web/js/jquery-weui.min.js"></script>
+	<script>
+		function showhidediv(id) {
+			console.log(id);
+			var qiugou = document.getElementById("yiji");
+			var zhengzai = document.getElementById("erji");
+			var wancheng = document.getElementById('sanji');
+			var qiugoubg = document.getElementById("yiji_list");
+			var zhengzaibg = document.getElementById('erji_list');
+			var wancehngbg = document.getElementById('sanji_list');
+			if (id == "erji") {
+				wancheng.style.display = 'none';
+				zhengzai.style.display = 'block';
+				qiugou.style.display = 'none';
+				qiugoubg.style.backgroundColor = "#E64340"
+				qiugoubg.style.color = "#fff"
+				zhengzaibg.style.backgroundColor = "#fff";
+				zhengzaibg.style.color = "#000";
+				wancehngbg.style.backgroundColor = "#E64340";
+				wancehngbg.style.color = "#fff";
+			}else if (id =='sanji') {
+				zhengzai.style.display = 'none';
+				wancheng.style.display = 'block';
+				qiugou.style.display = 'none';
+				qiugoubg.style.backgroundColor = "#E64340"
+				zhengzaibg.style.backgroundColor = "#E64340";
+				qiugoubg.style.color= "#fff";
+				zhengzaibg.style.color = "#fff";
+				wancehngbg.style.backgroundColor = "#fff";
+				wancehngbg.style.color = "#000";
+			}else if(id=='yiji'){
+				zhengzai.style.display = 'none';
+				wancheng.style.display = 'none';
+				qiugou.style.display = 'block';
+				qiugoubg.style.backgroundColor = "#fff";
+				qiugoubg.style.color = "#000";
+				zhengzaibg.style.backgroundColor = "#E64340";
+				wancehngbg.style.backgroundColor = "#E64340";
+				zhengzaibg.style.color = "#fff";
+				wancehngbg.style.color = "#fff";
+			}
+		}
+	</script>
+</body>
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link type="text/css" rel="stylesheet" href="__PUBLIC__/web/css/lib.css?2">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1, minimum-scale=1.0"/>
+	<meta content="telephone=no" name="format-detection">
+	<title>所属公会</title>
+	<script src="__PUBLIC__/web/js/jquery-1.8.3.min.js"></script>
+	<link rel="stylesheet" href="__PUBLIC__/web/css/weui.min.css"/>
+	<link rel="stylesheet" href="__PUBLIC__/web/css/jquery-weui.min.css">
+	<link href="__PUBLIC__/web/css/font-awesome.min.css" rel="stylesheet">
+	<link href="__PUBLIC__/web/fonts/iconfont.css" rel="stylesheet">
+	<script src="__PUBLIC__/web/js/layer.js"></script>
+</head>
+<body>
+	<div style="position: fixed;z-index: -1000;width: 100%;height: 100vh;top:0;left: 0;"><img src="__PUBLIC__/web/img/body_bg.jpg" style="width:100%;height: 100vh"></div>
+	<header class="header">
+		<span class="header_l" style="padding-left: 0"><a href="javascript:history.go(-1);"><img src="__PUBLIC__/web/img/back.png" style="display: inline-block;height: 40px"></a></span>
+		<span class="header_c">矿工公会</span>
+		<span class="header_r"><a href="/index.php/Home/Index/index/"><i class="fa fa-user"></i></a></span>
+	</header>
+	<div>
+   <ul style="width:90%;padding-top:15%;margin-left:5%">
+        <li style="width:25%;float:left;text-align:center;color:#000;background-color:#02d2f5;height: 30px;line-height: 30px;border-bottom-left-radius: 5px;border-top-left-radius:5px;"><a style="color:#fff" href="/index.php/Home/Myuser/index/">我的公会</a></li>
+		<li style="width:25%;float:left;text-align:center;color:#000;background-color:#02d2f5;height: 30px;line-height: 30px;"><a style="color:#fff" href="/index.php/Home/Myuser/kjwl/" >矿机网络</a></li>
+        
+        <li style="width:25%;float:left;text-align:center;color:#000;background-color:#fff;height: 30px;line-height: 30px;"><a style="color:#000" href="/index.php/Home/Myuser/ssgh/" >所属公会</a></li>
+        <li style="width:25%;float:left;text-align:center;color:#000;background-color:#02d2f5;height: 30px;line-height: 30px;border-bottom-right-radius: 5px;border-top-right-radius:5px;">
+        <a style="color:#fff" href=" <if condition = "$rshy.ktghgl eq 2">/index.php/Home/Myuser/ghgl/ <else/>   javascript:$.alert('请继续努力，会长以上级别可申请此功能',function(){return false;})</if>" >公会管理</a>
+        </li>
+    </ul>
+    <p style="text-align:center;width:100%;height:40px;line-height:40px;padding-top:36px;">新注册会员请联系GEC会长免费领取矿机</p>
+</div>
+	<div class="height40" ></div>
+	
+	<!--顶部结束-->
+	
+  <style>
+table tr>td:nth-child(2){
+	border:2px solid #333;
+	border-bottom:none;
+}
+table tr>td:nth-child(1){
+	font-weight:600;
+	line-height:30px;
+	font-size:14px;
+	vertical-align: top;
+}
+table tr>td input{
+	display:block;
+	position:relative;
+	left:0;
+	right:0;
+	width:100%;
+	height:100%;
+	border:none;
+	outline:none;
+	height:30px;
+	line-height:30px;
+	background:none;
+}
+table tr>td textarea{
+	display:block;
+	position:relative;
+	left:0;
+	right:0;
+	width:100%;
+	border:none;
+	outline:none;
+	height:100px;
+	background:none;
+}
+table tr:last-child td:nth-child(2){
+	border-bottom:2px solid #333;
+}
+</style>
+
+<form id="form1" name="form1" method="post" action="/index.php/Home/Myuser/ghglto"style="width:90%;margin-left:5%">
+         <span style="text-align:center;width:30%;display:inline-block;">公会名称:</span>       
+             <input style="width:65%;border:0px;height:30px;line-height:30px;border-radius:5px;" type="text" value="{$return.ghname}" name="ghname" placeholder="请输入公会名称" disabled="disabled" />
+         <span style="text-align:center;width:30%;display:inline-block;vertical-align:top;margin-top:10px">公会宣言:</span>
+             <textarea rows="5" cols="8" style="width:65%;border:0px;border-radius:5px;margin-top:10px;" name="ghxy"  placeholder="请输入公会宣言"  disabled="disabled" >{$return.ghxy}</textarea>
+         <span style="text-align:center;width:30%;display:inline-block;vertical-align:top;margin-top:10px">公会QQ群&nbsp;&nbsp;</span>
+             <input style="width:65%;border:0px;height:30px;line-height:30px;border-radius:5px;margin-top:10px" type="text" value="{$return.ghqq}" name="ghqq" placeholder="请输入公会QQ群"  disabled="disabled" />
+         <span style="text-align:center;width:30%;display:inline-block;vertical-align:top;margin-top:10px">会长微信&nbsp;&nbsp;</span>
+             <input style="width:65%;border:0px;height:30px;line-height:30px;border-radius:5px;margin-top:10px" type="text" value="{$return.hzvx}" name="hzvx" placeholder="请输入会长微信" disabled="disabled" />
+         <span style="text-align:center;width:30%;display:inline-block;vertical-align:top;margin-top:10px">会长QQ&nbsp;&nbsp;</span>
+             <input style="width:65%;border:0px;height:30px;line-height:30px;border-radius:5px;margin-top:10px" type="text" value="{$return.hzqq}" name="hzqq" placeholder="请输入会长QQ" disabled="disabled" />
+         <span style="text-align:center;width:30%;display:inline-block;vertical-align:top;margin-top:10px">会长手机&nbsp;&nbsp;</span>
+             <input style="width:65%;border:0px;height:30px;line-height:30px;border-radius:5px;margin-top:10px" type="text" value="{$return.hzphone}" name="hzphone" placeholder="请输入会长手机"  disabled="disabled"  />
+     
+</form>	
+	<div class="height55"></div>
+	
+	
+<!--底部开始-->
+<style>
+	.footer ul li{
+		width: 25%;
+	}
+</style>
+<div class="footer">
+    <ul>
+        <li><a href="/index.php/Shop/Index/" class="block"><i class="iconfont">&#xe620;</i>矿机商城</a></li> <li><a href="/index.php/Home/Info/mykuangche/" class="block"><i class="iconfont">&#xe612;</i>我的矿机</a></li> <li><a href="/index.php/Home/Info/Index/" class="block"><i class="iconfont">&#xe61e;</i>交易中心</a></li> <li><a href="/index.php/Home/Index/Index/" class="block"><i class="iconfont">&#xe619;</i>个人中心</a></li>
+    </ul>
+</div>
+	<!--底部结束-->
+	<script src="__PUBLIC__/web/js/jquery-weui.min.js"></script>
+	
+</body>
+</html>

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022) -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<script type="text/javascript" src="/js/jquery.js"></script>
+    <!-- Page title -->
+    <title>汉普顿金融集团</title>
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <!-- Vendor styles -->
+    <link rel="stylesheet" href="/assets/vendor/fontawesome/css/font-awesome.css">
+    <link rel="stylesheet" href="/assets/vendor/metisMenu/dist/metisMenu.css">
+    <link rel="stylesheet" href="/assets/vendor/animate.css/animate.css">
+    <link rel="stylesheet" href="/assets/vendor/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/assets/vendor/sweetalert/lib/sweet-alert.css">
+    <link rel="stylesheet" href="/assets/vendor/toastr/build/toastr.min.css">
+    
+
+    <!-- App styles -->
+    <link rel="stylesheet" href="/assets/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
+    <link rel="stylesheet" href="/assets/fonts/pe-icon-7-stroke/css/helper.css">
+    <link rel="stylesheet" href="/assets/styles/style.css">
+
+<style type="text/css">.jqstooltip { position: absolute;left: 0px;top: 0px;visibility: hidden;background: rgb(0, 0, 0) transparent;background-color: rgba(0,0,0,0.6);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";color: white;font: 10px arial, san serif;text-align: left;white-space: nowrap;padding: 5px;border: 1px solid white;z-index: 10000;}.jqsfield { color: white;font: 10px arial, san serif;text-align: left;}</style></head>
+<script>
+    function confirm(ob){
+        //alert('11111');
+        $.post("__CONTROLLER__/saveOrderform",{id:ob},function(data){
+            if(data){
+                alert('操作成功');
+                history.go(0);
+            }else{
+                alert('操作失败');
+            }
+        });
+    }
+    function del(ob){
+        $.post("__CONTROLLER__/delOrderform",{id:ob},function(data){
+            if(data){
+                alert('操作成功');
+                history.go(0);
+            }else{
+                alert('操作失败');
+            }
+        });
+    }
+</script>
+<body>
+<include file="User/Home/View/default/top.html" />
+<include file="User/Home/View/default/left.html" />
+<!-- Main Wrapper -->
+
+ <div id="wrapper" style="min-height: 856px;">
+    <div class="normalheader">
+        <div class="hpanel">
+            <div class="panel-body">
+                <a class="small-header-action" href="">
+                    <div class="clip-header">
+                        <i class="fa fa-arrow-up"></i>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+                <!--table-->
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="col-md-12">
+                    <div class="hpanel">
+                        <div class="panel-heading">
+                            <div class="panel-tools"> <a class="showhide"><i class="fa fa-chevron-up"></i></a> <a class="closebox"><i class="fa fa-times"></i></a> </div>
+                            This is a bordered striped and responsive table </div>
+                        <div class="panel-body">
+                            <div class="table-responsive">
+                                <div id="example_wrapper" class="dataTables_wrapper no-footer"><div class="dataTables_length" id="example_length"><label></label></div>
+                                
+
+
+
+
+                                <table id="example" cellpadding="1" cellspacing="1" class="table table-bordered table-striped cus_datatable dataTable no-footer" width="100%" role="grid" aria-describedby="example_info" style="width: 100%;">
+                                    <thead>
+                                    <tr role="row">
+                                        <th class="sorting_desc" tabindex="0" aria-controls="example" rowspan="1" colspan="1" aria-sort="descending" aria-label="编号: activate to sort column ascending" style="width: 103px;">编号</th>
+
+                                        <th class="sorting" tabindex="0" aria-controls="example" rowspan="1" colspan="1" aria-label="用户: activate to sort column ascending" style="width: 103px;">产品</th>
+
+                                        <th class="sorting" tabindex="0" aria-controls="example" rowspan="1" colspan="1" aria-label="PIN码: activate to sort column ascending" style="width: 120px;">数量</th>
+
+                                        <th class="sorting" tabindex="0" aria-controls="example" rowspan="1" colspan="1" aria-label="PIN码: activate to sort column ascending" style="width: 120px;">价格</th>
+
+                                        <th class="sorting" tabindex="0" aria-controls="example" rowspan="1" colspan="1" aria-label="状态: activate to sort column ascending" style="width: 103px;">状态</th>
+
+                                        <th class="sorting" tabindex="0" aria-controls="example" rowspan="1" colspan="1" aria-label="状态: activate to sort column ascending" style="width: 103px;">操作</th>
+                                    </thead>
+                <tbody>
+                    <foreach name='list' item='v'>
+                      <tr role="row" class="odd">
+                      <td class="sorting_1">{$v.id}</td>
+                      <td>{$v.project}</td>
+                      <td>{$v.count}</td>
+                      <td>{$v.sumprice}</td>
+                      <if condition="$v.zt eq '0'" ><td>未审核</td></if>
+                      <if condition="$v.zt eq '1'" > <td onclick="confirm({$v.id})" style="cursor:pointer;">确认收货</td></if>
+                      <if condition="$v.zt eq '2'" ><td>已收货</td></if>
+                      <td onclick="del({$v.id})" style="cursor:pointer;">删除</td>
+                    </tr>
+                     </foreach>
+                                    
+                                    </tbody>
+                                </table>
+                                  <div class="dataTables_paginate paging_simple_numbers" id="example_paginate">{$page}</div></div>
+                            </div>
+                        </div>
+                        <div class="panel-footer"> Table - 6 rows </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--table end-->
+
+</div>
+<!--gethelp modal end-->
+
+</body></html>

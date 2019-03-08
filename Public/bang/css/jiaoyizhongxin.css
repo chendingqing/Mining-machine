@@ -1,0 +1,69 @@
+header{
+    -webkit-box-shadow: 0 0 0 #49bdff !important;
+    box-shadow: 0 0 0 #49bdff !important;
+}
+.func{
+    width: 100%;
+}
+.nav{
+    width: 100%;
+    background: #31b4ff;
+    overflow: hidden;
+    padding-bottom: 6px;
+}
+.nav .kj_flex-item{
+    color: #ffffff;
+    font-size: 16px;
+    width: 20%;
+    margin: 0 15%;
+    text-align: center;
+    float: left;
+}
+.selected{
+    border-bottom: 3px solid #0c85ca;
+}
+.jiaoyi-button{
+    margin: 5% 5% 3%;
+    width: 95%;
+    padding: 0;
+    background: linear-gradient(to top left,#69c9ff,#31b4ff);
+    color: #F2F2F2;
+}
+.jyzx_table {
+    padding: 2.5%;
+    display: none;
+}
+.show{
+    display: block;
+}
+.jyzx_table table {
+    width: 100%;
+}
+
+.jyzx_table table tr {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    border-bottom: 1px solid #F2F2F2;
+}
+
+.jyzx_table table tr td {
+    font-size: 14px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.jyzx .mui-input-group:before, .mui-input-group:after {
+    height: 0;
+}
+.jyzx .mui-input-group .mui-input-row {
+    height: 50px;
+    padding-top: 10px;
+}
+.jyzx .mui-input-group {
+    padding-right: 5%;
+}
+.jyzx .mui-input-row label {
+    text-align: center;
+}

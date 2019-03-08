@@ -1,0 +1,2469 @@
+[ 2018-03-14T00:37:08+08:00 ] 223.74.49.110 /index.php/Shop/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 69 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_font` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_font` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_shop_project` WHERE ( zt>0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE ( zt = '1' ) ORDER BY addtime desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: show C:\WWW\User\Shop\Controller\IndexController.class.php 第 22 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T00:37:16+08:00 ] 223.74.49.110 /index.php//Shop/index/jiaoyi?id=210
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 69 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_font` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_font` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE `id` = 210 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T00:39:48+08:00 ] 111.206.36.135 /index.php//Shop/index/jiaoyi?id=210
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-03-14T06:22:31+08:00 ] 112.38.56.140 /index.php/Shop/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 36 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_font` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_font` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_shop_project` WHERE ( zt>0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE ( zt = '1' ) ORDER BY addtime desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: show C:\WWW\User\Shop\Controller\IndexController.class.php 第 22 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T08:33:23+08:00 ] 111.14.64.47 /index.php/Shop/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 72 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_font` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_font` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_shop_project` WHERE ( zt>0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE ( zt = '1' ) ORDER BY addtime desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: show C:\WWW\User\Shop\Controller\IndexController.class.php 第 22 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T08:53:28+08:00 ] 27.196.226.115 /index.php/Shop/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 20 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_font` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_font` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_shop_project` WHERE ( zt>0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE ( zt = '1' ) ORDER BY addtime desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: show C:\WWW\User\Shop\Controller\IndexController.class.php 第 22 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T08:54:44+08:00 ] 27.196.226.115 /index.php/Shop/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 20 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_font` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_font` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_shop_project` WHERE ( zt>0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE ( zt = '1' ) ORDER BY addtime desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: show C:\WWW\User\Shop\Controller\IndexController.class.php 第 22 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T08:55:14+08:00 ] 27.196.226.115 /index.php/Shop/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 20 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_font` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_font` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_shop_project` WHERE ( zt>0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE ( zt = '1' ) ORDER BY addtime desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: show C:\WWW\User\Shop\Controller\IndexController.class.php 第 22 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T09:08:00+08:00 ] 27.196.226.115 /index.php/Shop/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 20 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_font` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `jk_font` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_shop_project` WHERE ( zt>0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE ( zt = '1' ) ORDER BY addtime desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: show C:\WWW\User\Shop\Controller\IndexController.class.php 第 22 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T09:08:01+08:00 ] 27.196.226.115 /index.php/Shop/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 20 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_font` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_font` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_shop_project` WHERE ( zt>0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE ( zt = '1' ) ORDER BY addtime desc  [ RunTime:0.0156s ]
+NOTIC: [8] Undefined variable: show C:\WWW\User\Shop\Controller\IndexController.class.php 第 22 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T09:18:37+08:00 ] 58.57.184.138 /index.php/Shop/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 22 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_font` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_font` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_shop_project` WHERE ( zt>0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE ( zt = '1' ) ORDER BY addtime desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: show C:\WWW\User\Shop\Controller\IndexController.class.php 第 22 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T09:18:45+08:00 ] 58.57.184.138 /index.php//Shop/index/jiaoyi?id=210
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 22 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_font` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_font` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE `id` = 210 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T09:18:47+08:00 ] 58.57.184.138 /index.php//Shop/index/confirmproject?id=210
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 22 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_font` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_font` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE `id` = 210 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_account` = '13012780148' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `jk_user` SET `UE_money`=UE_money-10 WHERE `UE_account` = '13012780148' [ RunTime:0.0000s ]
+SQL: UPDATE `jk_user` SET `kjzt`='1' WHERE `UE_account` = '13012780148' [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_orderform` [ RunTime:0.0000s ]
+SQL: INSERT INTO `jk_shop_orderform` (`user`,`project`,`enproject`,`yxzq`,`sumprice`,`addtime`,`username`,`imagepath`,`lixi`,`qwsl`,`kjsl`,`kjbh`) VALUES ('13012780148','微型云矿机','Micro cloud machine','720','10','2018-03-14 09:18:47','G483795','/Uploads/Pic/2018-02-11/5a7fbdf30c3db.png','0.01527778','','0.01','H149032748') [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_account` = '18963553235' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-03-14T09:20:16+08:00 ] 223.104.190.116 /index.php/Shop/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 77 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_font` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_font` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_shop_project` WHERE ( zt>0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE ( zt = '1' ) ORDER BY addtime desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: show C:\WWW\User\Shop\Controller\IndexController.class.php 第 22 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T09:20:18+08:00 ] 223.104.190.116 /index.php/Shop/Index/?nsukey=%2BIGPJ3f791YpUXYqPs%2FmAAuGICVRWsVrUYj34zETbmuuZbh9hHxuhmy%2FcGQ%2FAiV3OcwYcXUIx3haRcnffHNlYLEBzhK3kQqer14nUpZrCMBmX3zaTxKBjOwR6jKkeI%2BM5AJERaNkqirRTnmrRZGQPtnRwR%2BmfJtd%2Fw8kYCceGhYHgjUFvI9I7UIIuSZmhewE3Ep%2Fh59bwb7PI9pR4bpVzA%3D%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 77 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_font` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_font` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_shop_project` WHERE ( zt>0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE ( zt = '1' ) ORDER BY addtime desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: show C:\WWW\User\Shop\Controller\IndexController.class.php 第 22 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T09:20:50+08:00 ] 223.104.190.116 /index.php/Shop/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 77 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_font` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_font` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_shop_project` WHERE ( zt>0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE ( zt = '1' ) ORDER BY addtime desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: show C:\WWW\User\Shop\Controller\IndexController.class.php 第 22 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T09:20:51+08:00 ] 101.226.225.85 /index.php/Shop/Index/?nsukey=%2FCb5uuqAIlrPQ2nlcmj%2FsHXyMABhSQ4CDd895VAZWJVPO6i5MeNi05AtRbsY%2B8%2BCBTuX3EcmJpvnU4q4dNCiLfh%2BjWe4kWccV9nvWaF4fPfo0rvA59MbgE%2FM03jrz85PSpn%2FHKTa7FeBORc2ScmMaUVjWc5FBjHb0xtFpJ1eDVTtwFFmT%2BGfp3D%2FhiBzy3KQjp4ogAsY3s6Uo8gMMwqUYg%3D%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-03-14T09:20:54+08:00 ] 223.104.190.116 /index.php/Shop/Index/?nsukey=%2FCb5uuqAIlrPQ2nlcmj%2FsHXyMABhSQ4CDd895VAZWJVPO6i5MeNi05AtRbsY%2B8%2BCBTuX3EcmJpvnU4q4dNCiLfh%2BjWe4kWccV9nvWaF4fPfo0rvA59MbgE%2FM03jrz85PSpn%2FHKTa7FeBORc2ScmMaUVjWc5FBjHb0xtFpJ1eDVTtwFFmT%2BGfp3D%2FhiBzy3KQjp4ogAsY3s6Uo8gMMwqUYg%3D%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 77 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_font` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_font` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_shop_project` WHERE ( zt>0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE ( zt = '1' ) ORDER BY addtime desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: show C:\WWW\User\Shop\Controller\IndexController.class.php 第 22 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T09:20:58+08:00 ] 223.104.190.116 /index.php//Shop/index/jiaoyi?id=217
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 77 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_font` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_font` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE `id` = 217 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T09:21:00+08:00 ] 112.37.122.100 /index.php/Shop/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 38 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_font` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_font` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_shop_project` WHERE ( zt>0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE ( zt = '1' ) ORDER BY addtime desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: show C:\WWW\User\Shop\Controller\IndexController.class.php 第 22 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T09:21:00+08:00 ] 14.116.137.166 /index.php//Shop/index/jiaoyi?id=217&nsukey=7qA5cb5H9S%2BroTIy%2BjK0jvX3ESw%2BkJPeGiEdB0zpaqEBe4ewFVj5Ny3iJOxMHGMO08tvuAOcCmj6GQdLwS6F6GjShnuiNxkAKo7JzUyCvuc1%2F4QO%2BMFeXB3%2Ftd7xg5kcPrmVZ8PjPy8TpcdDC6RU6xYPcreNQ%2F0Iu%2F8TS2J1D7CSjDMNMzKsMKJhGjdrAX9OTa%2BQ0z0n0juhk3VwZpQTjQ%3D%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-03-14T09:21:02+08:00 ] 157.255.172.19 /index.php//Shop/index/jiaoyi?id=217&nsukey=7qA5cb5H9S%2BroTIy%2BjK0jvX3ESw%2BkJPeGiEdB0zpaqEBe4ewFVj5Ny3iJOxMHGMO08tvuAOcCmj6GQdLwS6F6GjShnuiNxkAKo7JzUyCvuc1%2F4QO%2BMFeXB3%2Ftd7xg5kcPrmVZ8PjPy8TpcdDC6RU6xYPcreNQ%2F0Iu%2F8TS2J1D7CSjDMNMzKsMKJhGjdrAX9OTa%2BQ0z0n0juhk3VwZpQTjQ%3D%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-03-14T09:21:03+08:00 ] 223.104.190.116 /index.php//Shop/index/jiaoyi?id=217&nsukey=7qA5cb5H9S%2BroTIy%2BjK0jvX3ESw%2BkJPeGiEdB0zpaqEBe4ewFVj5Ny3iJOxMHGMO08tvuAOcCmj6GQdLwS6F6GjShnuiNxkAKo7JzUyCvuc1%2F4QO%2BMFeXB3%2Ftd7xg5kcPrmVZ8PjPy8TpcdDC6RU6xYPcreNQ%2F0Iu%2F8TS2J1D7CSjDMNMzKsMKJhGjdrAX9OTa%2BQ0z0n0juhk3VwZpQTjQ%3D%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 77 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_font` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_font` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE `id` = 217 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T09:21:13+08:00 ] 223.104.190.116 /index.php//Shop/index/confirmproject?id=217
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 77 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_font` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_font` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE `id` = 217 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_account` = '15166358768' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T09:21:16+08:00 ] 157.255.172.126 /index.php//Shop/index/confirmproject?id=217&nsukey=EYTxGZ9ZB4GeFiD41vx24Z2AlPkchWpgu3WComld6hDYowuTG8%2BpGAZEPf3x8SSY7x%2BQLITWB6cpoq6c3KoP9fdBQTTWwF6emWA7s7UJGV7c1azzTbmpEgAQhJivgXYEdpUdvQF6BL%2Fy1vPH4cT%2F4ut1wOio4Ci44beqEL9gxmpAohOuTkcJCRuihUeSPmvz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-03-14T09:21:17+08:00 ] 14.116.137.166 /index.php//Shop/index/confirmproject?id=217&nsukey=EYTxGZ9ZB4GeFiD41vx24Z2AlPkchWpgu3WComld6hDYowuTG8%2BpGAZEPf3x8SSY7x%2BQLITWB6cpoq6c3KoP9fdBQTTWwF6emWA7s7UJGV7c1azzTbmpEgAQhJivgXYEdpUdvQF6BL%2Fy1vPH4cT%2F4ut1wOio4Ci44beqEL9gxmpAohOuTkcJCRuihUeSPmvz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-03-14T09:21:18+08:00 ] 61.151.178.168 /index.php/Shop/Index/?nsukey=%2BIGPJ3f791YpUXYqPs%2FmAAuGICVRWsVrUYj34zETbmuuZbh9hHxuhmy%2FcGQ%2FAiV3OcwYcXUIx3haRcnffHNlYLEBzhK3kQqer14nUpZrCMBmX3zaTxKBjOwR6jKkeI%2BM5AJERaNkqirRTnmrRZGQPtnRwR%2BmfJtd%2Fw8kYCceGhYHgjUFvI9I7UIIuSZmhewE3Ep%2Fh59bwb7PI9pR4bpVzA%3D%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-03-14T09:21:18+08:00 ] 223.104.190.116 /index.php//Shop/index/confirmproject?id=217&nsukey=EYTxGZ9ZB4GeFiD41vx24Z2AlPkchWpgu3WComld6hDYowuTG8%2BpGAZEPf3x8SSY7x%2BQLITWB6cpoq6c3KoP9fdBQTTWwF6emWA7s7UJGV7c1azzTbmpEgAQhJivgXYEdpUdvQF6BL%2Fy1vPH4cT%2F4ut1wOio4Ci44beqEL9gxmpAohOuTkcJCRuihUeSPmvz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 77 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_font` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_font` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE `id` = 217 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_account` = '15166358768' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T09:21:19+08:00 ] 223.104.190.116 /index.php//Shop/index/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T09:32:53+08:00 ] 27.196.226.115 /index.php/Shop/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 20 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_font` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_font` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_shop_project` WHERE ( zt>0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE ( zt = '1' ) ORDER BY addtime desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: show C:\WWW\User\Shop\Controller\IndexController.class.php 第 22 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T09:41:02+08:00 ] 223.104.190.116 /index.php/Shop/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 77 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_font` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_font` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_shop_project` WHERE ( zt>0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE ( zt = '1' ) ORDER BY addtime desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: show C:\WWW\User\Shop\Controller\IndexController.class.php 第 22 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T09:41:07+08:00 ] 223.104.190.116 /index.php//Shop/index/jiaoyi?id=218
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 77 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_font` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_font` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE `id` = 218 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T09:41:15+08:00 ] 223.104.190.116 /index.php//Shop/index/jiaoyi?id=218
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 77 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_font` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_font` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE `id` = 218 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T09:42:01+08:00 ] 223.104.190.116 /index.php//Shop/index/jiaoyi?id=210
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 77 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_font` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_font` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE `id` = 210 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T09:42:13+08:00 ] 223.104.190.116 /index.php//Shop/index/confirmproject?id=210
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 77 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_font` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_font` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE `id` = 210 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_account` = '15166358768' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T09:42:41+08:00 ] 223.104.190.116 /index.php/Shop/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 77 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_font` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_font` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_shop_project` WHERE ( zt>0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE ( zt = '1' ) ORDER BY addtime desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: show C:\WWW\User\Shop\Controller\IndexController.class.php 第 22 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T09:42:48+08:00 ] 223.104.190.116 /index.php//Shop/index/jiaoyi?id=219
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 77 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_font` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_font` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE `id` = 219 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T09:42:56+08:00 ] 223.104.190.116 /index.php//Shop/index/jiaoyi?id=219
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 77 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_font` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_font` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE `id` = 219 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T09:43:31+08:00 ] 223.104.190.116 /index.php//Shop/index/jiaoyi?id=210
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 77 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_font` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_font` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE `id` = 210 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T09:43:50+08:00 ] 223.104.190.116 /index.php//Shop/index/jiaoyi?id=216
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 77 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_font` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_font` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE `id` = 216 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T09:43:59+08:00 ] 223.104.190.116 /index.php//Shop/index/jiaoyi?id=217
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 77 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_font` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_font` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE `id` = 217 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T09:44:19+08:00 ] 223.104.190.116 /index.php//Shop/index/jiaoyi?id=218
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 77 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_font` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_font` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE `id` = 218 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T09:44:30+08:00 ] 223.104.190.116 /index.php//Shop/index/jiaoyi?id=219
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 77 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_font` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_font` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE `id` = 219 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T09:44:40+08:00 ] 223.104.190.116 /index.php//Shop/index/jiaoyi?id=216
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 77 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_font` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_font` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE `id` = 216 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T09:50:29+08:00 ] 223.104.190.116 /index.php/Shop/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 77 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_font` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_font` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_shop_project` WHERE ( zt>0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE ( zt = '1' ) ORDER BY addtime desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: show C:\WWW\User\Shop\Controller\IndexController.class.php 第 22 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T10:09:24+08:00 ] 112.38.196.180 /index.php/Shop/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 79 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_font` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_font` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_shop_project` WHERE ( zt>0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE ( zt = '1' ) ORDER BY addtime desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: show C:\WWW\User\Shop\Controller\IndexController.class.php 第 22 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T10:10:29+08:00 ] 112.38.196.180 /index.php/Shop/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 79 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_font` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_font` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_shop_project` WHERE ( zt>0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE ( zt = '1' ) ORDER BY addtime desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: show C:\WWW\User\Shop\Controller\IndexController.class.php 第 22 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T10:10:30+08:00 ] 112.38.196.180 /index.php/Shop/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 79 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_font` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_font` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_shop_project` WHERE ( zt>0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE ( zt = '1' ) ORDER BY addtime desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: show C:\WWW\User\Shop\Controller\IndexController.class.php 第 22 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T10:10:32+08:00 ] 112.38.196.180 /index.php//Shop/index/jiaoyi?id=210
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 79 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_font` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_font` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE `id` = 210 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T10:13:02+08:00 ] 112.38.196.180 /index.php/Shop/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 77 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_font` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_font` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_shop_project` WHERE ( zt>0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE ( zt = '1' ) ORDER BY addtime desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: show C:\WWW\User\Shop\Controller\IndexController.class.php 第 22 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T10:13:07+08:00 ] 112.38.196.180 /index.php/Shop/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 77 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_font` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_font` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_shop_project` WHERE ( zt>0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE ( zt = '1' ) ORDER BY addtime desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: show C:\WWW\User\Shop\Controller\IndexController.class.php 第 22 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T10:14:49+08:00 ] 112.38.196.180 /index.php/Shop/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 77 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_font` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_font` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_shop_project` WHERE ( zt>0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE ( zt = '1' ) ORDER BY addtime desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: show C:\WWW\User\Shop\Controller\IndexController.class.php 第 22 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T10:14:57+08:00 ] 112.38.196.180 /index.php/Shop/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 77 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_font` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_font` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_shop_project` WHERE ( zt>0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE ( zt = '1' ) ORDER BY addtime desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: show C:\WWW\User\Shop\Controller\IndexController.class.php 第 22 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T10:21:56+08:00 ] 171.83.167.110 /index.php/Shop/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 63 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_font` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_font` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_shop_project` WHERE ( zt>0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE ( zt = '1' ) ORDER BY addtime desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: show C:\WWW\User\Shop\Controller\IndexController.class.php 第 22 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T10:22:50+08:00 ] 27.196.233.167 /index.php/Shop/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 80 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_font` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_font` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_shop_project` WHERE ( zt>0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE ( zt = '1' ) ORDER BY addtime desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: show C:\WWW\User\Shop\Controller\IndexController.class.php 第 22 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T10:23:00+08:00 ] 27.196.233.167 /index.php/Shop/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 80 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_font` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_font` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_shop_project` WHERE ( zt>0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE ( zt = '1' ) ORDER BY addtime desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: show C:\WWW\User\Shop\Controller\IndexController.class.php 第 22 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T11:45:32+08:00 ] 112.37.120.68 /index.php/Shop/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 38 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_font` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_font` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_shop_project` WHERE ( zt>0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE ( zt = '1' ) ORDER BY addtime desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: show C:\WWW\User\Shop\Controller\IndexController.class.php 第 22 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T11:50:15+08:00 ] 223.104.186.90 /index.php/Shop/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 72 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_font` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_font` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_shop_project` WHERE ( zt>0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE ( zt = '1' ) ORDER BY addtime desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: show C:\WWW\User\Shop\Controller\IndexController.class.php 第 22 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T12:22:51+08:00 ] 124.131.233.63 /index.php/Shop/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 82 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_font` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_font` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_shop_project` WHERE ( zt>0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE ( zt = '1' ) ORDER BY addtime desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: show C:\WWW\User\Shop\Controller\IndexController.class.php 第 22 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T12:35:39+08:00 ] 27.196.74.221 /index.php/Shop/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 83 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_font` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_font` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_shop_project` WHERE ( zt>0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE ( zt = '1' ) ORDER BY addtime desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: show C:\WWW\User\Shop\Controller\IndexController.class.php 第 22 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T12:38:51+08:00 ] 27.196.74.221 /index.php/Shop/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 83 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_font` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_font` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_shop_project` WHERE ( zt>0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE ( zt = '1' ) ORDER BY addtime desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: show C:\WWW\User\Shop\Controller\IndexController.class.php 第 22 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015624s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015624s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T13:08:53+08:00 ] 27.196.74.221 /index.php/Shop/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 83 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_font` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_font` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_shop_project` WHERE ( zt>0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE ( zt = '1' ) ORDER BY addtime desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: show C:\WWW\User\Shop\Controller\IndexController.class.php 第 22 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T13:34:40+08:00 ] 124.131.233.63 /index.php/Shop/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 72 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_font` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_font` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_shop_project` WHERE ( zt>0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE ( zt = '1' ) ORDER BY addtime desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: show C:\WWW\User\Shop\Controller\IndexController.class.php 第 22 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T13:34:41+08:00 ] 124.131.233.63 /index.php/Shop/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 72 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_font` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_font` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_shop_project` WHERE ( zt>0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE ( zt = '1' ) ORDER BY addtime desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: show C:\WWW\User\Shop\Controller\IndexController.class.php 第 22 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T13:41:17+08:00 ] 113.129.229.129 /index.php/Shop/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 20 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_font` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_font` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_shop_project` WHERE ( zt>0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE ( zt = '1' ) ORDER BY addtime desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: show C:\WWW\User\Shop\Controller\IndexController.class.php 第 22 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T14:40:21+08:00 ] 117.136.77.233 /index.php/Shop/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 72 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_font` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_font` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_shop_project` WHERE ( zt>0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE ( zt = '1' ) ORDER BY addtime desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: show C:\WWW\User\Shop\Controller\IndexController.class.php 第 22 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T14:43:26+08:00 ] 117.136.77.233 /index.php/Shop/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 72 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_font` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_font` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_shop_project` WHERE ( zt>0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE ( zt = '1' ) ORDER BY addtime desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: show C:\WWW\User\Shop\Controller\IndexController.class.php 第 22 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T14:55:31+08:00 ] 58.57.184.138 /index.php/Shop/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 22 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_font` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_font` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_shop_project` WHERE ( zt>0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE ( zt = '1' ) ORDER BY addtime desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: show C:\WWW\User\Shop\Controller\IndexController.class.php 第 22 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T14:55:34+08:00 ] 58.57.184.138 /index.php//Shop/index/jiaoyi?id=210
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 22 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_font` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_font` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE `id` = 210 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T14:55:37+08:00 ] 58.57.184.138 /index.php//Shop/index/confirmproject?id=210
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 22 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_font` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_font` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE `id` = 210 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_account` = '13012780148' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `jk_user` SET `UE_money`=UE_money-10 WHERE `UE_account` = '13012780148' [ RunTime:0.0156s ]
+SQL: UPDATE `jk_user` SET `kjzt`='1' WHERE `UE_account` = '13012780148' [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_orderform` [ RunTime:0.0000s ]
+SQL: INSERT INTO `jk_shop_orderform` (`user`,`project`,`enproject`,`yxzq`,`sumprice`,`addtime`,`username`,`imagepath`,`lixi`,`qwsl`,`kjsl`,`kjbh`) VALUES ('13012780148','微型云矿机','Micro cloud machine','720','10','2018-03-14 14:55:37','G483795','/Uploads/Pic/2018-02-11/5a7fbdf30c3db.png','0.01527778','','0.01','H141053740') [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_account` = '18963553235' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-03-14T14:59:32+08:00 ] 112.37.120.68 /index.php/Shop/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 38 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_font` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_font` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_shop_project` WHERE ( zt>0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE ( zt = '1' ) ORDER BY addtime desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: show C:\WWW\User\Shop\Controller\IndexController.class.php 第 22 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T15:04:30+08:00 ] 112.37.120.68 /index.php/Shop/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 38 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_font` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_font` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_shop_project` WHERE ( zt>0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE ( zt = '1' ) ORDER BY addtime desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: show C:\WWW\User\Shop\Controller\IndexController.class.php 第 22 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T15:06:51+08:00 ] 112.37.120.68 /index.php/Shop/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 29 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_font` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_font` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_shop_project` WHERE ( zt>0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE ( zt = '1' ) ORDER BY addtime desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: show C:\WWW\User\Shop\Controller\IndexController.class.php 第 22 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T15:08:31+08:00 ] 112.37.120.68 /index.php/Shop/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 29 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_font` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_font` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_shop_project` WHERE ( zt>0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE ( zt = '1' ) ORDER BY addtime desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: show C:\WWW\User\Shop\Controller\IndexController.class.php 第 22 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T15:26:59+08:00 ] 112.37.120.68 /index.php/Shop/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 29 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_font` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_font` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_shop_project` WHERE ( zt>0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE ( zt = '1' ) ORDER BY addtime desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: show C:\WWW\User\Shop\Controller\IndexController.class.php 第 22 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T15:27:47+08:00 ] 112.37.120.68 /index.php/Shop/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 38 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_font` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_font` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_shop_project` WHERE ( zt>0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE ( zt = '1' ) ORDER BY addtime desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: show C:\WWW\User\Shop\Controller\IndexController.class.php 第 22 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T15:28:09+08:00 ] 117.136.13.53 /index.php/Shop/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 84 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_font` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_font` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_shop_project` WHERE ( zt>0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE ( zt = '1' ) ORDER BY addtime desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: show C:\WWW\User\Shop\Controller\IndexController.class.php 第 22 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T15:28:52+08:00 ] 117.136.13.53 /index.php/Shop/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 84 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_font` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_font` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_shop_project` WHERE ( zt>0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE ( zt = '1' ) ORDER BY addtime desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: show C:\WWW\User\Shop\Controller\IndexController.class.php 第 22 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T15:29:08+08:00 ] 112.37.120.68 /index.php/Shop/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 29 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_font` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_font` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_shop_project` WHERE ( zt>0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE ( zt = '1' ) ORDER BY addtime desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: show C:\WWW\User\Shop\Controller\IndexController.class.php 第 22 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T15:29:11+08:00 ] 120.204.17.68 /index.php/Shop/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-03-14T15:29:23+08:00 ] 117.136.13.53 /index.php/Shop/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 84 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_font` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_font` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_shop_project` WHERE ( zt>0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE ( zt = '1' ) ORDER BY addtime desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: show C:\WWW\User\Shop\Controller\IndexController.class.php 第 22 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T15:29:31+08:00 ] 117.136.13.53 /index.php/Shop/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 84 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_font` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_font` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_shop_project` WHERE ( zt>0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE ( zt = '1' ) ORDER BY addtime desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: show C:\WWW\User\Shop\Controller\IndexController.class.php 第 22 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T15:31:50+08:00 ] 117.136.13.53 /index.php/Shop/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 84 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_font` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_font` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_shop_project` WHERE ( zt>0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE ( zt = '1' ) ORDER BY addtime desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: show C:\WWW\User\Shop\Controller\IndexController.class.php 第 22 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T16:08:13+08:00 ] 113.129.117.63 /index.php/Shop/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 85 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_font` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_font` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_shop_project` WHERE ( zt>0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE ( zt = '1' ) ORDER BY addtime desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: show C:\WWW\User\Shop\Controller\IndexController.class.php 第 22 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T16:08:26+08:00 ] 113.129.117.63 /index.php//Shop/index/jiaoyi?id=219
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 85 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_font` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_font` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE `id` = 219 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T16:08:42+08:00 ] 113.129.117.63 /index.php//Shop/index/confirmproject?id=219
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 85 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_font` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_font` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE `id` = 219 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_account` = '15315734581' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T16:08:43+08:00 ] 113.129.117.63 /index.php//Shop/index/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T16:10:22+08:00 ] 113.129.117.63 /index.php/Shop/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 85 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_font` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_font` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_shop_project` WHERE ( zt>0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE ( zt = '1' ) ORDER BY addtime desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: show C:\WWW\User\Shop\Controller\IndexController.class.php 第 22 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T22:36:06+08:00 ] 221.11.61.143 /index.php/Shop/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 7 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_font` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_font` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_shop_project` WHERE ( zt>0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE ( zt = '1' ) ORDER BY addtime desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: show E:\phpStudy\WWW\User\Shop\Controller\IndexController.class.php 第 22 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015627s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015627s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

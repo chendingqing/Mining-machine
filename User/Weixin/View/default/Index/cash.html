@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>提现页面</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+				   <link rel="stylesheet" href="__CSS__/weui.min.css">
+    <link rel="stylesheet" href="__CSS__/jquery-weui.min.css">
+	<script charset="UTF-8" src="__JS__/jquery-1.11.3.min.js"></script>
+	<script src="__JS__/jquery-weui.min.js"></script>
+		<link rel="stylesheet" href="__CSS__/font/iconfont.css">
+	    <link rel="stylesheet" href="__CSS__/deposit.css">
+		<!--[if lte IE 8]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+	<style>
+			#footer ul>li>a p{
+		    margin-top:5px;
+		}
+		.weui_mask, .weui_mask_transition, .weui_mask_transparent{
+		height:100%;
+		}
+	</style>
+</head>
+<body>
+<div style="height:50px;width:100%;text-align:center;line-height:50px;background:#FE8E37;color:#fff;font-size:20px;">
+	    <span style="margin-left:-51px;">在线提现</span>
+	</div>
+	<div id="top">
+		<div class="img">
+			<img src="{$rshy['wx_avatar']}" alt="" class="myimg">
+		</div>
+		<h2>{$rshy['nickname']}</h2>
+		<p style="width: 100%;text-align:center;line-hight:25px;">余额：<span style="font-size:18px;">{$rshy['balance']}</span>元</p>
+		<p style="width: 100%;text-align:center;line-hight:25px;">佣金：<span style="font-size:18px;">{$rshy['yjye']}</span>元</p>
+	</div>
+	<form action="{:U('Index/yetxorder')}" id="myform" method="post">
+	     <!-- <select name="zftype" style="display:block;width:214px;height:36px;font-size:14px;margin:0 auto;border-radius:5px;padding-left:10px;box-shadow: 1px 1px 1px 1px #666;border: 2px solid #ddd;background:#EFEFF4;out-line:none;color:#a9a9a9;">
+	     		  <option value="0" >选择支付钱包</option>
+	     		  <option value="1" >余额</option>
+	     		  <option value="2" >佣金</option>
+	     		 </select>	 -->
+		<p style="width:214px;text-align:left;margin:0 auto;font-size:16px;border-bottom:1px solid #ddd;line-height:30px;">请选择支付钱包</p>	
+		 <div style="width:200px;margin:0 auto;height:30px;font-size:16px;">
+		 <label for="yongjin" style="float:left;">
+		 <input type="radio" name="wallet" id="yongjin" value="1" checked style="display:inline;width:auto;height:auto;border:none;box-shadow:none;">&nbsp;余额钱包
+		 </label>
+		 <label for="yue" style="float:right;">
+		 <input type="radio" name="wallet" id="yue" value="2" style="display:inline;width:auto;height:auto;border:none;box-shadow:none;">&nbsp;佣金钱包
+		 </label>
+		 </div>
+		<input type="number" placeholder="提现金额"name="money">
+		<input type="password" placeholder="请输入密码"name="pwd">
+		<button type="submit" id="tijiao" style="display:block;width:220px;margin:0 auto;position: relative;top: 20px;border-radius:5px;">点 击 提 现</button>
+	</form>
+	<script>
+	$(function(){
+		$("#tijiao").bind("click",function(){
+			var pd=false;
+	$.ajax({
+		url:"/sinahq/time.php",
+		type:"get",
+		dataType:"json",
+		async:false,
+		data:null,
+		success:function(data){
+			var time=new Date(data*1000).getDay();
+			if(time==0||time==6){
+			  $.alert("提现时间为周一至周五");
+			 pd=false;
+			}else{
+			  pd=true;
+			}
+		},
+		error:function(){
+			$.alert("网络原因请刷新重试");
+			pd=false;
+		}
+		})
+				return pd;
+	  })
+	})
+	</script>
+</body>
+</html>

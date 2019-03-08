@@ -1,0 +1,75 @@
+.spang{
+	float: left;
+	margin-left: 10px;
+	margin-left: 8px;
+}
+table{
+	margin-left: -10px;
+	text-align: center;
+}
+.spang1{
+	width: 80px;
+	margin-left: 30px;
+}
+.yijiaoyi{
+	color: #4CD964;
+}
+.jiaoyitable{
+	width: 60px;
+	float: left;
+	margin-left: 9px;
+}
+.oka{
+	width: 70px;
+	float: left;
+	margin-left: 12px;
+}
+.fonziti span{
+	font-size: 14px;
+	/* margin-left: 16px; */
+	width: 25%;
+	text-align: center;
+}
+.marginlefa{
+	margin-left: 10px;
+}
+.marginlefb{
+	margin-left: 20px;
+}
+.marginlefc{
+	margin-left: 55px;
+}
+.mui-bar{
+    z-index: 10;
+}
+.kj_flex-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    position: relative;
+    z-index: 999;
+    margin-top: -30px;
+}
+.kj_flex-item {
+    color: #ffffff;
+    font-size: 16px;
+    padding-right: 28px;
+}
+#tab-title .selected{
+	 border-bottom: 3px solid #30B4FF;
+}
+#tab-content .hide{
+	display:none;
+}
+.left-icon-syjy{
+	display: block;
+	width: 15px;
+	height: 35px;
+	margin-left: 1%;
+	padding-top: 10px;
+}
+.left-icon-syjy img {
+    width: 100%;
+    height: 100%;
+}

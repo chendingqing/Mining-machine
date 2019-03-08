@@ -1,0 +1,1 @@
+<?php $txinfo = '{"appid":"iugop","mchid":"oyip","key":"ui","kjmc":"\u6536\u5272\u8005","kjgn":"\u9020\u91d1\u795e\u5668","kjzq":"14"}';?>

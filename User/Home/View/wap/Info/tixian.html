@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link type="text/css" rel="stylesheet" href="__PUBLIC__/web/css/lib.css?2">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1, minimum-scale=1.0"/>
+	<meta content="telephone=no" name="format-detection">
+    <title>求购莱肯币</title>
+    <script src="__PUBLIC__/web/js/jquery-1.8.3.min.js"></script>
+    <link rel="stylesheet" href="__PUBLIC__/web/css/weui.min.css"/>
+    <link rel="stylesheet" href="__PUBLIC__/web/css/jquery-weui.min.css">
+    <script src="__PUBLIC__/web/js/layer.js"></script>
+    <link href="__PUBLIC__/web/css/font-awesome.min.css" rel="stylesheet">
+    <link href="__PUBLIC__/web/fonts/iconfont.css" rel="stylesheet">
+    <link rel="stylesheet" href="__PUBLIC__/web/css/style.css"/>
+</head>
+<body>
+<div style="position: fixed;z-index: -1000;width: 100%;height: 100vh;top:0;left: 0;"><img src="__PUBLIC__/web/img/body_bg.jpg" style="width:100%;height: 100vh"></div>
+<div class="header">
+    <span class="header_l" style="padding-left: 0"><a href="javascript:history.go(-1);"><img src="__PUBLIC__/web/img/back.png" style="display: inline-block;height: 40px"></a></span>
+    <span class="header_c">莱肯币提现</span>
+	<span style="position: absolute;right: 10%;top: 0px;text-align:center;width:20%;white-space:nowrap; overflow:hidden; text-overflow:ellipsis;font-size: 12px; ">{$userData['ue_truename']}</span>
+    <span class="header_r"><a href="/index.php/Home/Index/index/"><i class="fa fa-user"></i></a></span>
+</div>
+<div class="height40"></div>
+<!--顶部结束-->
+<!--矿车列表-->
+<form id="qiugou"style="margin-top: 25px" action="/index.php/Home/Info/tixians" method= "POST">
+    <p>可提现：</p>
+    <input type="text" name="lkb" placeholder="请输入要购买数量" value="{$userData['ue_money']}"/>
+    <p>价&nbsp;&nbsp;&nbsp;格：</p>
+    <input type="text" name="price" />
+   <button type="submit">确认体现</button>
+    <button type="reset">提现重置</button>
+</form>
+<!--底部开始-->
+<style>
+    .footer ul li{
+        width: 25%;
+    }
+</style>
+<div class="footer">
+    <ul>
+        
+        <li><a href="/index.php/Shop/Index/" class="block"><i class="iconfont">&#xe604;</i>矿机商城</a></li> 		<li><a href="/index.php/Home/Info/mykuangche/" class="block"><i class="iconfont">&#xe601;</i>我的矿机</a></li> 		<li><a href="/index.php/Home/Info/Index/" class="block"><i class="iconfont">&#xe645;</i>交易中心</a></li>         <li style="width:24%" ><a href="/index.php/Home/Index/Index/" class="block"><i class="iconfont">&#xe684;</i>个人中心</a></li>
+    </ul>
+</div>
+<!--底部结束-->
+<script src="__PUBLIC__/web/js/jquery-weui.min.js"></script>
+</body>
+</html>

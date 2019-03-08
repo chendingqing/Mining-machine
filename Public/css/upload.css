@@ -1,0 +1,10 @@
+@CHARSET "UTF-8";
+
+.image .photo{
+	float:left;
+	width:80px;
+
+}
+.image .del{
+	text-align:center;
+}

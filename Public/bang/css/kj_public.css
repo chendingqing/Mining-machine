@@ -1,0 +1,66 @@
+
+body{
+    background-color: #ffffff;
+}
+.my_head {
+    padding: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: linear-gradient(to top, #6ac9ff, #30b4ff);
+    position: fixed;
+    z-index: 10;
+    right: 0;
+    left: 0;
+    top: 0;
+}
+.gr-title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    position: absolute;
+    left: 13%;
+    display: block;
+    width: 80%;
+    margin: 0 -10px;
+    padding: 0;
+    text-align: center;
+    white-space: nowrap;
+    color: #fff;
+}
+.left-icon {
+    display: block;
+    width: 15px;
+    height: 27px;
+    margin-left: 1%;
+    margin-top: 8px;
+}
+.left-icon img {
+    width: 100%;
+    height: 100%;
+}
+.mui-content{
+    background-color: #ffffff;
+	    padding-top: 50px;
+}
+.mui-table-view-cell.mui-active{
+    background-color: #ffffff;
+}
+.mui-content>.mui-table-view:first-child{
+    margin-top: 0;
+}
+.font-tianblue{
+    color: #31b4ff;
+}
+.kj-goumai-btn{
+    background: linear-gradient(to top left,#69c9ff,#31b4ff);
+    color: #ffffff;
+    border: initial;
+	margin-top: 50px;
+	font-size: 16px;
+	letter-spacing: 2px;
+}
+.header-right{
+    position: absolute;
+    top: 0;
+    right: 2%;
+}

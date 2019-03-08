@@ -1,0 +1,33 @@
+.mui-table-view-cell:after{
+    margin-right: 15px;
+}
+.mui-pull-right>img{
+    padding-top: 10px;
+}
+.kj_kuangji_icon{
+    width: 15%;
+    float: left;
+    padding-top: 3%;
+    padding-bottom: 15px;
+}
+.kj_kuangji_icon img{
+    width: 100%;
+}
+.kj_kuangji_text{
+    float: left;
+    padding-left: 15px;
+}
+.kj_kuangji_text p span{
+    font-size: 12px;
+}
+.kj_kuangji_text span{
+    padding-right: 5px;
+}
+.kj_kuangji_text strong{
+    padding-right: 4px;
+}
+.mui-table-view:after,.mui-table-view:before{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+

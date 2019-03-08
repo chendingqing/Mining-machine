@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>提现页面</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+		<link rel="stylesheet" href="__CSS__/font/iconfont.css">
+	<link rel="stylesheet" href="__CSS__/deposit.css">
+		<!--[if lte IE 8]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+	<style>
+			#footer ul>li>a p{
+		    margin-top:5px;
+		}
+	</style>
+</head>
+<body>
+<div style="height:50px;width:100%;text-align:center;line-height:50px;background:#FE8E37;color:#fff;font-size:20px;">
+	    <a href="{:U('User/memberinfo')}" style="float:left;margin-top:8px;margin-left:10px;height:30px;width:30px;border-radius:30px;"><img src="__IMG__/lf.png" width="100%";></a><span style="margin-left:-51px;">在线提现</span>
+	</div>
+	<div id="top">
+		<div class="img">
+			<img src="{$rshy['wx_avatar']}" alt="" class="myimg">
+		</div>
+		<h2>{$rshy['nickname']}</h2>
+		<p>剩余<span>{$rshy['balance']}</span>元</p>
+	</div>
+	<form action="{:U('Home/Jjr/yetxorder')}" id="myform" method="post">
+		<input type="number" placeholder="提现金额"name="money">
+		<input type="password" placeholder="请输入密码"name="pwd">
+		<button type="submit" style="display:block;width:220px;margin:0 auto;position: relative;top: 20px;border-radius:5px;">点 击 提 现</button>
+	</form>
+	 	 
+</body>
+</html>

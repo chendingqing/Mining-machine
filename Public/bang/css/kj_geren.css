@@ -1,0 +1,51 @@
+.mui-table-view-cell:last-child:after,.mui-table-view-cell:last-child:before{
+    height: 1px;
+}
+.mui-table-view:after,.mui-table-view:before{
+    height: 0;
+}
+.mui-table-view-cell:after{
+    margin-right: 15px;
+}
+.geren_card div,.geren_card p,.geren_card span{
+    color: #ffffff;
+    font-size: 16px;
+}
+.geren_card{
+    padding: 25px 15px 20px 15px;
+}
+.geren_card_bg{
+    background: linear-gradient(to top left,#6ac9ff,#31b4ff);
+    width: 100%;
+    height: 100%;
+    -moz-border-radius:15px;
+    -ms-border-radius: 15px;
+    -o-border-radius:15px;
+    border-radius: 15px;
+    padding: 10px 10px 0px 10px;
+}
+.geren_card_name{
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+.geren_card_GEC{
+    display: block;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.geren_card_GEC_num{
+    text-align: center;
+    font-size: 28px!important;
+    font-weight: 800;
+    vertical-align: center;
+    padding-bottom: 15px;
+}
+.geren_card_GEC_no{
+    text-align: right;
+    margin-bottom: 10px;
+}
+.geren_table_view span{
+    color: #333333;
+    font-size: 16px;
+    line-height: 40px;
+}

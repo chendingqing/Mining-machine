@@ -1,0 +1,1115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/User/Home/View/wap/Login/login.html" line="4" />
+    <bookmark url="file://$PROJECT_DIR$/User/Bang/View/default/Index/jiaoyi.html" line="28" />
+    <bookmark url="file://$PROJECT_DIR$/User/Bang/View/default/Index/myjiaoyi.html" line="224" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="90f28d1a-313c-41d8-9580-d9046567525a" name="默认的" comment="">
+<<<<<<< HEAD
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/User/Home/View/wap/User/userfind.html" beforeDir="false" afterPath="$PROJECT_DIR$/User/Home/View/wap/User/userfind.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/User/Runtime/Logs/Bang/18_12_17.log" beforeDir="false" afterPath="$PROJECT_DIR$/User/Runtime/Logs/Bang/18_12_17.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/User/Runtime/Logs/Common/18_12_17.log" beforeDir="false" afterPath="$PROJECT_DIR$/User/Runtime/Logs/Common/18_12_17.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/User/Runtime/Logs/Home/18_12_17.log" beforeDir="false" afterPath="$PROJECT_DIR$/User/Runtime/Logs/Home/18_12_17.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snadmin/Runtime/Cache/Home/29d2a3ceb21716e1a2ac40deb79761c9.php" beforeDir="false" afterPath="$PROJECT_DIR$/snadmin/Runtime/Cache/Home/29d2a3ceb21716e1a2ac40deb79761c9.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snadmin/Runtime/Cache/Home/42ad4b10a10b8459b163a1a068b958b0.php" beforeDir="false" afterPath="$PROJECT_DIR$/snadmin/Runtime/Cache/Home/42ad4b10a10b8459b163a1a068b958b0.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snadmin/Runtime/Cache/Home/5da695a2c3b8808e2fba288086be86d6.php" beforeDir="false" afterPath="$PROJECT_DIR$/snadmin/Runtime/Cache/Home/5da695a2c3b8808e2fba288086be86d6.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snadmin/Runtime/Cache/Home/a2671ee013aaea3677a317bb326b9791.php" beforeDir="false" afterPath="$PROJECT_DIR$/snadmin/Runtime/Cache/Home/a2671ee013aaea3677a317bb326b9791.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snadmin/Runtime/Cache/Home/b4aa480d8b4995b44e44ec79bf4a6e8c.php" beforeDir="false" afterPath="$PROJECT_DIR$/snadmin/Runtime/Cache/Home/b4aa480d8b4995b44e44ec79bf4a6e8c.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snadmin/Runtime/Cache/Home/febcf21df52c043b369b5a44d43ac5ff.php" beforeDir="false" afterPath="$PROJECT_DIR$/snadmin/Runtime/Cache/Home/febcf21df52c043b369b5a44d43ac5ff.php" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+>>>>>>> f421dfd4e74e2f9f87c7044e35eb690250824ffd
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+<<<<<<< HEAD
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+=======
+  <component name="FUSProjectUsageTrigger">
+    <session id="-200428975">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="10" />
+          <entry key="project.open.time.0" value="5" />
+          <entry key="project.open.time.1" value="4" />
+          <entry key="project.open.time.19" value="2" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="13" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="bak" value="1" />
+          <entry key="css" value="26" />
+          <entry key="gitignore" value="6" />
+          <entry key="hosts" value="2" />
+          <entry key="html" value="109" />
+          <entry key="jpg" value="1" />
+          <entry key="js" value="16" />
+          <entry key="php" value="134" />
+          <entry key="png" value="4" />
+          <entry key="sql" value="1" />
+          <entry key="ts" value="1" />
+          <entry key="url" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="26" />
+          <entry key="HTML" value="109" />
+          <entry key="Image" value="5" />
+          <entry key="JavaScript" value="16" />
+          <entry key="PHP" value="134" />
+          <entry key="PLAIN_TEXT" value="10" />
+          <entry key="SQL" value="1" />
+          <entry key="TypeScript" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="css" value="66" />
+          <entry key="gitignore" value="24" />
+          <entry key="hosts" value="4" />
+          <entry key="html" value="11415" />
+          <entry key="js" value="200" />
+          <entry key="php" value="11417" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="66" />
+          <entry key="HTML" value="11415" />
+          <entry key="JavaScript" value="200" />
+          <entry key="PHP" value="11417" />
+          <entry key="PLAIN_TEXT" value="28" />
+        </counts>
+      </usages-collector>
+    </session>
+>>>>>>> f421dfd4e74e2f9f87c7044e35eb690250824ffd
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
+        <entry file="file://$PROJECT_DIR$/User/Home/Controller/IndexController.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="69" column="4" selection-start-line="69" selection-start-column="4" selection-end-line="69" selection-end-column="4" />
+              <folding>
+                <element signature="e#109#835#0#PHP" />
+                <element signature="e#837#1579#0#PHP" />
+                <element signature="e#1582#1749#0#PHP" />
+                <element signature="e#1753#1924#0#PHP" />
+                <element signature="e#1932#2076#0#PHP" />
+                <element signature="e#2078#2711#0#PHP" />
+                <element signature="e#2714#3571#0#PHP" />
+              </folding>
+=======
+        <entry file="file://$PROJECT_DIR$/User/Bang/Controller/IndexController.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="923" column="29" selection-start-line="923" selection-start-column="29" selection-end-line="923" selection-end-column="29" />
+              <folding>
+                <element signature="e#126#341#0#PHP" />
+                <element signature="e#374#684#0#PHP" />
+                <element signature="e#717#3056#0#PHP" />
+                <element signature="e#720#922#0#PHP" />
+                <element signature="e#958#3151#0#PHP" />
+                <element signature="e#5556#5735#0#PHP" />
+                <element signature="e#5771#5996#0#PHP" />
+                <element signature="e#6038#9037#0#PHP" />
+                <element signature="e#9094#9346#0#PHP" />
+                <element signature="e#9071#10445#0#PHP" />
+                <element signature="e#10804#11426#0#PHP" />
+                <element signature="e#11467#12492#0#PHP" />
+                <element signature="e#10480#12687#0#PHP" />
+                <element signature="e#12739#12777#0#PHP" />
+                <element signature="e#13351#13400#0#PHP" />
+                <element signature="e#15041#17728#0#PHP" />
+                <element signature="e#17799#20806#0#PHP" />
+                <element signature="e#13960#14634#0#PHP" />
+                <element signature="e#14671#16198#0#PHP" />
+                <element signature="e#25901#28220#0#PHP" />
+                <element signature="e#27395#27739#0#PHP" />
+                <element signature="e#27775#28915#0#PHP" />
+                <element signature="n#style#0;n#p#0;n#div#0;n#li#0;n#!!top" expanded="true" />
+                <element signature="e#28951#30769#0#PHP" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/User/Bang/View/default/Index/jiaoyizhongxin.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="444">
+              <caret line="204" column="32" lean-forward="true" selection-start-line="204" selection-start-column="32" selection-end-line="204" selection-end-column="32" />
+              <folding>
+                <element signature="n#style#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h1#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#7225#8174#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+>>>>>>> f421dfd4e74e2f9f87c7044e35eb690250824ffd
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
+        <entry file="file://$PROJECT_DIR$/config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+=======
+        <entry file="file://$PROJECT_DIR$/User/Home/Controller/InfoController.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="1993" selection-start-line="1993" selection-end-line="1994" />
+>>>>>>> f421dfd4e74e2f9f87c7044e35eb690250824ffd
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>nnform</find>
+      <find>btntoushu</find>
+      <find>tousu</find>
+      <find>single</find>
+      <find>IconPath</find>
+      <find>cktp</find>
+      <find>ckpicture</find>
+      <find>sctp</find>
+      <find>photo</find>
+      <find>div2</find>
+      <find>上传图片</find>
+      <find>upload_one</find>
+      <find>fl</find>
+      <find>.fl</find>
+      <find>photo_other</find>
+      <find>or</find>
+      <find>csquxiao</find>
+      <find>csqx</find>
+      <find>csquxiao</find>
+      <find>cswancheng</find>
+      <find>cswancheng</find>
+      <find>qxdd</find>
+      <find>quxiao</find>
+      <find>wancheng</find>
+      <find>button-d</find>
+      <find>wancheng</find>
+      <find>chushou</find>
+      <find>addchushou</find>
+      <find>form-on</find>
+      <find>lksc</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>全文</replace>
+      <replace>AD</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>C:\www\kj</dir>
+      <dir>C:\www\kj\snadmin\Home\Controller</dir>
+      <dir>C:\www\kj\User\Bang\Controller</dir>
+      <dir>C:\www\kj\User\Home\Controller</dir>
+      <dir>C:\www\kj\User\Bang\View\default\Index</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+<<<<<<< HEAD
+        <option value="$USER_HOME$/Desktop/hosts" />
+        <option value="$PROJECT_DIR$/User/Home/View/wap/Login/login.html" />
+        <option value="$PROJECT_DIR$/User/Home/View/default/Login/login.html" />
+=======
+>>>>>>> f421dfd4e74e2f9f87c7044e35eb690250824ffd
+        <option value="$PROJECT_DIR$/User/Home/View/default/Index/index.html" />
+        <option value="$PROJECT_DIR$/User/Home/Controller/BangloginController.class.php" />
+        <option value="$PROJECT_DIR$/User/Home/Controller/LoginController.class.php" />
+        <option value="$PROJECT_DIR$/User/Bang/Controller/LoginController.class.php" />
+        <option value="$PROJECT_DIR$/User/Bang/View/default/index.html" />
+        <option value="$PROJECT_DIR$/User/Home/Controller/IndexController.class.php" />
+        <option value="$PROJECT_DIR$/User/Home/View/default/Info/mykuangche.html" />
+        <option value="$PROJECT_DIR$/User/Bang/View/default/Index/kuangji_geren_wodejiaoyi.html" />
+        <option value="$PROJECT_DIR$/User/Shop/View/default/index/jiaoyi.html" />
+        <option value="$PROJECT_DIR$/User/Shop/Controller/IndexController.class.php" />
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/User/Bang/View/default/Index/jiaoyi.html" />
+        <option value="$PROJECT_DIR$/User/Bang/Controller/IndexController.class.php" />
+        <option value="$PROJECT_DIR$/User/Bang/View/default/Index/index.html" />
+        <option value="$PROJECT_DIR$/User/Bang/View/default/Index/user.html" />
+        <option value="$PROJECT_DIR$/User/Bang/View/default/Index/myjiaoyi.html" />
+=======
+>>>>>>> f421dfd4e74e2f9f87c7044e35eb690250824ffd
+        <option value="$PROJECT_DIR$/User/Admins/Conf/config.php" />
+        <option value="$PROJECT_DIR$/User/Common/Common/function.php" />
+        <option value="$PROJECT_DIR$/User/Home/Common/function.php" />
+        <option value="$PROJECT_DIR$/User/Common/Conf/config.php" />
+        <option value="$PROJECT_DIR$/User/Admins/View/default/Login/.gitignore" />
+        <option value="$PROJECT_DIR$/User/Admins/Controller/LoginController.class.php" />
+        <option value="$PROJECT_DIR$/User/Admins/View/default/Login/index.html" />
+        <option value="$PROJECT_DIR$/User/Admins/Controller/IndexController.class.php" />
+        <option value="$PROJECT_DIR$/snadmin/Home/Controller/LoginController.class.php" />
+        <option value="$PROJECT_DIR$/snadmin/Common/Common/function.php" />
+        <option value="$PROJECT_DIR$/snadmin/Shop/View/default/project/addProject.html" />
+        <option value="$USER_HOME$/Desktop/kuangji/kuangji.html" />
+        <option value="$PROJECT_DIR$/User/Bang/View/default/Index/index-2.html" />
+        <option value="$USER_HOME$/Desktop/html5-svg-bar-chart/index.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/config.php" />
+        <option value="$PROJECT_DIR$/User/Home/View/wap/User/userfind.html" />
+=======
+        <option value="$PROJECT_DIR$/User/Bang/View/default/Index/index-test.html" />
+        <option value="$PROJECT_DIR$/snadmin/Shop/View/default/project/project.html" />
+        <option value="$PROJECT_DIR$/snadmin/Shop/Controller/ProjectController.class.php" />
+        <option value="$PROJECT_DIR$/snadmin/Shop/View/default/project/listProject.html" />
+        <option value="$PROJECT_DIR$/User/Bang/View/default/Index/index.html" />
+        <option value="$PROJECT_DIR$/User/Bang/View/default/Index/jiaoyi.html" />
+        <option value="$PROJECT_DIR$/Public/bang/css/kj_geren_shouyi-jiaoyi.css" />
+        <option value="$PROJECT_DIR$/User/Bang/View/default/Index/wakuang.html" />
+        <option value="$PROJECT_DIR$/User/Bang/View/default/Index/kuangcheshouyi.html" />
+        <option value="$PROJECT_DIR$/User/Bang/Common/function.php" />
+        <option value="$PROJECT_DIR$/Public/bang/css/kj_public.css" />
+        <option value="$USER_HOME$/Desktop/kuangji_geren_kuangjidian.html" />
+        <option value="$PROJECT_DIR$/User/Bang/View/default/Index/mykuangche.html" />
+        <option value="$PROJECT_DIR$/User/Bang/View/default/Index/user.html" />
+        <option value="$PROJECT_DIR$/Public/bang/css/kjd_zhuanchu.css" />
+        <option value="$PROJECT_DIR$/User/Bang/View/default/Index/point.html" />
+        <option value="$PROJECT_DIR$/Public/bang/css/jiaoyizhongxin.css" />
+        <option value="$PROJECT_DIR$/User/Home/View/default/Info/index.html" />
+        <option value="$USER_HOME$/Desktop/jq_function.js" />
+        <option value="$PROJECT_DIR$/Public/bang/js/regular.js" />
+        <option value="$PROJECT_DIR$/User/Home/View/default/Info/myjiaoyi.html" />
+        <option value="$PROJECT_DIR$/User/Home/Controller/InfoController.class.php" />
+        <option value="$PROJECT_DIR$/User/Bang/View/default/Index/myjiaoyi.html" />
+        <option value="$PROJECT_DIR$/User/Bang/Controller/IndexController.class.php" />
+        <option value="$PROJECT_DIR$/User/Bang/View/default/Index/jiaoyizhongxin.html" />
+>>>>>>> f421dfd4e74e2f9f87c7044e35eb690250824ffd
+        <option value="$PROJECT_DIR$/index.php" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+<<<<<<< HEAD
+    <option name="x" value="575" />
+    <option name="y" value="25" />
+    <option name="width" value="845" />
+    <option name="height" value="785" />
+=======
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1139" />
+    <option name="height" value="804" />
+>>>>>>> f421dfd4e74e2f9f87c7044e35eb690250824ffd
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="添加" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="kj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kj" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+<<<<<<< HEAD
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+=======
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../api" />
+>>>>>>> f421dfd4e74e2f9f87c7044e35eb690250824ffd
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\www\kj\User\Bang\View\default\Index" />
+      <recent name="C:\www\kj\User\Bang" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\www\kj\Public\bang\js" />
+      <recent name="C:\www\kj\Public\bang\images" />
+      <recent name="C:\www\kj\User\Bang\View\default\Index" />
+      <recent name="C:\www\kj\Public\bang\css" />
+      <recent name="C:\www\kj\Public\common" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="90f28d1a-313c-41d8-9580-d9046567525a" name="默认的" comment="" />
+      <created>1544506352584</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1544506352584</updated>
+      <workItem from="1544506353864" duration="1708000" />
+      <workItem from="1544520572209" duration="2429000" />
+      <workItem from="1544750617037" duration="17233000" />
+      <workItem from="1544772630117" duration="9928000" />
+      <workItem from="1545011549901" duration="1890000" />
+      <workItem from="1545013538052" duration="708000" />
+<<<<<<< HEAD
+      <workItem from="1545014605706" duration="547000" />
+      <workItem from="1545015665167" duration="8089000" />
+      <workItem from="1545199000041" duration="2462000" />
+=======
+      <workItem from="1545014605706" duration="17620000" />
+      <workItem from="1545041251645" duration="9988000" />
+      <workItem from="1545095687170" duration="17859000" />
+      <workItem from="1545183537479" duration="25516000" />
+      <workItem from="1545268305714" duration="15885000" />
+      <workItem from="1545291677033" duration="8856000" />
+      <workItem from="1545356991162" duration="23162000" />
+>>>>>>> f421dfd4e74e2f9f87c7044e35eb690250824ffd
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="44994000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24262735" />
+=======
+    <option name="totallyTimeSpent" value="152782000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18710022" />
+>>>>>>> f421dfd4e74e2f9f87c7044e35eb690250824ffd
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+<<<<<<< HEAD
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32719547" />
+=======
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3286334" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3275488" />
+>>>>>>> f421dfd4e74e2f9f87c7044e35eb690250824ffd
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="找到" order="12" weight="0.3253796" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.3297587" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15938166" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3286334" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3286334" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="找到" order="12" weight="0.329718" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="editorHistoryManager">
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/snadmin/Shop/View/default/project/addProject.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2875">
+          <caret line="125" column="51" selection-start-line="125" selection-start-column="45" selection-end-line="125" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/User/Bang/View/default/Index/index-test.html" />
+    <entry file="file://$PROJECT_DIR$/snadmin/Shop/Controller/ProjectController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="526">
+          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/User/Bang/Conf/config.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-232" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/web/js/morris.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/web/js/charts.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/web/js/echarts.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/web/js/jquery-weui.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/User/Common/Conf/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/snadmin/Shop/View/default/project/project10.7.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/snadmin/Shop/View/default/project/listProject.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="643">
+          <caret line="84" column="22" lean-forward="true" selection-start-line="78" selection-start-column="13" selection-end-line="84" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/snadmin/Shop/View/default/project/project.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="158" column="21" lean-forward="true" selection-start-line="152" selection-start-column="12" selection-end-line="158" selection-end-column="21" />
+          <folding>
+            <element signature="n#style#0;n#select#0;n#td#1;n#tr#7;n#table#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/bang/css/kj_resert.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/bang/css/kj_geren.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/bang/css/kj_geren_shouyi-jiaoyi.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-48">
+          <caret line="40" column="1" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/bang/css/kj_public.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/User/Bang/View/default/Index/wakuang.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="66" column="12" selection-start-line="66" selection-start-column="12" selection-end-line="66" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/User/Bang/Common/function.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="171" column="33" selection-start-line="171" selection-start-column="33" selection-end-line="171" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/User/Bang/View/default/Index/mykuangche.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/bang/css/kjd_zhuanchu.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="734">
+          <caret line="39" column="1" lean-forward="true" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/kuangji_geren_kuangjidian.html" />
+    <entry file="file://$PROJECT_DIR$/ThinkPHP/Library/Think/Model.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="851" column="20" selection-start-line="851" selection-start-column="20" selection-end-line="851" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/User/Bang/View/default/Index/point.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="70" column="44" selection-start-line="70" selection-start-column="44" selection-end-line="70" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/User/Bang/View/default/Index/kuangcheshouyi.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="16" column="9" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="16" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/User/Bang/View/default/Index/user.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="688">
+          <caret line="65" column="6" selection-start-line="65" selection-start-column="6" selection-end-line="65" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/学习文档.php" />
+>>>>>>> f421dfd4e74e2f9f87c7044e35eb690250824ffd
+    <entry file="file://$PROJECT_DIR$/User/Bang/View/default/Index/jiaoyi.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="51" column="39" selection-start-line="51" selection-start-column="39" selection-end-line="51" selection-end-column="39" />
+          <folding>
+            <element signature="n#style#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#notempty#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#0;n#notempty#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/bang/css/jiaoyizhongxin.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/User/Home/Conf/settings.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1037" />
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="52" column="17" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/web/js/layer.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/撒的.php" />
+    <entry file="file://$USER_HOME$/Desktop/jq_function.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/bang/js/regular.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="25" column="110" selection-start-line="25" selection-start-column="110" selection-end-line="25" selection-end-column="110" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/web/js/ajaxUplod.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5073">
+          <caret line="393" column="34" selection-start-line="393" selection-start-column="34" selection-end-line="393" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/User/Home/View/default/Info/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="826">
+          <caret line="495" column="67" selection-start-line="495" selection-start-column="62" selection-end-line="495" selection-end-column="67" />
+          <folding>
+            <element signature="n#style#0;n#input#2;n#form#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#0;n#tr#0;n#thead#0;n#table#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#0;n#foreach#0;n#tbody#0;n#table#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#td#0;n#if#0;n#tr#0;n#foreach#0;n#tbody#0;n#table#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#td#0;n#if#1;n#tr#0;n#foreach#0;n#tbody#0;n#table#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#if#2;n#tr#0;n#foreach#0;n#tbody#0;n#table#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#td#0;n#if#2;n#tr#0;n#foreach#0;n#tbody#0;n#table#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#td#0;n#if#0;n#tr#0;n#foreach#0;n#tbody#0;n#table#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#td#0;n#if#1;n#tr#0;n#foreach#0;n#tbody#0;n#table#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#td#0;n#if#2;n#tr#0;n#foreach#0;n#tbody#0;n#table#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkPHP/Mode/Api/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="200" column="9" selection-start-line="200" selection-start-column="9" selection-end-line="200" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Uploads/2018-12-21/5c1c509041de8.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkPHP/Common/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="289" column="17" selection-start-line="289" selection-start-column="14" selection-end-line="289" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/User/Home/View/default/Info/myjiaoyi.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-89">
+          <caret line="725" column="59" selection-start-line="725" selection-start-column="51" selection-end-line="725" selection-end-column="59" />
+          <folding>
+            <element signature="n#style#0;n#li#2;n#ul#0;n#foreach#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#3;n#ul#0;n#foreach#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#li#0;n#if#1;n#ul#0;n#div#1;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tr#0;n#thead#0;n#table#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#0;n#tr#0;n#thead#0;n#table#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#1;n#tr#0;n#thead#0;n#table#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#2;n#tr#0;n#thead#0;n#table#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#3;n#tr#0;n#thead#0;n#table#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#foreach#0;n#tbody#0;n#table#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#0;n#foreach#0;n#tbody#0;n#table#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#2;n#tr#0;n#foreach#0;n#tbody#0;n#table#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#3;n#tr#0;n#foreach#0;n#tbody#0;n#table#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/User/Home/Common/function.php">
+=======
+    <entry file="file://$PROJECT_DIR$/User/Bang/View/default/Index/myjiaoyi.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="465" column="39" selection-start-line="465" selection-start-column="39" selection-end-line="465" selection-end-column="39" />
+          <folding>
+            <element signature="n#style#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#1;n#li#0;n#foreach#0;n#ul#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#form#0;n#empty#0;n#td#0;n#if#0;n#if#0;n#tr#0;n#table#1;n#li#0;n#foreach#0;n#ul#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#button#0;n#form#0;n#empty#0;n#td#0;n#if#0;n#if#0;n#tr#0;n#table#1;n#li#0;n#foreach#0;n#ul#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#button#0;n#form#0;n#empty#0;n#td#0;n#if#0;n#if#0;n#tr#0;n#table#1;n#li#0;n#foreach#0;n#ul#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#empty#0;n#td#0;n#if#0;n#if#1;n#tr#0;n#table#1;n#li#0;n#foreach#0;n#ul#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#button#0;n#empty#0;n#td#0;n#if#0;n#if#1;n#tr#0;n#table#1;n#li#0;n#foreach#0;n#ul#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#button#0;n#empty#0;n#td#0;n#if#0;n#if#1;n#tr#0;n#table#1;n#li#0;n#foreach#0;n#ul#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#14982#15041#0" />
+            <element signature="e#15107#16368#0" />
+            <element signature="e#17155#17171#0" />
+            <element signature="e#18730#19547#0" />
+            <element signature="e#20099#20115#0" />
+            <element signature="e#20617#20633#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkPHP/Library/Think/Upload.class.php">
+>>>>>>> f421dfd4e74e2f9f87c7044e35eb690250824ffd
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1288">
+          <caret line="118" column="20" selection-start-line="118" selection-start-column="20" selection-end-line="118" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/User/Common/Common/function.php" />
+    <entry file="file://$PROJECT_DIR$/User/Admins/View/default/Login/.gitignore" />
+    <entry file="file://$PROJECT_DIR$/User/Admins/Controller/index.html">
+=======
+    <entry file="file://$PROJECT_DIR$/User/Bang/View/default/Index/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="148" column="19" selection-start-line="146" selection-start-column="16" selection-end-line="148" selection-end-column="19" />
+          <folding>
+            <element signature="n#style#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#0;n#foreach#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/User/Bang/Controller/LoginController.class.php">
+>>>>>>> f421dfd4e74e2f9f87c7044e35eb690250824ffd
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="27" column="23" lean-forward="true" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/User/Admins/Model/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/User/Admins/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/User/Admins/View/default/Login/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="25" column="67" selection-start-line="25" selection-start-column="67" selection-end-line="25" selection-end-column="67" />
+=======
+    <entry file="file://$PROJECT_DIR$/snadmin/Shop/Controller/IndexController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="41" lean-forward="true" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+>>>>>>> f421dfd4e74e2f9f87c7044e35eb690250824ffd
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/User/Home/Controller/InfoController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="1993" selection-start-line="1993" selection-end-line="1994" />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/User/Admins/Controller/IndexController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/snadmin/Common/Conf/config.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/snadmin/Home/Common/function.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#39#45#0" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/User/Bang/Controller/IndexController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="923" column="29" selection-start-line="923" selection-start-column="29" selection-end-line="923" selection-end-column="29" />
+          <folding>
+            <element signature="e#126#341#0#PHP" />
+            <element signature="e#374#684#0#PHP" />
+            <element signature="e#717#3056#0#PHP" />
+            <element signature="e#720#922#0#PHP" />
+            <element signature="e#958#3151#0#PHP" />
+            <element signature="e#5556#5735#0#PHP" />
+            <element signature="e#5771#5996#0#PHP" />
+            <element signature="e#6038#9037#0#PHP" />
+            <element signature="e#9094#9346#0#PHP" />
+            <element signature="e#9071#10445#0#PHP" />
+            <element signature="e#10804#11426#0#PHP" />
+            <element signature="e#11467#12492#0#PHP" />
+            <element signature="e#10480#12687#0#PHP" />
+            <element signature="e#12739#12777#0#PHP" />
+            <element signature="e#13351#13400#0#PHP" />
+            <element signature="e#15041#17728#0#PHP" />
+            <element signature="e#17799#20806#0#PHP" />
+            <element signature="e#13960#14634#0#PHP" />
+            <element signature="e#14671#16198#0#PHP" />
+            <element signature="e#25901#28220#0#PHP" />
+            <element signature="e#27395#27739#0#PHP" />
+            <element signature="e#27775#28915#0#PHP" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#li#0;n#!!top" expanded="true" />
+            <element signature="e#28951#30769#0#PHP" />
+>>>>>>> f421dfd4e74e2f9f87c7044e35eb690250824ffd
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/snadmin/Home/Common/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/snadmin/Home/Common/function.php.bak">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/snadmin/Home/Conf/config.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/snadmin/Home/View/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/snadmin/Home/View/default/kf/fkj.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2074" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sendmail/sendmail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#style#0;n#b#0;n#!!top" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/User/Bang/View/default/Index/jiaoyizhongxin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="204" column="32" lean-forward="true" selection-start-line="204" selection-start-column="32" selection-end-line="204" selection-end-column="32" />
+          <folding>
+            <element signature="n#style#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#7225#8174#0" />
+>>>>>>> f421dfd4e74e2f9f87c7044e35eb690250824ffd
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-784" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin8899.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/404.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/snadmin/Home/Conf/settings.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/User/Home/View/wap/Index/images/success.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/User/Home/View/wap/Index/images/question.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/User/Home/View/wap/Index/images/loading.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/User/Home/View/wap/Index/images/confirm.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/User/Home/View/wap/Index/images/error.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/User/Home/View/wap/Index/images/info.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/User/Home/View/wap/Index/images/info.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/User/Home/View/wap/User/userfind.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="181" column="8" lean-forward="true" selection-start-line="181" selection-start-column="8" selection-end-line="181" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/User/Home/Controller/IndexController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="69" column="4" selection-start-line="69" selection-start-column="4" selection-end-line="69" selection-end-column="4" />
+          <folding>
+            <element signature="e#109#835#0#PHP" />
+            <element signature="e#837#1579#0#PHP" />
+            <element signature="e#1582#1749#0#PHP" />
+            <element signature="e#1753#1924#0#PHP" />
+            <element signature="e#1932#2076#0#PHP" />
+            <element signature="e#2078#2711#0#PHP" />
+            <element signature="e#2714#3571#0#PHP" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+=======
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+>>>>>>> f421dfd4e74e2f9f87c7044e35eb690250824ffd
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

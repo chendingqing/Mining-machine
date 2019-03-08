@@ -1,0 +1,1348 @@
+[ 2018-03-08T23:26:20+08:00 ] 27.196.226.115 /index.php/Home/Info/myziliao/undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 12 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_ppdd` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE `g_user` = '18963553235' AND `zt` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE `g_user` = '18963553235' AND `zt` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_account` = '18963553235' LIMIT 1   [ RunTime:0.0156s ]
+SQL: UPDATE `jk_ppdd` SET `zt`='0',`jydate`='',`g_name`='',`g_user`='',`g_level`='',`g_id`='' WHERE `g_user` = '18963553235' AND `zt` = 1 [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant date - assumed 'date' C:\WWW\User\Home\Controller\CommonController.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `jk_date` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_date` WHERE `date` = 1520438430 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_account` = '18963553235'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_account` = '18963553235' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.015625s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.015625s ]
+NOTIC: [8] Use of undefined constant ue_sfz - assumed 'ue_sfz' C:\WWW\User\Runtime\Cache\Home\8e3c128a2b1524eb84eb5bfdbd4a46b7.php 第 299 行.
+NOTIC: [8] Array to string conversion C:\WWW\User\Runtime\Cache\Home\8e3c128a2b1524eb84eb5bfdbd4a46b7.php 第 299 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046875s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-08T23:26:41+08:00 ] 27.196.226.115 /index.php/Home/Index/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_userget` [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant wakuang - assumed 'wakuang' C:\WWW\User\Home\Controller\IndexController.class.php 第 15 行.
+SQL: SELECT * FROM `jk_userget` WHERE `UG_account` = '18963553235' AND `UG_dataType` = 'wakuang' ORDER BY UG_ID DESC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_account` = '18963553235' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-08T23:26:51+08:00 ] 27.196.226.115 /index.php/Home/Info/myziliao/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 12 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_ppdd` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE `g_user` = '18963553235' AND `zt` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE `g_user` = '18963553235' AND `zt` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_account` = '18963553235' LIMIT 1   [ RunTime:0.0156s ]
+SQL: UPDATE `jk_ppdd` SET `zt`='0',`jydate`='',`g_name`='',`g_user`='',`g_level`='',`g_id`='' WHERE `g_user` = '18963553235' AND `zt` = 1 [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant date - assumed 'date' C:\WWW\User\Home\Controller\CommonController.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `jk_date` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_date` WHERE `date` = 1520438430 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_account` = '18963553235'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_account` = '18963553235' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant ue_sfz - assumed 'ue_sfz' C:\WWW\User\Runtime\Cache\Home\8e3c128a2b1524eb84eb5bfdbd4a46b7.php 第 299 行.
+NOTIC: [8] Array to string conversion C:\WWW\User\Runtime\Cache\Home\8e3c128a2b1524eb84eb5bfdbd4a46b7.php 第 299 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-08T23:26:57+08:00 ] 27.196.226.115 /index.php/Home/Info/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 12 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_ppdd` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE `g_user` = '18963553235' AND `zt` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE `g_user` = '18963553235' AND `zt` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_account` = '18963553235' LIMIT 1   [ RunTime:0.0156s ]
+SQL: UPDATE `jk_ppdd` SET `zt`='0',`jydate`='',`g_name`='',`g_user`='',`g_level`='',`g_id`='' WHERE `g_user` = '18963553235' AND `zt` = 1 [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant date - assumed 'date' C:\WWW\User\Home\Controller\CommonController.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `jk_date` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_date` WHERE `date` = 1520438430 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_account` = '18963553235' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE ( `zt` = '0' OR `zt` = '1' ) AND `datatype` = 'qglkb' ORDER BY zt asc, danjia desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE `datatype` = 'cslkb' AND ( `zt` = '0' OR `zt` = '1' ) ORDER BY zt asc, danjia desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_date` ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(lkb) AS tp_sum FROM `jk_ppdd` WHERE ( `jydate` > '2018-03-08 00:00:00' AND `jydate` < '2018-03-08 23:59:59'  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_jyl` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_jyl` ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_date` WHERE ( `date` > 1520352000 AND `date` < 1520438399  ) ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_date` WHERE ( `date` >= 1520438400 AND `date` < 1520524799  ) ORDER BY id asc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT MAX(price) AS tp_max FROM `jk_date` WHERE ( `date` >= 1520438400 AND `date` < 1520524799  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT MIN(price) AS tp_min FROM `jk_date` WHERE ( `date` >= 1520438400 AND `date` < 1520524799  ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant ridate - assumed 'ridate' C:\WWW\User\Home\Controller\InfoController.class.php 第 79 行.
+SQL: SHOW COLUMNS FROM `jk_ridate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ridate` WHERE `date` = 1520438400 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_account` = '18963553235' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_config` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `jk_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_config` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_config` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-08T23:26:58+08:00 ] 27.196.226.115 /index.php/Home/Ajax/getgp.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `jk_date` [ RunTime:0.0000s ]
+SQL: SELECT `date`,`price` FROM `jk_date` WHERE ( `date` > 1520438400 AND `date` < 1520524799  )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-08T23:27:07+08:00 ] 27.196.226.115 /index.php/Home/Info/huilv.html?id=&huilv=250
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 12 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_ppdd` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE `g_user` = '18963553235' AND `zt` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE `g_user` = '18963553235' AND `zt` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_account` = '18963553235' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `jk_ppdd` SET `zt`='0',`jydate`='',`g_name`='',`g_user`='',`g_level`='',`g_id`='' WHERE `g_user` = '18963553235' AND `zt` = 1 [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant date - assumed 'date' C:\WWW\User\Home\Controller\CommonController.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `jk_date` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_date` WHERE `date` = 1520438430 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-03-08T23:27:09+08:00 ] 27.196.226.115 /index.php/Home/Info/lksc.html?id=7838
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 12 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_ppdd` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE `g_user` = '18963553235' AND `zt` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE `g_user` = '18963553235' AND `zt` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_account` = '18963553235' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `jk_ppdd` SET `zt`='0',`jydate`='',`g_name`='',`g_user`='',`g_level`='',`g_id`='' WHERE `g_user` = '18963553235' AND `zt` = 1 [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant date - assumed 'date' C:\WWW\User\Home\Controller\CommonController.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `jk_date` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `jk_date` WHERE `date` = 1520438430 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_account` = '18963553235' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE `id` = 7838 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE `zt` = 1 AND ( (p_user = '18963553235' or g_user = '18963553235') ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE `zt` = 0 AND ( (p_user = '18963553235' or g_user = '18963553235') ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `jk_ppdd` SET `zt`='1',`jydate`='2018-03-08 23:27:09',`g_name`='G278930',`g_user`='18963553235',`g_level`='1',`g_id`='12' WHERE `id` = 7838 [ RunTime:0.0000s ]
+
+[ 2018-03-08T23:27:12+08:00 ] 27.196.226.115 /index.php/Home/Info/myjiaoyi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 12 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_ppdd` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE `g_user` = '18963553235' AND `zt` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE `g_user` = '18963553235' AND `zt` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_account` = '18963553235' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant date - assumed 'date' C:\WWW\User\Home\Controller\CommonController.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `jk_date` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_date` WHERE `date` = 1520438430 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE `p_user` = '18963553235' AND `zt` = 0 AND `datatype` = 'qglkb'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE `p_user` = '18963553235' AND `zt` = 0 AND `datatype` = 'cslkb'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE `zt` = 1 AND ( (p_user = '18963553235' or g_user = '18963553235') )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE `zt` = 1 AND ( (p_user = '18963553235' or g_user = '18963553235') ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE `zt` = 2 AND ( (p_user = '18963553235' or g_user = '18963553235') ) ORDER BY jydate desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: ts C:\WWW\User\Home\Controller\InfoController.class.php 第 946 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.015625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-08T23:27:17+08:00 ] 27.196.226.115 /index.php/Home/Info/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 12 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_ppdd` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE `g_user` = '18963553235' AND `zt` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE `g_user` = '18963553235' AND `zt` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_account` = '18963553235' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant date - assumed 'date' C:\WWW\User\Home\Controller\CommonController.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `jk_date` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `jk_date` WHERE `date` = 1520438430 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_account` = '18963553235' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE ( `zt` = '0' OR `zt` = '1' ) AND `datatype` = 'qglkb' ORDER BY zt asc, danjia desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE `datatype` = 'cslkb' AND ( `zt` = '0' OR `zt` = '1' ) ORDER BY zt asc, danjia desc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_date` ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(lkb) AS tp_sum FROM `jk_ppdd` WHERE ( `jydate` > '2018-03-08 00:00:00' AND `jydate` < '2018-03-08 23:59:59'  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_jyl` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_jyl` ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_date` WHERE ( `date` > 1520352000 AND `date` < 1520438399  ) ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_date` WHERE ( `date` >= 1520438400 AND `date` < 1520524799  ) ORDER BY id asc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT MAX(price) AS tp_max FROM `jk_date` WHERE ( `date` >= 1520438400 AND `date` < 1520524799  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT MIN(price) AS tp_min FROM `jk_date` WHERE ( `date` >= 1520438400 AND `date` < 1520524799  ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant ridate - assumed 'ridate' C:\WWW\User\Home\Controller\InfoController.class.php 第 79 行.
+SQL: SHOW COLUMNS FROM `jk_ridate` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ridate` WHERE `date` = 1520438400 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_account` = '18963553235' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_config` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_config` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_config` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-08T23:27:19+08:00 ] 27.196.226.115 /index.php/Home/Ajax/getgp.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_date` [ RunTime:0.0000s ]
+SQL: SELECT `date`,`price` FROM `jk_date` WHERE ( `date` > 1520438400 AND `date` < 1520524799  )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-08T23:27:20+08:00 ] 27.196.226.115 /index.php/Home/Index/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_userget` [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant wakuang - assumed 'wakuang' C:\WWW\User\Home\Controller\IndexController.class.php 第 15 行.
+SQL: SELECT * FROM `jk_userget` WHERE `UG_account` = '18963553235' AND `UG_dataType` = 'wakuang' ORDER BY UG_ID DESC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_account` = '18963553235' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-08T23:27:22+08:00 ] 27.196.226.115 /index.php/Home/Info/myjiaoyi/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 12 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_ppdd` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE `g_user` = '18963553235' AND `zt` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE `g_user` = '18963553235' AND `zt` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_account` = '18963553235' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant date - assumed 'date' C:\WWW\User\Home\Controller\CommonController.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `jk_date` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `jk_date` WHERE `date` = 1520438430 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE `p_user` = '18963553235' AND `zt` = 0 AND `datatype` = 'qglkb'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE `p_user` = '18963553235' AND `zt` = 0 AND `datatype` = 'cslkb'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE `zt` = 1 AND ( (p_user = '18963553235' or g_user = '18963553235') )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE `zt` = 1 AND ( (p_user = '18963553235' or g_user = '18963553235') ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE `zt` = 2 AND ( (p_user = '18963553235' or g_user = '18963553235') ) ORDER BY jydate desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: ts C:\WWW\User\Home\Controller\InfoController.class.php 第 946 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2018-03-08T23:27:31+08:00 ] 27.196.226.115 /index.php/Home/Info/maijia.html?id=7838
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 12 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_ppdd` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE `g_user` = '18963553235' AND `zt` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE `g_user` = '18963553235' AND `zt` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_account` = '18963553235' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant date - assumed 'date' C:\WWW\User\Home\Controller\CommonController.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `jk_date` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_date` WHERE `date` = 1520438430 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE `id` = 7838 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_account` = '15063535999' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-03-08T23:27:39+08:00 ] 27.196.226.115 /index.php/Home/Info/gettime.html?id=7838
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 12 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_ppdd` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE `g_user` = '18963553235' AND `zt` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE `g_user` = '18963553235' AND `zt` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_account` = '18963553235' LIMIT 1   [ RunTime:0.0156s ]
+NOTIC: [8] Use of undefined constant date - assumed 'date' C:\WWW\User\Home\Controller\CommonController.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `jk_date` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_date` WHERE `date` = 1520438430 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE ( (p_user = '18963553235' or g_user = '18963553235') ) AND `zt` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-03-08T23:27:42+08:00 ] 27.196.226.115 /index.php/Home/Info/myjiaoyi/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.015625s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 12 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_ppdd` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE `g_user` = '18963553235' AND `zt` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE `g_user` = '18963553235' AND `zt` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_account` = '18963553235' LIMIT 1   [ RunTime:0.0156s ]
+NOTIC: [8] Use of undefined constant date - assumed 'date' C:\WWW\User\Home\Controller\CommonController.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `jk_date` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_date` WHERE `date` = 1520438430 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE `p_user` = '18963553235' AND `zt` = 0 AND `datatype` = 'qglkb'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE `p_user` = '18963553235' AND `zt` = 0 AND `datatype` = 'cslkb'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE `zt` = 1 AND ( (p_user = '18963553235' or g_user = '18963553235') )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE `zt` = 1 AND ( (p_user = '18963553235' or g_user = '18963553235') ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE `zt` = 2 AND ( (p_user = '18963553235' or g_user = '18963553235') ) ORDER BY jydate desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: ts C:\WWW\User\Home\Controller\InfoController.class.php 第 946 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.015625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-08T23:27:49+08:00 ] 27.196.226.115 /Index.php/Home/info/sctp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 12 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_ppdd` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE `g_user` = '18963553235' AND `zt` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE `g_user` = '18963553235' AND `zt` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_account` = '18963553235' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant date - assumed 'date' C:\WWW\User\Home\Controller\CommonController.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `jk_date` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `jk_date` WHERE `date` = 1520438430 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\WWW\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SELECT * FROM `jk_ppdd` WHERE `p_user` = '18963553235' AND `zt` = 1 AND `datatype` = 'qglkb' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE `g_user` = '18963553235' AND `zt` = 1 AND `datatype` = 'cslkb' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `jk_ppdd` SET `imagepath`='2018-03-08/5aa1567595cce.png' WHERE `g_user` = '18963553235' AND `zt` = 1 [ RunTime:0.0000s ]
+
+[ 2018-03-08T23:27:56+08:00 ] 27.196.226.115 /Index.php/Home/info/sctp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 12 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_ppdd` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE `g_user` = '18963553235' AND `zt` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE `g_user` = '18963553235' AND `zt` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_account` = '18963553235' LIMIT 1   [ RunTime:0.0156s ]
+NOTIC: [8] Use of undefined constant date - assumed 'date' C:\WWW\User\Home\Controller\CommonController.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `jk_date` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_date` WHERE `date` = 1520438430 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\WWW\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SELECT * FROM `jk_ppdd` WHERE `p_user` = '18963553235' AND `zt` = 1 AND `datatype` = 'qglkb' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE `g_user` = '18963553235' AND `zt` = 1 AND `datatype` = 'cslkb' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `jk_ppdd` SET `imagepath`='2018-03-08/5aa1567c0106f.png' WHERE `g_user` = '18963553235' AND `zt` = 1 [ RunTime:0.0000s ]
+
+[ 2018-03-08T23:28:01+08:00 ] 27.196.226.115 /index.php/Home/Info/maijia.html?id=7838
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 12 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_ppdd` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE `g_user` = '18963553235' AND `zt` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE `g_user` = '18963553235' AND `zt` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_account` = '18963553235' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant date - assumed 'date' C:\WWW\User\Home\Controller\CommonController.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `jk_date` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `jk_date` WHERE `date` = 1520438430 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE `id` = 7838 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_account` = '15063535999' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-03-08T23:28:08+08:00 ] 27.196.226.115 /index.php/Home/Login/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-08T23:28:08+08:00 ] 27.196.226.115 /index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-08T23:28:21+08:00 ] 27.196.226.115 /index.php/Home/login/logincl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_account` = '15063535999' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-03-08T23:28:32+08:00 ] 27.196.226.115 /index.php/Home/login/logincl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_account` = '15063535999' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-03-08T23:28:37+08:00 ] 27.196.226.115 /index.php/Home/login/logincl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_account` = '15063535999' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-03-08T23:29:34+08:00 ] 27.196.226.115 /index.php/Home/login/logincl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_account` = '15063535999' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-03-08T23:29:38+08:00 ] 27.196.226.115 /index.php/Home/login/logincl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_account` = '15063535999' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-03-08T23:29:47+08:00 ] 27.196.226.115 /index.php/Home/login/logincl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_account` = '15063535999' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant ue_id - assumed 'ue_id' C:\WWW\User\Home\Controller\LoginController.class.php 第 824 行.
+NOTIC: [8] Use of undefined constant ue_account - assumed 'ue_account' C:\WWW\User\Home\Controller\LoginController.class.php 第 825 行.
+NOTIC: [8] Use of undefined constant ue_account - assumed 'ue_account' C:\WWW\User\Home\Controller\LoginController.class.php 第 829 行.
+SQL: SHOW COLUMNS FROM `jk_drrz` [ RunTime:0.0000s ]
+SQL: INSERT INTO `jk_drrz` (`date`,`ip`,`user`,`leixin`) VALUES ('2018-03-08 23:29:47','','15063535999','0') [ RunTime:0.0000s ]
+
+[ 2018-03-08T23:29:48+08:00 ] 27.196.226.115 /index.php/Home/Index/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_userget` [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant wakuang - assumed 'wakuang' C:\WWW\User\Home\Controller\IndexController.class.php 第 15 行.
+SQL: SELECT * FROM `jk_userget` WHERE `UG_account` = '15063535999' AND `UG_dataType` = 'wakuang' ORDER BY UG_ID DESC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_account` = '15063535999' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-08T23:29:51+08:00 ] 27.196.226.115 /index.php/Home/Info/myjiaoyi/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 16 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_ppdd` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE `g_user` = '15063535999' AND `zt` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE `g_user` = '15063535999' AND `zt` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_account` = '15063535999' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `jk_ppdd` SET `zt`='0',`jydate`='',`g_name`='',`g_user`='',`g_level`='',`g_id`='' WHERE `g_user` = '15063535999' AND `zt` = 1 [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant date - assumed 'date' C:\WWW\User\Home\Controller\CommonController.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `jk_date` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `jk_date` WHERE `date` = 1520438430 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE `p_user` = '15063535999' AND `zt` = 0 AND `datatype` = 'qglkb'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE `p_user` = '15063535999' AND `zt` = 0 AND `datatype` = 'cslkb'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE `zt` = 1 AND ( (p_user = '15063535999' or g_user = '15063535999') )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE `zt` = 1 AND ( (p_user = '15063535999' or g_user = '15063535999') ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE `zt` = 2 AND ( (p_user = '15063535999' or g_user = '15063535999') ) ORDER BY jydate desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: ts C:\WWW\User\Home\Controller\InfoController.class.php 第 946 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-08T23:30:00+08:00 ] 27.196.226.115 /index.php/Home/Info/cktp.html?id=7838
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 16 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_ppdd` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE `g_user` = '15063535999' AND `zt` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE `g_user` = '15063535999' AND `zt` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_account` = '15063535999' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `jk_ppdd` SET `zt`='0',`jydate`='',`g_name`='',`g_user`='',`g_level`='',`g_id`='' WHERE `g_user` = '15063535999' AND `zt` = 1 [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant date - assumed 'date' C:\WWW\User\Home\Controller\CommonController.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `jk_date` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `jk_date` WHERE `date` = 1520438430 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE `id` = 7838 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-03-08T23:30:05+08:00 ] 27.196.226.115 /index.php/Home/Info/cswancheng.html?id=7838
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 16 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_ppdd` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE `g_user` = '15063535999' AND `zt` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE `g_user` = '15063535999' AND `zt` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_account` = '15063535999' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `jk_ppdd` SET `zt`='0',`jydate`='',`g_name`='',`g_user`='',`g_level`='',`g_id`='' WHERE `g_user` = '15063535999' AND `zt` = 1 [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant date - assumed 'date' C:\WWW\User\Home\Controller\CommonController.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `jk_date` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `jk_date` WHERE `date` = 1520438430 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE `id` = 7838 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_account` = '15063535999' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE `g_user` = '18963553235' AND `zt` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `jk_user` SET `djmoney`=djmoney-650 WHERE `UE_account` = '15063535999' [ RunTime:0.0000s ]
+SQL: UPDATE `jk_user` SET `UE_money`=UE_money+500 WHERE `UE_account` = '18963553235' [ RunTime:0.0000s ]
+SQL: UPDATE `jk_ppdd` SET `zt`='2' WHERE `g_user` = '18963553235' AND `zt` = 1 [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_user` WHERE `level` = 2 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Division by zero C:\WWW\User\Home\Controller\InfoController.class.php 第 2593 行.
+SQL: SELECT * FROM `jk_user` WHERE `level` = 2  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_user` WHERE `level` = 3 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Division by zero C:\WWW\User\Home\Controller\InfoController.class.php 第 2617 行.
+SQL: SELECT * FROM `jk_user` WHERE `level` = 3  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_user` WHERE `level` = 4 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Division by zero C:\WWW\User\Home\Controller\InfoController.class.php 第 2641 行.
+SQL: SELECT * FROM `jk_user` WHERE `level` = 4  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_user` WHERE `level` = 5 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Division by zero C:\WWW\User\Home\Controller\InfoController.class.php 第 2665 行.
+SQL: SELECT * FROM `jk_user` WHERE `level` = 5  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` ORDER BY jydate desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `jk_date` (`date`,`price`) VALUES ('1520523005','0.5') [ RunTime:0.0000s ]
+
+[ 2018-03-08T23:30:08+08:00 ] 27.196.226.115 /index.php/Home/Info/myjiaoyi/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 16 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_ppdd` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE `g_user` = '15063535999' AND `zt` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE `g_user` = '15063535999' AND `zt` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_account` = '15063535999' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `jk_ppdd` SET `zt`='0',`jydate`='',`g_name`='',`g_user`='',`g_level`='',`g_id`='' WHERE `g_user` = '15063535999' AND `zt` = 1 [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant date - assumed 'date' C:\WWW\User\Home\Controller\CommonController.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `jk_date` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_date` WHERE `date` = 1520438430 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE `p_user` = '15063535999' AND `zt` = 0 AND `datatype` = 'qglkb'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE `p_user` = '15063535999' AND `zt` = 0 AND `datatype` = 'cslkb'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE `zt` = 1 AND ( (p_user = '15063535999' or g_user = '15063535999') )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE `zt` = 1 AND ( (p_user = '15063535999' or g_user = '15063535999') ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE `zt` = 2 AND ( (p_user = '15063535999' or g_user = '15063535999') ) ORDER BY jydate desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: v C:\WWW\User\Runtime\Cache\Home\171fe409c1231b542c8b863fc1261143.php 第 134 行.
+NOTIC: [8] Undefined variable: v C:\WWW\User\Runtime\Cache\Home\171fe409c1231b542c8b863fc1261143.php 第 135 行.
+NOTIC: [8] Undefined variable: v C:\WWW\User\Runtime\Cache\Home\171fe409c1231b542c8b863fc1261143.php 第 136 行.
+NOTIC: [8] Undefined variable: v C:\WWW\User\Runtime\Cache\Home\171fe409c1231b542c8b863fc1261143.php 第 140 行.
+NOTIC: [8] Undefined variable: v C:\WWW\User\Runtime\Cache\Home\171fe409c1231b542c8b863fc1261143.php 第 141 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-08T23:31:28+08:00 ] 27.196.226.115 /index.php/Home/Login/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-08T23:31:28+08:00 ] 27.196.226.115 /index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-08T23:31:37+08:00 ] 27.196.226.115 /index.php/Home/login/logincl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_account` = '15063535999' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-03-08T23:31:45+08:00 ] 27.196.226.115 /index.php/Home/login/logincl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_account` = '15063535999' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-03-08T23:31:54+08:00 ] 27.196.226.115 /index.php/Home/login/logincl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_account` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-03-08T23:32:05+08:00 ] 27.196.226.115 /index.php/Home/login/logincl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_account` = '15063535999' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-03-08T23:33:24+08:00 ] 27.196.226.115 /index.php/Home/Login/loginadmin/account/15376839735/password/465153bedcba497a7517e6b78ee1254c/secpw/465153bedcba497a7517e6b78ee1254c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_account` = '15376839735' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant ue_id - assumed 'ue_id' C:\WWW\User\Home\Controller\LoginController.class.php 第 962 行.
+NOTIC: [8] Use of undefined constant ue_id - assumed 'ue_id' C:\WWW\User\Home\Controller\LoginController.class.php 第 963 行.
+NOTIC: [8] Use of undefined constant ue_account - assumed 'ue_account' C:\WWW\User\Home\Controller\LoginController.class.php 第 964 行.
+
+[ 2018-03-08T23:33:25+08:00 ] 27.196.226.115 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_userget` [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant wakuang - assumed 'wakuang' C:\WWW\User\Home\Controller\IndexController.class.php 第 15 行.
+SQL: SELECT * FROM `jk_userget` WHERE `UG_account` = '15376839735' AND `UG_dataType` = 'wakuang' ORDER BY UG_ID DESC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_account` = '15376839735' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-08T23:33:32+08:00 ] 27.196.226.115 /index.php/Home/Info/myjiaoyi/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 13 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_ppdd` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE `g_user` = '15376839735' AND `zt` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE `g_user` = '15376839735' AND `zt` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_account` = '15376839735' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `jk_ppdd` SET `zt`='0',`jydate`='',`g_name`='',`g_user`='',`g_level`='',`g_id`='' WHERE `g_user` = '15376839735' AND `zt` = 1 [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant date - assumed 'date' C:\WWW\User\Home\Controller\CommonController.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `jk_date` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_date` WHERE `date` = 1520438430 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE `p_user` = '15376839735' AND `zt` = 0 AND `datatype` = 'qglkb'  [ RunTime:0.0156s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE `p_user` = '15376839735' AND `zt` = 0 AND `datatype` = 'cslkb'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE `zt` = 1 AND ( (p_user = '15376839735' or g_user = '15376839735') )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE `zt` = 1 AND ( (p_user = '15376839735' or g_user = '15376839735') ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE `zt` = 2 AND ( (p_user = '15376839735' or g_user = '15376839735') ) ORDER BY jydate desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: v C:\WWW\User\Runtime\Cache\Home\171fe409c1231b542c8b863fc1261143.php 第 134 行.
+NOTIC: [8] Undefined variable: v C:\WWW\User\Runtime\Cache\Home\171fe409c1231b542c8b863fc1261143.php 第 135 行.
+NOTIC: [8] Undefined variable: v C:\WWW\User\Runtime\Cache\Home\171fe409c1231b542c8b863fc1261143.php 第 136 行.
+NOTIC: [8] Undefined variable: v C:\WWW\User\Runtime\Cache\Home\171fe409c1231b542c8b863fc1261143.php 第 140 行.
+NOTIC: [8] Undefined variable: v C:\WWW\User\Runtime\Cache\Home\171fe409c1231b542c8b863fc1261143.php 第 141 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-08T23:33:50+08:00 ] 27.196.226.115 /index.php/Home/Login/loginadmin/account/15063535999/password/56f44f422172aef3a0ebc0583a87e963/secpw/56f44f422172aef3a0ebc0583a87e963
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_account` = '15063535999' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant ue_id - assumed 'ue_id' C:\WWW\User\Home\Controller\LoginController.class.php 第 962 行.
+NOTIC: [8] Use of undefined constant ue_id - assumed 'ue_id' C:\WWW\User\Home\Controller\LoginController.class.php 第 963 行.
+NOTIC: [8] Use of undefined constant ue_account - assumed 'ue_account' C:\WWW\User\Home\Controller\LoginController.class.php 第 964 行.
+
+[ 2018-03-08T23:33:51+08:00 ] 27.196.226.115 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_userget` [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant wakuang - assumed 'wakuang' C:\WWW\User\Home\Controller\IndexController.class.php 第 15 行.
+SQL: SELECT * FROM `jk_userget` WHERE `UG_account` = '15063535999' AND `UG_dataType` = 'wakuang' ORDER BY UG_ID DESC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_account` = '15063535999' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-08T23:33:55+08:00 ] 27.196.226.115 /index.php/Home/Info/myjiaoyi/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 16 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_ppdd` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE `g_user` = '15063535999' AND `zt` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE `g_user` = '15063535999' AND `zt` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_account` = '15063535999' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `jk_ppdd` SET `zt`='0',`jydate`='',`g_name`='',`g_user`='',`g_level`='',`g_id`='' WHERE `g_user` = '15063535999' AND `zt` = 1 [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant date - assumed 'date' C:\WWW\User\Home\Controller\CommonController.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `jk_date` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `jk_date` WHERE `date` = 1520438430 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE `p_user` = '15063535999' AND `zt` = 0 AND `datatype` = 'qglkb'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE `p_user` = '15063535999' AND `zt` = 0 AND `datatype` = 'cslkb'  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE `zt` = 1 AND ( (p_user = '15063535999' or g_user = '15063535999') )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE `zt` = 1 AND ( (p_user = '15063535999' or g_user = '15063535999') ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE `zt` = 2 AND ( (p_user = '15063535999' or g_user = '15063535999') ) ORDER BY jydate desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: v C:\WWW\User\Runtime\Cache\Home\171fe409c1231b542c8b863fc1261143.php 第 134 行.
+NOTIC: [8] Undefined variable: v C:\WWW\User\Runtime\Cache\Home\171fe409c1231b542c8b863fc1261143.php 第 135 行.
+NOTIC: [8] Undefined variable: v C:\WWW\User\Runtime\Cache\Home\171fe409c1231b542c8b863fc1261143.php 第 136 行.
+NOTIC: [8] Undefined variable: v C:\WWW\User\Runtime\Cache\Home\171fe409c1231b542c8b863fc1261143.php 第 140 行.
+NOTIC: [8] Undefined variable: v C:\WWW\User\Runtime\Cache\Home\171fe409c1231b542c8b863fc1261143.php 第 141 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2018-03-08T23:37:27+08:00 ] 27.196.226.115 /index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-08T23:37:35+08:00 ] 27.196.226.115 /index.php/Home/login/logincl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_account` = '15063535999' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-03-08T23:38:03+08:00 ] 27.196.226.115 /index.php/Home/login/logincl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_account` = '15063535999' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant ue_id - assumed 'ue_id' C:\WWW\User\Home\Controller\LoginController.class.php 第 824 行.
+NOTIC: [8] Use of undefined constant ue_account - assumed 'ue_account' C:\WWW\User\Home\Controller\LoginController.class.php 第 825 行.
+NOTIC: [8] Use of undefined constant ue_account - assumed 'ue_account' C:\WWW\User\Home\Controller\LoginController.class.php 第 829 行.
+SQL: SHOW COLUMNS FROM `jk_drrz` [ RunTime:0.0000s ]
+SQL: INSERT INTO `jk_drrz` (`date`,`ip`,`user`,`leixin`) VALUES ('2018-03-08 23:38:03','','15063535999','0') [ RunTime:0.0000s ]
+
+[ 2018-03-08T23:38:04+08:00 ] 27.196.226.115 /index.php/Home/Index/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_userget` [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant wakuang - assumed 'wakuang' C:\WWW\User\Home\Controller\IndexController.class.php 第 15 行.
+SQL: SELECT * FROM `jk_userget` WHERE `UG_account` = '15063535999' AND `UG_dataType` = 'wakuang' ORDER BY UG_ID DESC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_account` = '15063535999' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-08T23:38:07+08:00 ] 27.196.226.115 /index.php/Home/Info/mykuangche/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 16 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_ppdd` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE `g_user` = '15063535999' AND `zt` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE `g_user` = '15063535999' AND `zt` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_account` = '15063535999' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `jk_ppdd` SET `zt`='0',`jydate`='',`g_name`='',`g_user`='',`g_level`='',`g_id`='' WHERE `g_user` = '15063535999' AND `zt` = 1 [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant date - assumed 'date' C:\WWW\User\Home\Controller\CommonController.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `jk_date` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `jk_date` WHERE `date` = 1520438430 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_orderform` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_shop_orderform` WHERE `user` = '15063535999' ORDER BY zt asc,id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-08T23:38:11+08:00 ] 27.196.226.115 /index.php/Home/Info/wakuang/?id=38
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 16 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_ppdd` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE `g_user` = '15063535999' AND `zt` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE `g_user` = '15063535999' AND `zt` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_account` = '15063535999' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `jk_ppdd` SET `zt`='0',`jydate`='',`g_name`='',`g_user`='',`g_level`='',`g_id`='' WHERE `g_user` = '15063535999' AND `zt` = 1 [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant date - assumed 'date' C:\WWW\User\Home\Controller\CommonController.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `jk_date` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `jk_date` WHERE `date` = 1520438430 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_orderform` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_shop_orderform` WHERE `id` = 38 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_account` = '15063535999' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `jk_shop_orderform` SET `zt`='1' WHERE `id` = 38 [ RunTime:0.0000s ]
+SQL: UPDATE `jk_user` SET `kjzt`='1' WHERE `UE_account` = '15063535999' [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant lkb - assumed 'lkb' C:\WWW\User\Home\Controller\InfoController.class.php 第 215 行.
+SQL: SHOW COLUMNS FROM `jk_userget` [ RunTime:0.0000s ]
+SQL: INSERT INTO `jk_userget` (`UG_account`,`UG_money`,`UG_type`,`UG_dataType`,`UG_getTime`,`UG_balance`,`UG_note`,`yxzq`,`kcprice`,`lixi`,`kcid`,`kjbh`,`kjmc`) VALUES ('15063535999','0','lkb','wakuang','2018-03-08 23:38:11','4350.00000000','超级云矿机收入','720','100000.00','208.333333','38','H082341512','超级云矿机') [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_userget` WHERE `kcid` = '38' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0000s ]
+SQL: SELECT SUM(kjsl) AS tp_sum FROM `jk_shop_project` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant mmsy - assumed 'mmsy' C:\WWW\User\Home\Controller\InfoController.class.php 第 263 行.
+SQL: SELECT SUM(kjsl) AS tp_sum FROM `jk_shop_orderform` WHERE `zt` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_slkz` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_slkz` ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-08T23:38:17+08:00 ] 27.196.226.115 /index.php/Home/Info/wakuang/?id=39
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 16 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_ppdd` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE `g_user` = '15063535999' AND `zt` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE `g_user` = '15063535999' AND `zt` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_account` = '15063535999' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `jk_ppdd` SET `zt`='0',`jydate`='',`g_name`='',`g_user`='',`g_level`='',`g_id`='' WHERE `g_user` = '15063535999' AND `zt` = 1 [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant date - assumed 'date' C:\WWW\User\Home\Controller\CommonController.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `jk_date` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `jk_date` WHERE `date` = 1520438430 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_orderform` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_shop_orderform` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_account` = '15063535999' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `jk_shop_orderform` SET `zt`='1' WHERE `id` = 39 [ RunTime:0.0000s ]
+SQL: UPDATE `jk_user` SET `kjzt`='1' WHERE `UE_account` = '15063535999' [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant lkb - assumed 'lkb' C:\WWW\User\Home\Controller\InfoController.class.php 第 215 行.
+SQL: SHOW COLUMNS FROM `jk_userget` [ RunTime:0.0000s ]
+SQL: INSERT INTO `jk_userget` (`UG_account`,`UG_money`,`UG_type`,`UG_dataType`,`UG_getTime`,`UG_balance`,`UG_note`,`yxzq`,`kcprice`,`lixi`,`kcid`,`kjbh`,`kjmc`) VALUES ('15063535999','0','lkb','wakuang','2018-03-08 23:38:17','4350.00000000','超级云矿机收入','720','100000.00','208.333333','39','H082341512','超级云矿机') [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_userget` WHERE `kcid` = '39' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0000s ]
+SQL: SELECT SUM(kjsl) AS tp_sum FROM `jk_shop_project` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant mmsy - assumed 'mmsy' C:\WWW\User\Home\Controller\InfoController.class.php 第 263 行.
+SQL: SELECT SUM(kjsl) AS tp_sum FROM `jk_shop_orderform` WHERE `zt` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_slkz` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_slkz` ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-08T23:38:21+08:00 ] 27.196.226.115 /index.php/Home/Info/wakuang/?id=40
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 16 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_ppdd` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE `g_user` = '15063535999' AND `zt` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE `g_user` = '15063535999' AND `zt` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_account` = '15063535999' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `jk_ppdd` SET `zt`='0',`jydate`='',`g_name`='',`g_user`='',`g_level`='',`g_id`='' WHERE `g_user` = '15063535999' AND `zt` = 1 [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant date - assumed 'date' C:\WWW\User\Home\Controller\CommonController.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `jk_date` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `jk_date` WHERE `date` = 1520438430 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_orderform` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_shop_orderform` WHERE `id` = 40 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_account` = '15063535999' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `jk_shop_orderform` SET `zt`='1' WHERE `id` = 40 [ RunTime:0.0000s ]
+SQL: UPDATE `jk_user` SET `kjzt`='1' WHERE `UE_account` = '15063535999' [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant lkb - assumed 'lkb' C:\WWW\User\Home\Controller\InfoController.class.php 第 215 行.
+SQL: SHOW COLUMNS FROM `jk_userget` [ RunTime:0.0000s ]
+SQL: INSERT INTO `jk_userget` (`UG_account`,`UG_money`,`UG_type`,`UG_dataType`,`UG_getTime`,`UG_balance`,`UG_note`,`yxzq`,`kcprice`,`lixi`,`kcid`,`kjbh`,`kjmc`) VALUES ('15063535999','0','lkb','wakuang','2018-03-08 23:38:21','4350.00000000','超级云矿机收入','720','100000.00','208.333333','40','H082341512','超级云矿机') [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_userget` WHERE `kcid` = '40' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0000s ]
+SQL: SELECT SUM(kjsl) AS tp_sum FROM `jk_shop_project` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant mmsy - assumed 'mmsy' C:\WWW\User\Home\Controller\InfoController.class.php 第 263 行.
+SQL: SELECT SUM(kjsl) AS tp_sum FROM `jk_shop_orderform` WHERE `zt` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_slkz` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_slkz` ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-08T23:38:28+08:00 ] 27.196.226.115 /index.php/Home/Info/mykuangche/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 16 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_ppdd` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE `g_user` = '15063535999' AND `zt` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE `g_user` = '15063535999' AND `zt` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_account` = '15063535999' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `jk_ppdd` SET `zt`='0',`jydate`='',`g_name`='',`g_user`='',`g_level`='',`g_id`='' WHERE `g_user` = '15063535999' AND `zt` = 1 [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant date - assumed 'date' C:\WWW\User\Home\Controller\CommonController.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `jk_date` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `jk_date` WHERE `date` = 1520438430 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_orderform` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_shop_orderform` WHERE `user` = '15063535999' ORDER BY zt asc,id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-08T23:38:33+08:00 ] 27.196.226.115 /index.php/Home/Info/wakuang/?id=40
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 16 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_ppdd` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE `g_user` = '15063535999' AND `zt` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE `g_user` = '15063535999' AND `zt` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_account` = '15063535999' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `jk_ppdd` SET `zt`='0',`jydate`='',`g_name`='',`g_user`='',`g_level`='',`g_id`='' WHERE `g_user` = '15063535999' AND `zt` = 1 [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant date - assumed 'date' C:\WWW\User\Home\Controller\CommonController.class.php 第 88 行.
+SQL: SHOW COLUMNS FROM `jk_date` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_date` WHERE `date` = 1520438430 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_orderform` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_shop_orderform` WHERE `id` = 40 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_account` = '15063535999' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_userget` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_userget` WHERE `kcid` = '40' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0000s ]
+SQL: SELECT SUM(kjsl) AS tp_sum FROM `jk_shop_project` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant mmsy - assumed 'mmsy' C:\WWW\User\Home\Controller\InfoController.class.php 第 263 行.
+SQL: SELECT SUM(kjsl) AS tp_sum FROM `jk_shop_orderform` WHERE `zt` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_slkz` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_slkz` ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

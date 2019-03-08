@@ -1,0 +1,101 @@
+/***** login *****/
+@charset "utf-8";
+/*#loginbg{
+	background-position:center top;
+	background-image: url(/images/login2.jpg);
+	background-repeat: no-repeat;
+}*/
+#log_wra_1000{margin:0 auto;}
+.login_div{
+	width:450px;
+	height:430px;
+	margin:0 auto;
+    margin-top:190px;
+	color:#fff;
+}
+
+.login_div a{color:#fff;}
+/* input_style */
+.inp_sty_220x35{
+	width:155px;
+	height:17px;
+
+
+*height:35px; 			border:0px;
+	background-color:transparent;
+	color:#939598;
+	padding-left:5px;
+	line-height:20px;
+}
+.inp_sty_135x35{
+	width:66px;
+	height:17px;
+
+
+*height:35px; 			border:0px;
+	background-color:transparent;
+	color:#939598;
+	padding-left:5px;
+	line-height:20px;
+}
+.login_button{ color:#0088c7; background:url(../images/lo2.png) no-repeat; width:134px; height:143px; border:0px;  float:left;}
+
+/***** register *****/
+.register{}
+.list_table{margin-top:8px;background-color:#ffffff; word-break: keep-all; border:1px solid #000000; }
+.list_table thead tr td{ font-weight:bold;border-right:1px solid #000000;}
+.list_table tbody tr td { border-right:1px solid #000000; border-top:1px solid #000000;}
+.list_table tbody  tr{background-color:#FFFFFF; height:24px}
+.list_table thead tr td{ padding-left:4px; padding-right:4px;}
+.list_table tbody tr td{ padding-left:4px; padding-right:4px;}
+.list_table tr td a{ color:#000; text-decoration:none}
+.list_table tr td a:hover{ text-decoration:underline}
+.list_table tr:hover { background-color:#f2faff}
+
+/*----------------------------------------------------------------------------------------*/
+.tool_bar_tbl{height:26px; overflow:hidden; border:1px solid #e5e5e5; border-top:none; font-size:12px;}
+.tool_bar{ position:relative; height:24px; overflow:hidden;}
+.tool_bar .batch_bar{
+	position:absolute;
+	left:28px;
+	top:1px;
+}
+.tool_bar .list_foot{
+	position:absolute;
+	right:50px;
+	top:0px;
+	width:500px;
+	text-align:right
+}
+.tool_bar .list_foot a{ text-decoration:none }
+.page_go_box{ position:absolute; right:10px; top:4px;}
+.page_go{ width:10px; height:10px; border:1px solid #aaa}
+.bat_btn{font-size:12px; width:91px; height:21px; overflow:hidden; line-height:21px; border:0; background:url(../images/bat_btn.gif) left top no-repeat; cursor:pointer}
+
+
+.logo_en {
+	color:#fff; line-height:30px;
+}
+.logo_en a{display:block; float:left ; width:50px;}
+.logo_en a:link ,.logo_en a:visited{ color:#fff;}
+.logo_en a:hover {color:#fff; text-decoration:underline;}
+
+
+.mod_qr_bd img {
+display: block;
+width: 40px;
+height: 40px;
+vertical-align: bottom;
+}
+.lastdiv{
+	width: 500px;
+	height: 30px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+
+}
+.weixin_tit{ line-height:30px; padding:0 5px;}
+.weixin_tit a:link ,.weixin_tit a:visited{ color:#fff;}
+.weixin_tit a:hover {color:#fff; text-decoration:underline;}

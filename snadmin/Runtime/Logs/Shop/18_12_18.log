@@ -1,0 +1,1940 @@
+[ 2018-12-18T13:32:19+08:00 ] 127.0.0.1 /admin8899.php/Shop/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_leibie` [ RunTime:0.0120s ]
+NOTIC: [8] Undefined index: p C:\www\kj\snadmin\Shop\Controller\IndexController.class.php 第 17 行.
+SQL: SELECT * FROM `jk_shop_leibie` LIMIT 0,12   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_shop_leibie` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_system` [ RunTime:0.0110s ]
+SQL: SELECT `toggleshop` FROM `jk_system` WHERE `SYS_ID` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-12-18T13:32:25+08:00 ] 127.0.0.1 /admin8899.php/Shop/Project/addProject
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_leibie` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `jk_shop_leibie`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: page C:\www\kj\snadmin\Runtime\Cache\Shop\2da3c3b795ffa5c649df61435ccb05d0.php 第 229 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-12-18T13:32:49+08:00 ] 127.0.0.1 /admin8899.php/Shop/Project/listProject
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0130s ]
+NOTIC: [8] Undefined index: p C:\www\kj\snadmin\Shop\Controller\ProjectController.class.php 第 41 行.
+SQL: SELECT jk_shop_project.*,jk_shop_leibie.name as pidname FROM `jk_shop_project` INNER JOIN jk_shop_leibie ON jk_shop_project.pid = jk_shop_leibie.id  LIMIT 0,12   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_shop_project` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-12-18T13:43:35+08:00 ] 127.0.0.1 /admin8899.php/Shop/Project/project/id/210
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_leibie` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `jk_shop_leibie`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE `id` = 210 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: caution C:\www\kj\snadmin\Runtime\Cache\Shop\e3336a36d5e7f6015c8807a35198cbb4.php 第 102 行.
+NOTIC: [8] Undefined variable: caution C:\www\kj\snadmin\Runtime\Cache\Shop\e3336a36d5e7f6015c8807a35198cbb4.php 第 200 行.
+NOTIC: [8] Undefined variable: page C:\www\kj\snadmin\Runtime\Cache\Shop\e3336a36d5e7f6015c8807a35198cbb4.php 第 304 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-18T13:43:53+08:00 ] 127.0.0.1 /admin8899.php/Shop/Project/listProject
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0130s ]
+NOTIC: [8] Undefined index: p C:\www\kj\snadmin\Shop\Controller\ProjectController.class.php 第 41 行.
+SQL: SELECT jk_shop_project.*,jk_shop_leibie.name as pidname FROM `jk_shop_project` INNER JOIN jk_shop_leibie ON jk_shop_project.pid = jk_shop_leibie.id  LIMIT 0,12   [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_shop_project` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-18T13:43:55+08:00 ] 127.0.0.1 /admin8899.php/Shop/Project/project/id/210
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_leibie` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `jk_shop_leibie`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE `id` = 210 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: caution C:\www\kj\snadmin\Runtime\Cache\Shop\e3336a36d5e7f6015c8807a35198cbb4.php 第 102 行.
+NOTIC: [8] Undefined variable: caution C:\www\kj\snadmin\Runtime\Cache\Shop\e3336a36d5e7f6015c8807a35198cbb4.php 第 200 行.
+NOTIC: [8] Undefined variable: page C:\www\kj\snadmin\Runtime\Cache\Shop\e3336a36d5e7f6015c8807a35198cbb4.php 第 304 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-12-18T13:44:34+08:00 ] 127.0.0.1 /admin8899.php/Shop/Project/listProject
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: p C:\www\kj\snadmin\Shop\Controller\ProjectController.class.php 第 41 行.
+SQL: SELECT jk_shop_project.*,jk_shop_leibie.name as pidname FROM `jk_shop_project` INNER JOIN jk_shop_leibie ON jk_shop_project.pid = jk_shop_leibie.id  LIMIT 0,12   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_shop_project` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-18T13:44:37+08:00 ] 127.0.0.1 /admin8899.php/Shop/Project/project/id/210
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_leibie` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `jk_shop_leibie`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE `id` = 210 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: caution C:\www\kj\snadmin\Runtime\Cache\Shop\e3336a36d5e7f6015c8807a35198cbb4.php 第 102 行.
+NOTIC: [8] Undefined variable: caution C:\www\kj\snadmin\Runtime\Cache\Shop\e3336a36d5e7f6015c8807a35198cbb4.php 第 200 行.
+NOTIC: [8] Undefined variable: page C:\www\kj\snadmin\Runtime\Cache\Shop\e3336a36d5e7f6015c8807a35198cbb4.php 第 304 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-12-18T13:44:54+08:00 ] 127.0.0.1 /admin8899.php/Shop/Project/listProject
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0130s ]
+NOTIC: [8] Undefined index: p C:\www\kj\snadmin\Shop\Controller\ProjectController.class.php 第 41 行.
+SQL: SELECT jk_shop_project.*,jk_shop_leibie.name as pidname FROM `jk_shop_project` INNER JOIN jk_shop_leibie ON jk_shop_project.pid = jk_shop_leibie.id  LIMIT 0,12   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_shop_project` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-12-18T13:44:57+08:00 ] 127.0.0.1 /admin8899.php/Shop/Project/project/id/210
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_leibie` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `jk_shop_leibie`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE `id` = 210 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: caution C:\www\kj\snadmin\Runtime\Cache\Shop\e3336a36d5e7f6015c8807a35198cbb4.php 第 102 行.
+NOTIC: [8] Undefined variable: caution C:\www\kj\snadmin\Runtime\Cache\Shop\e3336a36d5e7f6015c8807a35198cbb4.php 第 200 行.
+NOTIC: [8] Undefined variable: page C:\www\kj\snadmin\Runtime\Cache\Shop\e3336a36d5e7f6015c8807a35198cbb4.php 第 304 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-12-18T13:47:50+08:00 ] 127.0.0.1 /admin8899.php/Shop/Project/listProject
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0140s ]
+NOTIC: [8] Undefined index: p C:\www\kj\snadmin\Shop\Controller\ProjectController.class.php 第 41 行.
+SQL: SELECT jk_shop_project.*,jk_shop_leibie.name as pidname FROM `jk_shop_project` INNER JOIN jk_shop_leibie ON jk_shop_project.pid = jk_shop_leibie.id  LIMIT 0,12   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_shop_project` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-12-18T13:47:55+08:00 ] 127.0.0.1 /admin8899.php/Shop/Project/project/id/219
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_leibie` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `jk_shop_leibie`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE `id` = 219 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: caution C:\www\kj\snadmin\Runtime\Cache\Shop\e3336a36d5e7f6015c8807a35198cbb4.php 第 102 行.
+NOTIC: [8] Undefined variable: caution C:\www\kj\snadmin\Runtime\Cache\Shop\e3336a36d5e7f6015c8807a35198cbb4.php 第 200 行.
+NOTIC: [8] Undefined variable: page C:\www\kj\snadmin\Runtime\Cache\Shop\e3336a36d5e7f6015c8807a35198cbb4.php 第 304 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-18T13:50:15+08:00 ] 127.0.0.1 /admin8899.php/Shop/Project/updateProject/id/219
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0150s ]
+SQL: UPDATE `jk_shop_project` SET `pid`='21',`name`='超级云矿机',`title`='超级云矿机',`old_price`='100000',`price`='100000',`point`='9000',`stock`='99999',`fjed`='208.333333',`imagepath`='/Uploads/Pic/2018-02-11/5a7fbe4abc06c.png',`b_imagepath`='/Public/bang/images/kj_icon_cjy.png',`content`='超级云矿机：价格100000GEC，算力为100GH/s，运行周期为720小时，每小时产量208.333333GEC，总收益为150000GEC（GEC可在交易中心获得）',`encontent`='Super cloud machine: price 100000GEC,computing power 100GH/s,Operation period is 720 hours,Output per hour 208.333333GEC,Total revenue was 150000GEC （GECcan be obtained at the trading center）',`qwsl`='',`kjsl`='100',`yxzq`='720',`enname`=' Super cloud machine',`ads_condition`='4' WHERE `id` = 219 [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-12-18T13:50:18+08:00 ] 127.0.0.1 /admin8899.php/Shop/Project/project/id/219
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_leibie` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `jk_shop_leibie`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE `id` = 219 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: caution C:\www\kj\snadmin\Runtime\Cache\Shop\e3336a36d5e7f6015c8807a35198cbb4.php 第 102 行.
+NOTIC: [8] Undefined variable: caution C:\www\kj\snadmin\Runtime\Cache\Shop\e3336a36d5e7f6015c8807a35198cbb4.php 第 200 行.
+NOTIC: [8] Undefined variable: page C:\www\kj\snadmin\Runtime\Cache\Shop\e3336a36d5e7f6015c8807a35198cbb4.php 第 304 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-12-18T13:51:32+08:00 ] 127.0.0.1 /admin8899.php/Shop/Project/listProject
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0130s ]
+NOTIC: [8] Undefined index: p C:\www\kj\snadmin\Shop\Controller\ProjectController.class.php 第 41 行.
+SQL: SELECT jk_shop_project.*,jk_shop_leibie.name as pidname FROM `jk_shop_project` INNER JOIN jk_shop_leibie ON jk_shop_project.pid = jk_shop_leibie.id  LIMIT 0,12   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_shop_project` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-12-18T13:52:43+08:00 ] 127.0.0.1 /admin8899.php/Shop/Project/listProject
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0130s ]
+NOTIC: [8] Undefined index: p C:\www\kj\snadmin\Shop\Controller\ProjectController.class.php 第 41 行.
+SQL: SELECT jk_shop_project.*,jk_shop_leibie.name as pidname FROM `jk_shop_project` INNER JOIN jk_shop_leibie ON jk_shop_project.pid = jk_shop_leibie.id  LIMIT 0,12   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_shop_project` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-12-18T13:55:10+08:00 ] 127.0.0.1 /admin8899.php/Shop/Project/listProject
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0160s ]
+NOTIC: [8] Undefined index: p C:\www\kj\snadmin\Shop\Controller\ProjectController.class.php 第 41 行.
+SQL: SELECT jk_shop_project.*,jk_shop_leibie.name as pidname FROM `jk_shop_project` INNER JOIN jk_shop_leibie ON jk_shop_project.pid = jk_shop_leibie.id  LIMIT 0,12   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_shop_project` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: 0 C:\www\kj\snadmin\Runtime\Cache\Shop\241f713410b555ac0a5080c8992ebefa.php 第 78 行.
+NOTIC: [8] Undefined variable: 0 C:\www\kj\snadmin\Runtime\Cache\Shop\241f713410b555ac0a5080c8992ebefa.php 第 78 行.
+NOTIC: [8] Undefined variable: 0 C:\www\kj\snadmin\Runtime\Cache\Shop\241f713410b555ac0a5080c8992ebefa.php 第 78 行.
+NOTIC: [8] Undefined variable: 0 C:\www\kj\snadmin\Runtime\Cache\Shop\241f713410b555ac0a5080c8992ebefa.php 第 78 行.
+NOTIC: [8] Undefined variable: 4 C:\www\kj\snadmin\Runtime\Cache\Shop\241f713410b555ac0a5080c8992ebefa.php 第 78 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-18T13:55:15+08:00 ] 127.0.0.1 /admin8899.php/Shop/Project/listProject
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0130s ]
+NOTIC: [8] Undefined index: p C:\www\kj\snadmin\Shop\Controller\ProjectController.class.php 第 41 行.
+SQL: SELECT jk_shop_project.*,jk_shop_leibie.name as pidname FROM `jk_shop_project` INNER JOIN jk_shop_leibie ON jk_shop_project.pid = jk_shop_leibie.id  LIMIT 0,12   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_shop_project` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: 0 C:\www\kj\snadmin\Runtime\Cache\Shop\241f713410b555ac0a5080c8992ebefa.php 第 78 行.
+NOTIC: [8] Undefined variable: 0 C:\www\kj\snadmin\Runtime\Cache\Shop\241f713410b555ac0a5080c8992ebefa.php 第 78 行.
+NOTIC: [8] Undefined variable: 0 C:\www\kj\snadmin\Runtime\Cache\Shop\241f713410b555ac0a5080c8992ebefa.php 第 78 行.
+NOTIC: [8] Undefined variable: 0 C:\www\kj\snadmin\Runtime\Cache\Shop\241f713410b555ac0a5080c8992ebefa.php 第 78 行.
+NOTIC: [8] Undefined variable: 4 C:\www\kj\snadmin\Runtime\Cache\Shop\241f713410b555ac0a5080c8992ebefa.php 第 78 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-12-18T13:55:32+08:00 ] 127.0.0.1 /admin8899.php/Shop/Project/listProject
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0130s ]
+NOTIC: [8] Undefined index: p C:\www\kj\snadmin\Shop\Controller\ProjectController.class.php 第 41 行.
+SQL: SELECT jk_shop_project.*,jk_shop_leibie.name as pidname FROM `jk_shop_project` INNER JOIN jk_shop_leibie ON jk_shop_project.pid = jk_shop_leibie.id  LIMIT 0,12   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_shop_project` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: 0 C:\www\kj\snadmin\Runtime\Cache\Shop\241f713410b555ac0a5080c8992ebefa.php 第 78 行.
+NOTIC: [8] Undefined variable: 0 C:\www\kj\snadmin\Runtime\Cache\Shop\241f713410b555ac0a5080c8992ebefa.php 第 78 行.
+NOTIC: [8] Undefined variable: 0 C:\www\kj\snadmin\Runtime\Cache\Shop\241f713410b555ac0a5080c8992ebefa.php 第 78 行.
+NOTIC: [8] Undefined variable: 0 C:\www\kj\snadmin\Runtime\Cache\Shop\241f713410b555ac0a5080c8992ebefa.php 第 78 行.
+NOTIC: [8] Undefined variable: 4 C:\www\kj\snadmin\Runtime\Cache\Shop\241f713410b555ac0a5080c8992ebefa.php 第 78 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-12-18T13:56:54+08:00 ] 127.0.0.1 /admin8899.php/Shop/Project/listProject
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0130s ]
+NOTIC: [8] Undefined index: p C:\www\kj\snadmin\Shop\Controller\ProjectController.class.php 第 41 行.
+SQL: SELECT jk_shop_project.*,jk_shop_leibie.name as pidname FROM `jk_shop_project` INNER JOIN jk_shop_leibie ON jk_shop_project.pid = jk_shop_leibie.id  LIMIT 0,12   [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_shop_project` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-12-18T13:57:39+08:00 ] 127.0.0.1 /admin8899.php/Shop/Project/listProject
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0140s ]
+NOTIC: [8] Undefined index: p C:\www\kj\snadmin\Shop\Controller\ProjectController.class.php 第 41 行.
+SQL: SELECT jk_shop_project.*,jk_shop_leibie.name as pidname FROM `jk_shop_project` INNER JOIN jk_shop_leibie ON jk_shop_project.pid = jk_shop_leibie.id  LIMIT 0,12   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_shop_project` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-12-18T13:57:55+08:00 ] 127.0.0.1 /admin8899.php/Shop/Project/project/id/210
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_leibie` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `jk_shop_leibie`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE `id` = 210 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: caution C:\www\kj\snadmin\Runtime\Cache\Shop\e3336a36d5e7f6015c8807a35198cbb4.php 第 102 行.
+NOTIC: [8] Undefined variable: caution C:\www\kj\snadmin\Runtime\Cache\Shop\e3336a36d5e7f6015c8807a35198cbb4.php 第 200 行.
+NOTIC: [8] Undefined variable: page C:\www\kj\snadmin\Runtime\Cache\Shop\e3336a36d5e7f6015c8807a35198cbb4.php 第 304 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-12-18T14:00:12+08:00 ] 127.0.0.1 /admin8899.php/Shop/Project/updateProject/id/210
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0080s ]
+SQL: UPDATE `jk_shop_project` SET `pid`='21',`name`='初级矿场',`title`='初级矿场',`old_price`='100',`price`='100',`point`='1000',`stock`='99999',`fjed`='0.01527778',`imagepath`='/Uploads/Pic/2018-02-11/5a7fbdf30c3db.png',`b_imagepath`='/Public/bang/images/kj_icon_wxy.png',`content`='初级矿场：价格10AD，算力为0.01GH/s，运行周期为720小时，每小时产量0.01527778AD，总收益11AD （AD可在交易中心获得）',`encontent`='
+	Primary mine: price 10AD, calculating power 0.01GH/s, operating cycle 720 hours, output 0.01527778AD per hour, total income 11AD (AD can be obtained in the trading center)
+',`qwsl`='',`kjsl`='0.01',`yxzq`='720',`enname`='Primary quarry',`ads_condition`='0' WHERE `id` = 210 [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-12-18T14:00:15+08:00 ] 127.0.0.1 /admin8899.php/Shop/Project/project/id/210
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_leibie` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `jk_shop_leibie`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE `id` = 210 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: caution C:\www\kj\snadmin\Runtime\Cache\Shop\e3336a36d5e7f6015c8807a35198cbb4.php 第 102 行.
+NOTIC: [8] Undefined variable: caution C:\www\kj\snadmin\Runtime\Cache\Shop\e3336a36d5e7f6015c8807a35198cbb4.php 第 200 行.
+NOTIC: [8] Undefined variable: page C:\www\kj\snadmin\Runtime\Cache\Shop\e3336a36d5e7f6015c8807a35198cbb4.php 第 304 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-12-18T14:00:17+08:00 ] 127.0.0.1 /admin8899.php/Shop/Project/listProject
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: p C:\www\kj\snadmin\Shop\Controller\ProjectController.class.php 第 41 行.
+SQL: SELECT jk_shop_project.*,jk_shop_leibie.name as pidname FROM `jk_shop_project` INNER JOIN jk_shop_leibie ON jk_shop_project.pid = jk_shop_leibie.id  LIMIT 0,12   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_shop_project` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-18T14:00:30+08:00 ] 127.0.0.1 /admin8899.php/Shop/Project/project/id/216
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_leibie` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `jk_shop_leibie`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE `id` = 216 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: caution C:\www\kj\snadmin\Runtime\Cache\Shop\e3336a36d5e7f6015c8807a35198cbb4.php 第 102 行.
+NOTIC: [8] Undefined variable: caution C:\www\kj\snadmin\Runtime\Cache\Shop\e3336a36d5e7f6015c8807a35198cbb4.php 第 200 行.
+NOTIC: [8] Undefined variable: page C:\www\kj\snadmin\Runtime\Cache\Shop\e3336a36d5e7f6015c8807a35198cbb4.php 第 304 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-12-18T14:02:12+08:00 ] 127.0.0.1 /admin8899.php/Shop/Project/updateProject/id/216
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0110s ]
+SQL: UPDATE `jk_shop_project` SET `pid`='21',`name`='中级矿场',`title`='中级矿场',`old_price`='300',`price`='300',`point`='3000',`stock`='99999',`fjed`='0.16666667',`imagepath`='/Uploads/Pic/2018-02-11/5a7fbe0bd9e90.png',`b_imagepath`='/Public/bang/images/kj_icon_xxy.png',`content`='中级矿场：价格300AD，算力为0.1GH/s，运行周期为720小时，每小时产量0.16666667AD，总收益120AD （AD可在交易中心获得）',`encontent`='Intermediate mine: price 300AD,computing power 0.1GH/s,Operation period is 720 hours,Output per hour 0.16666667AD,Total revenue was 120AD（AD can be obtained at the trading center）',`qwsl`='',`kjsl`='0.1',`yxzq`='720',`enname`='Intermediate mine',`ads_condition`='1' WHERE `id` = 216 [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-12-18T14:02:15+08:00 ] 127.0.0.1 /admin8899.php/Shop/Project/project/id/216
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_leibie` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `jk_shop_leibie`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE `id` = 216 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: caution C:\www\kj\snadmin\Runtime\Cache\Shop\e3336a36d5e7f6015c8807a35198cbb4.php 第 102 行.
+NOTIC: [8] Undefined variable: caution C:\www\kj\snadmin\Runtime\Cache\Shop\e3336a36d5e7f6015c8807a35198cbb4.php 第 200 行.
+NOTIC: [8] Undefined variable: page C:\www\kj\snadmin\Runtime\Cache\Shop\e3336a36d5e7f6015c8807a35198cbb4.php 第 304 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-12-18T14:02:16+08:00 ] 127.0.0.1 /admin8899.php/Shop/Project/listProject
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0130s ]
+NOTIC: [8] Undefined index: p C:\www\kj\snadmin\Shop\Controller\ProjectController.class.php 第 41 行.
+SQL: SELECT jk_shop_project.*,jk_shop_leibie.name as pidname FROM `jk_shop_project` INNER JOIN jk_shop_leibie ON jk_shop_project.pid = jk_shop_leibie.id  LIMIT 0,12   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_shop_project` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-12-18T14:02:18+08:00 ] 127.0.0.1 /admin8899.php/Shop/Project/project/id/210
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_leibie` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `jk_shop_leibie`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE `id` = 210 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: caution C:\www\kj\snadmin\Runtime\Cache\Shop\e3336a36d5e7f6015c8807a35198cbb4.php 第 102 行.
+NOTIC: [8] Undefined variable: caution C:\www\kj\snadmin\Runtime\Cache\Shop\e3336a36d5e7f6015c8807a35198cbb4.php 第 200 行.
+NOTIC: [8] Undefined variable: page C:\www\kj\snadmin\Runtime\Cache\Shop\e3336a36d5e7f6015c8807a35198cbb4.php 第 304 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-12-18T14:02:37+08:00 ] 127.0.0.1 /admin8899.php/Shop/Project/updateProject/id/210
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0070s ]
+SQL: UPDATE `jk_shop_project` SET `pid`='21',`name`='初级矿场',`title`='初级矿场',`old_price`='100',`price`='100',`point`='1000',`stock`='99999',`fjed`='0.01527778',`imagepath`='/Uploads/Pic/2018-02-11/5a7fbdf30c3db.png',`b_imagepath`='/Public/bang/images/kj_icon_wxy.png',`content`='初级矿场：价格100AD，算力为0.01GH/s，运行周期为720小时，每小时产量0.01527778AD，总收益11AD （AD可在交易中心获得）',`encontent`='Primary mine: price 100AD, calculating power 0.01GH/s, operating cycle 720 hours, output 0.01527778AD per hour, total income 11AD (AD can be obtained in the trading center)',`qwsl`='',`kjsl`='0.01',`yxzq`='720',`enname`='Primary quarry',`ads_condition`='0' WHERE `id` = 210 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-18T14:02:39+08:00 ] 127.0.0.1 /admin8899.php/Shop/Project/project/id/210
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_leibie` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `jk_shop_leibie`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE `id` = 210 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: caution C:\www\kj\snadmin\Runtime\Cache\Shop\e3336a36d5e7f6015c8807a35198cbb4.php 第 102 行.
+NOTIC: [8] Undefined variable: caution C:\www\kj\snadmin\Runtime\Cache\Shop\e3336a36d5e7f6015c8807a35198cbb4.php 第 200 行.
+NOTIC: [8] Undefined variable: page C:\www\kj\snadmin\Runtime\Cache\Shop\e3336a36d5e7f6015c8807a35198cbb4.php 第 304 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-12-18T14:04:31+08:00 ] 127.0.0.1 /admin8899.php/Shop/Project/updateProject/id/210
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0130s ]
+SQL: UPDATE `jk_shop_project` SET `pid`='21',`name`='初级矿场',`title`='初级矿场',`old_price`='100',`price`='100',`point`='1000',`stock`='99999',`fjed`='0.1527777777777778',`imagepath`='/Uploads/Pic/2018-02-11/5a7fbdf30c3db.png',`b_imagepath`='/Public/bang/images/kj_icon_wxy.png',`content`='初级矿场：价格100AD，算力为0.01GH/s，运行周期为720小时，每小时产量0.1527777777777778AD，总收益110AD （AD可在交易中心获得）',`encontent`='Primary mine: price 100AD, calculating power 0.01GH/s, operating cycle 720 hours, output 0.1527777777777778AD per hour, total income 110AD (AD can be obtained in the trading center)',`qwsl`='',`kjsl`='0.01',`yxzq`='720',`enname`='Primary quarry',`ads_condition`='0' WHERE `id` = 210 [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-12-18T14:04:34+08:00 ] 127.0.0.1 /admin8899.php/Shop/Project/project/id/210
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_leibie` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `jk_shop_leibie`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE `id` = 210 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: caution C:\www\kj\snadmin\Runtime\Cache\Shop\e3336a36d5e7f6015c8807a35198cbb4.php 第 102 行.
+NOTIC: [8] Undefined variable: caution C:\www\kj\snadmin\Runtime\Cache\Shop\e3336a36d5e7f6015c8807a35198cbb4.php 第 200 行.
+NOTIC: [8] Undefined variable: page C:\www\kj\snadmin\Runtime\Cache\Shop\e3336a36d5e7f6015c8807a35198cbb4.php 第 304 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-12-18T14:04:40+08:00 ] 127.0.0.1 /admin8899.php/Shop/Project/listProject
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0130s ]
+NOTIC: [8] Undefined index: p C:\www\kj\snadmin\Shop\Controller\ProjectController.class.php 第 41 行.
+SQL: SELECT jk_shop_project.*,jk_shop_leibie.name as pidname FROM `jk_shop_project` INNER JOIN jk_shop_leibie ON jk_shop_project.pid = jk_shop_leibie.id  LIMIT 0,12   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_shop_project` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-12-18T14:05:20+08:00 ] 127.0.0.1 /admin8899.php/Shop/Project/project/id/216
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_leibie` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `jk_shop_leibie`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE `id` = 216 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: caution C:\www\kj\snadmin\Runtime\Cache\Shop\e3336a36d5e7f6015c8807a35198cbb4.php 第 102 行.
+NOTIC: [8] Undefined variable: caution C:\www\kj\snadmin\Runtime\Cache\Shop\e3336a36d5e7f6015c8807a35198cbb4.php 第 200 行.
+NOTIC: [8] Undefined variable: page C:\www\kj\snadmin\Runtime\Cache\Shop\e3336a36d5e7f6015c8807a35198cbb4.php 第 304 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-18T14:06:29+08:00 ] 127.0.0.1 /admin8899.php/Shop/Project/updateProject/id/216
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0140s ]
+SQL: UPDATE `jk_shop_project` SET `pid`='21',`name`='中级矿场',`title`='中级矿场',`old_price`='300',`price`='300',`point`='3000',`stock`='99999',`fjed`='0.4444444444444444',`imagepath`='/Uploads/Pic/2018-02-11/5a7fbe0bd9e90.png',`b_imagepath`='/Public/bang/images/kj_icon_xxy.png',`content`='中级矿场：价格300AD，算力为0.1GH/s，运行周期为720小时，每小时产量0.4444444444444444AD，总收益320AD （AD可在交易中心获得）',`encontent`='Intermediate mine: price 300AD,computing power 0.1GH/s,Operation period is 720 hours,Output per hour 0.4444444444444444AD,Total revenue was 320AD（AD can be obtained at the trading center）',`qwsl`='',`kjsl`='0.1',`yxzq`='720',`enname`='Intermediate mine',`ads_condition`='1' WHERE `id` = 216 [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-18T14:06:32+08:00 ] 127.0.0.1 /admin8899.php/Shop/Project/project/id/216
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_leibie` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `jk_shop_leibie`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE `id` = 216 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: caution C:\www\kj\snadmin\Runtime\Cache\Shop\e3336a36d5e7f6015c8807a35198cbb4.php 第 102 行.
+NOTIC: [8] Undefined variable: caution C:\www\kj\snadmin\Runtime\Cache\Shop\e3336a36d5e7f6015c8807a35198cbb4.php 第 200 行.
+NOTIC: [8] Undefined variable: page C:\www\kj\snadmin\Runtime\Cache\Shop\e3336a36d5e7f6015c8807a35198cbb4.php 第 304 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-18T14:06:34+08:00 ] 127.0.0.1 /admin8899.php/Shop/Project/listProject
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0130s ]
+NOTIC: [8] Undefined index: p C:\www\kj\snadmin\Shop\Controller\ProjectController.class.php 第 41 行.
+SQL: SELECT jk_shop_project.*,jk_shop_leibie.name as pidname FROM `jk_shop_project` INNER JOIN jk_shop_leibie ON jk_shop_project.pid = jk_shop_leibie.id  LIMIT 0,12   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_shop_project` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-18T14:07:09+08:00 ] 127.0.0.1 /admin8899.php/Shop/Project/project/id/210
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_leibie` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `jk_shop_leibie`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE `id` = 210 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: caution C:\www\kj\snadmin\Runtime\Cache\Shop\e3336a36d5e7f6015c8807a35198cbb4.php 第 102 行.
+NOTIC: [8] Undefined variable: caution C:\www\kj\snadmin\Runtime\Cache\Shop\e3336a36d5e7f6015c8807a35198cbb4.php 第 200 行.
+NOTIC: [8] Undefined variable: page C:\www\kj\snadmin\Runtime\Cache\Shop\e3336a36d5e7f6015c8807a35198cbb4.php 第 304 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-12-18T14:07:13+08:00 ] 127.0.0.1 /admin8899.php/Shop/Project/listProject
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: p C:\www\kj\snadmin\Shop\Controller\ProjectController.class.php 第 41 行.
+SQL: SELECT jk_shop_project.*,jk_shop_leibie.name as pidname FROM `jk_shop_project` INNER JOIN jk_shop_leibie ON jk_shop_project.pid = jk_shop_leibie.id  LIMIT 0,12   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_shop_project` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-12-18T14:07:15+08:00 ] 127.0.0.1 /admin8899.php/Shop/Project/project/id/216
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_leibie` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `jk_shop_leibie`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE `id` = 216 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: caution C:\www\kj\snadmin\Runtime\Cache\Shop\e3336a36d5e7f6015c8807a35198cbb4.php 第 102 行.
+NOTIC: [8] Undefined variable: caution C:\www\kj\snadmin\Runtime\Cache\Shop\e3336a36d5e7f6015c8807a35198cbb4.php 第 200 行.
+NOTIC: [8] Undefined variable: page C:\www\kj\snadmin\Runtime\Cache\Shop\e3336a36d5e7f6015c8807a35198cbb4.php 第 304 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-12-18T14:07:47+08:00 ] 127.0.0.1 /admin8899.php/Shop/Project/updateProject/id/216
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0140s ]
+SQL: UPDATE `jk_shop_project` SET `pid`='21',`name`='中级矿机',`title`='中级矿机',`old_price`='300',`price`='300',`point`='3000',`stock`='99999',`fjed`='0.4444444444444444',`imagepath`='/Uploads/Pic/2018-02-11/5a7fbe0bd9e90.png',`b_imagepath`='/Public/bang/images/kj_icon_xxy.png',`content`='中级矿机：价格300AD，算力为0.1GH/s，运行周期为720小时，每小时产量0.4444444444444444AD，总收益320AD （AD可在交易中心获得）',`encontent`='Intermediate mining machine: price 300AD,computing power 0.1GH/s,Operation period is 720 hours,Output per hour 0.4444444444444444AD,Total revenue was 320AD（AD can be obtained at the trading center）',`qwsl`='',`kjsl`='0.1',`yxzq`='720',`enname`='Intermediate mining machine',`ads_condition`='1' WHERE `id` = 216 [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-12-18T14:07:49+08:00 ] 127.0.0.1 /admin8899.php/Shop/Project/project/id/216
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_leibie` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `jk_shop_leibie`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE `id` = 216 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: caution C:\www\kj\snadmin\Runtime\Cache\Shop\e3336a36d5e7f6015c8807a35198cbb4.php 第 102 行.
+NOTIC: [8] Undefined variable: caution C:\www\kj\snadmin\Runtime\Cache\Shop\e3336a36d5e7f6015c8807a35198cbb4.php 第 200 行.
+NOTIC: [8] Undefined variable: page C:\www\kj\snadmin\Runtime\Cache\Shop\e3336a36d5e7f6015c8807a35198cbb4.php 第 304 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-12-18T14:07:51+08:00 ] 127.0.0.1 /admin8899.php/Shop/Project/listProject
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0150s ]
+NOTIC: [8] Undefined index: p C:\www\kj\snadmin\Shop\Controller\ProjectController.class.php 第 41 行.
+SQL: SELECT jk_shop_project.*,jk_shop_leibie.name as pidname FROM `jk_shop_project` INNER JOIN jk_shop_leibie ON jk_shop_project.pid = jk_shop_leibie.id  LIMIT 0,12   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_shop_project` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-18T14:08:33+08:00 ] 127.0.0.1 /admin8899.php/Shop/Project/project/id/210
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_leibie` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `jk_shop_leibie`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE `id` = 210 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: caution C:\www\kj\snadmin\Runtime\Cache\Shop\e3336a36d5e7f6015c8807a35198cbb4.php 第 102 行.
+NOTIC: [8] Undefined variable: caution C:\www\kj\snadmin\Runtime\Cache\Shop\e3336a36d5e7f6015c8807a35198cbb4.php 第 200 行.
+NOTIC: [8] Undefined variable: page C:\www\kj\snadmin\Runtime\Cache\Shop\e3336a36d5e7f6015c8807a35198cbb4.php 第 304 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-12-18T14:08:53+08:00 ] 127.0.0.1 /admin8899.php/Shop/Project/updateProject/id/210
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0130s ]
+SQL: UPDATE `jk_shop_project` SET `pid`='21',`name`='初级矿机',`title`='初级矿机',`old_price`='100',`price`='100',`point`='1000',`stock`='99999',`fjed`='0.1527777777777778',`imagepath`='/Uploads/Pic/2018-02-11/5a7fbdf30c3db.png',`b_imagepath`='/Public/bang/images/kj_icon_wxy.png',`content`='初级矿机：价格100AD，算力为0.01GH/s，运行周期为720小时，每小时产量0.1527777777777778AD，总收益110AD （AD可在交易中心获得）',`encontent`='Primary mining machine: price 100AD, calculating power 0.01GH/s, operating cycle 720 hours, output 0.1527777777777778AD per hour, total income 110AD (AD can be obtained in the trading center)',`qwsl`='',`kjsl`='0.01',`yxzq`='720',`enname`='Primary mining machine',`ads_condition`='0' WHERE `id` = 210 [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-12-18T14:08:56+08:00 ] 127.0.0.1 /admin8899.php/Shop/Project/project/id/210
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_leibie` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `jk_shop_leibie`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE `id` = 210 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: caution C:\www\kj\snadmin\Runtime\Cache\Shop\e3336a36d5e7f6015c8807a35198cbb4.php 第 102 行.
+NOTIC: [8] Undefined variable: caution C:\www\kj\snadmin\Runtime\Cache\Shop\e3336a36d5e7f6015c8807a35198cbb4.php 第 200 行.
+NOTIC: [8] Undefined variable: page C:\www\kj\snadmin\Runtime\Cache\Shop\e3336a36d5e7f6015c8807a35198cbb4.php 第 304 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-12-18T14:08:59+08:00 ] 127.0.0.1 /admin8899.php/Shop/Project/listProject
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0130s ]
+NOTIC: [8] Undefined index: p C:\www\kj\snadmin\Shop\Controller\ProjectController.class.php 第 41 行.
+SQL: SELECT jk_shop_project.*,jk_shop_leibie.name as pidname FROM `jk_shop_project` INNER JOIN jk_shop_leibie ON jk_shop_project.pid = jk_shop_leibie.id  LIMIT 0,12   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_shop_project` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-18T14:09:07+08:00 ] 127.0.0.1 /admin8899.php/Shop/Project/project/id/217
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_leibie` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `jk_shop_leibie`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE `id` = 217 LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: caution C:\www\kj\snadmin\Runtime\Cache\Shop\e3336a36d5e7f6015c8807a35198cbb4.php 第 102 行.
+NOTIC: [8] Undefined variable: caution C:\www\kj\snadmin\Runtime\Cache\Shop\e3336a36d5e7f6015c8807a35198cbb4.php 第 200 行.
+NOTIC: [8] Undefined variable: page C:\www\kj\snadmin\Runtime\Cache\Shop\e3336a36d5e7f6015c8807a35198cbb4.php 第 304 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-12-18T14:12:10+08:00 ] 127.0.0.1 /admin8899.php/Shop/Project/updateProject/id/217
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0130s ]
+SQL: UPDATE `jk_shop_project` SET `pid`='21',`name`='高级矿机',`title`='高级矿机',`old_price`='500',`price`='500',`point`='5000',`stock`='99999',`fjed`='0.9027777777777778',`imagepath`='/Uploads/Pic/2018-02-11/5a7fbe25ce10c.png',`b_imagepath`='/Public/bang/images/kj_icon_zxy.png',`content`='高级矿机：价格500AD，算力为1GH/s，运行周期为720小时，每小时产量0.9027777777777778AD，总收益为650AD（AD可在交易中心获得）',`encontent`='High-grade mining machine: price 500AD,computing power 1GH/s,Operation period is 720 hours,Output per hour 0.9027777777777778AD,Total revenue was 650AD（AD&amp;nbsp;can be obtained at the trading center）',`qwsl`='',`kjsl`='1',`yxzq`='720',`enname`='High-grade mining machine',`ads_condition`='2' WHERE `id` = 217 [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-12-18T14:12:12+08:00 ] 127.0.0.1 /admin8899.php/Shop/Project/project/id/217
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_leibie` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `jk_shop_leibie`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE `id` = 217 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: caution C:\www\kj\snadmin\Runtime\Cache\Shop\e3336a36d5e7f6015c8807a35198cbb4.php 第 102 行.
+NOTIC: [8] Undefined variable: caution C:\www\kj\snadmin\Runtime\Cache\Shop\e3336a36d5e7f6015c8807a35198cbb4.php 第 200 行.
+NOTIC: [8] Undefined variable: page C:\www\kj\snadmin\Runtime\Cache\Shop\e3336a36d5e7f6015c8807a35198cbb4.php 第 304 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-12-18T14:12:15+08:00 ] 127.0.0.1 /admin8899.php/Shop/Project/listProject
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0160s ]
+NOTIC: [8] Undefined index: p C:\www\kj\snadmin\Shop\Controller\ProjectController.class.php 第 41 行.
+SQL: SELECT jk_shop_project.*,jk_shop_leibie.name as pidname FROM `jk_shop_project` INNER JOIN jk_shop_leibie ON jk_shop_project.pid = jk_shop_leibie.id  LIMIT 0,12   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_shop_project` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-18T14:12:31+08:00 ] 127.0.0.1 /admin8899.php/Shop/Project/project/id/218
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_leibie` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `jk_shop_leibie`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE `id` = 218 LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: caution C:\www\kj\snadmin\Runtime\Cache\Shop\e3336a36d5e7f6015c8807a35198cbb4.php 第 102 行.
+NOTIC: [8] Undefined variable: caution C:\www\kj\snadmin\Runtime\Cache\Shop\e3336a36d5e7f6015c8807a35198cbb4.php 第 200 行.
+NOTIC: [8] Undefined variable: page C:\www\kj\snadmin\Runtime\Cache\Shop\e3336a36d5e7f6015c8807a35198cbb4.php 第 304 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-12-18T14:12:33+08:00 ] 127.0.0.1 /admin8899.php/Shop/Project/listProject
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: p C:\www\kj\snadmin\Shop\Controller\ProjectController.class.php 第 41 行.
+SQL: SELECT jk_shop_project.*,jk_shop_leibie.name as pidname FROM `jk_shop_project` INNER JOIN jk_shop_leibie ON jk_shop_project.pid = jk_shop_leibie.id  LIMIT 0,12   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_shop_project` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-12-18T14:12:37+08:00 ] 127.0.0.1 /admin8899.php/Shop/Project/project/id/218
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_leibie` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `jk_shop_leibie`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE `id` = 218 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: caution C:\www\kj\snadmin\Runtime\Cache\Shop\e3336a36d5e7f6015c8807a35198cbb4.php 第 102 行.
+NOTIC: [8] Undefined variable: caution C:\www\kj\snadmin\Runtime\Cache\Shop\e3336a36d5e7f6015c8807a35198cbb4.php 第 200 行.
+NOTIC: [8] Undefined variable: page C:\www\kj\snadmin\Runtime\Cache\Shop\e3336a36d5e7f6015c8807a35198cbb4.php 第 304 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-12-18T14:15:26+08:00 ] 127.0.0.1 /admin8899.php/Shop/Project/updateProject/id/218
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0170s ]
+SQL: UPDATE `jk_shop_project` SET `pid`='21',`name`='超级矿机',`title`='超级矿机',`old_price`='700',`price`='700',`point`='7000',`stock`='99999',`fjed`='1.361111111111111',`imagepath`='/Uploads/Pic/2018-02-11/5a7fbe387c4b8.png',`b_imagepath`='/Public/bang/images/kj_icon_dxy.png',`content`='超级矿机：价格700AD，算力为10GH/s，运行周期为720小时，每小时产量1.361111111111111AD，总收益为980AD（GEC可在交易中心获得）',`encontent`='Super mining machine : price 700AD,computing power 10GH/s,Operation period is 720 hours,Output per hour 1.361111111111111AD,Total revenue was 980AD（GEC can be obtained at the trading center）',`qwsl`='',`kjsl`='10',`yxzq`='720',`enname`='Super mining machine',`ads_condition`='3' WHERE `id` = 218 [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-12-18T14:15:28+08:00 ] 127.0.0.1 /admin8899.php/Shop/Project/project/id/218
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_leibie` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `jk_shop_leibie`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE `id` = 218 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: caution C:\www\kj\snadmin\Runtime\Cache\Shop\e3336a36d5e7f6015c8807a35198cbb4.php 第 102 行.
+NOTIC: [8] Undefined variable: caution C:\www\kj\snadmin\Runtime\Cache\Shop\e3336a36d5e7f6015c8807a35198cbb4.php 第 200 行.
+NOTIC: [8] Undefined variable: page C:\www\kj\snadmin\Runtime\Cache\Shop\e3336a36d5e7f6015c8807a35198cbb4.php 第 304 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-12-18T14:15:31+08:00 ] 127.0.0.1 /admin8899.php/Shop/Project/listProject
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0140s ]
+NOTIC: [8] Undefined index: p C:\www\kj\snadmin\Shop\Controller\ProjectController.class.php 第 41 行.
+SQL: SELECT jk_shop_project.*,jk_shop_leibie.name as pidname FROM `jk_shop_project` INNER JOIN jk_shop_leibie ON jk_shop_project.pid = jk_shop_leibie.id  LIMIT 0,12   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_shop_project` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-18T14:16:20+08:00 ] 127.0.0.1 /admin8899.php/Shop/Project/project/id/219
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_leibie` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `jk_shop_leibie`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE `id` = 219 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: caution C:\www\kj\snadmin\Runtime\Cache\Shop\e3336a36d5e7f6015c8807a35198cbb4.php 第 102 行.
+NOTIC: [8] Undefined variable: caution C:\www\kj\snadmin\Runtime\Cache\Shop\e3336a36d5e7f6015c8807a35198cbb4.php 第 200 行.
+NOTIC: [8] Undefined variable: page C:\www\kj\snadmin\Runtime\Cache\Shop\e3336a36d5e7f6015c8807a35198cbb4.php 第 304 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-18T14:16:39+08:00 ] 127.0.0.1 /admin8899.php/Shop/Project/updateProject/id/219
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0050s ]
+SQL: UPDATE `jk_shop_project` SET `pid`='21',`name`='专家矿机',`title`='专家矿机',`old_price`='100000',`price`='100000',`point`='9000',`stock`='99999',`fjed`='208.333333',`imagepath`='/Uploads/Pic/2018-02-11/5a7fbe4abc06c.png',`b_imagepath`='/Public/bang/images/kj_icon_cjy.png',`content`='专家矿机：价格100000GEC，算力为100GH/s，运行周期为720小时，每小时产量208.333333GEC，总收益为150000GEC（GEC可在交易中心获得）',`encontent`='Super cloud machine: price 100000GEC,computing power 100GH/s,Operation period is 720 hours,Output per hour 208.333333GEC,Total revenue was 150000GEC （GECcan be obtained at the trading center）',`qwsl`='',`kjsl`='100',`yxzq`='720',`enname`='Expert ',`ads_condition`='4' WHERE `id` = 219 [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-12-18T14:16:41+08:00 ] 127.0.0.1 /admin8899.php/Shop/Project/project/id/219
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_leibie` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `jk_shop_leibie`  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE `id` = 219 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: caution C:\www\kj\snadmin\Runtime\Cache\Shop\e3336a36d5e7f6015c8807a35198cbb4.php 第 102 行.
+NOTIC: [8] Undefined variable: caution C:\www\kj\snadmin\Runtime\Cache\Shop\e3336a36d5e7f6015c8807a35198cbb4.php 第 200 行.
+NOTIC: [8] Undefined variable: page C:\www\kj\snadmin\Runtime\Cache\Shop\e3336a36d5e7f6015c8807a35198cbb4.php 第 304 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-12-18T14:16:43+08:00 ] 127.0.0.1 /admin8899.php/Shop/Project/listProject
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: p C:\www\kj\snadmin\Shop\Controller\ProjectController.class.php 第 41 行.
+SQL: SELECT jk_shop_project.*,jk_shop_leibie.name as pidname FROM `jk_shop_project` INNER JOIN jk_shop_leibie ON jk_shop_project.pid = jk_shop_leibie.id  LIMIT 0,12   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_shop_project` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-12-18T14:16:50+08:00 ] 127.0.0.1 /admin8899.php/Shop/Project/project/id/219
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_leibie` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `jk_shop_leibie`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE `id` = 219 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: caution C:\www\kj\snadmin\Runtime\Cache\Shop\e3336a36d5e7f6015c8807a35198cbb4.php 第 102 行.
+NOTIC: [8] Undefined variable: caution C:\www\kj\snadmin\Runtime\Cache\Shop\e3336a36d5e7f6015c8807a35198cbb4.php 第 200 行.
+NOTIC: [8] Undefined variable: page C:\www\kj\snadmin\Runtime\Cache\Shop\e3336a36d5e7f6015c8807a35198cbb4.php 第 304 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-18T14:18:52+08:00 ] 127.0.0.1 /admin8899.php/Shop/Project/updateProject/id/219
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0150s ]
+SQL: UPDATE `jk_shop_project` SET `pid`='21',`name`='专家矿机',`title`='专家矿机',`old_price`='900',`price`='900',`point`='9000',`stock`='99999',`fjed`='1.875',`imagepath`='/Uploads/Pic/2018-02-11/5a7fbe4abc06c.png',`b_imagepath`='/Public/bang/images/kj_icon_cjy.png',`content`='专家矿机：价格900AD，算力为100GH/s，运行周期为720小时，每小时产量1.875AD，总收益为1350AD（AD可在交易中心获得）',`encontent`='Expert mining machine: price 900AD,computing power 100GH/s,Operation period is 720 hours,Output per hour 1.875AD,Total revenue was 1350AD（AD can be obtained at the trading center）',`qwsl`='',`kjsl`='100',`yxzq`='720',`enname`='Expert mining machine',`ads_condition`='4' WHERE `id` = 219 [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-12-18T14:18:55+08:00 ] 127.0.0.1 /admin8899.php/Shop/Project/project/id/219
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_leibie` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `jk_shop_leibie`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE `id` = 219 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: caution C:\www\kj\snadmin\Runtime\Cache\Shop\e3336a36d5e7f6015c8807a35198cbb4.php 第 102 行.
+NOTIC: [8] Undefined variable: caution C:\www\kj\snadmin\Runtime\Cache\Shop\e3336a36d5e7f6015c8807a35198cbb4.php 第 200 行.
+NOTIC: [8] Undefined variable: page C:\www\kj\snadmin\Runtime\Cache\Shop\e3336a36d5e7f6015c8807a35198cbb4.php 第 304 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-12-18T14:18:56+08:00 ] 127.0.0.1 /admin8899.php/Shop/Project/listProject
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0130s ]
+NOTIC: [8] Undefined index: p C:\www\kj\snadmin\Shop\Controller\ProjectController.class.php 第 41 行.
+SQL: SELECT jk_shop_project.*,jk_shop_leibie.name as pidname FROM `jk_shop_project` INNER JOIN jk_shop_leibie ON jk_shop_project.pid = jk_shop_leibie.id  LIMIT 0,12   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_shop_project` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-12-18T14:19:01+08:00 ] 127.0.0.1 /admin8899.php/Shop/Project/project/id/218
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_leibie` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `jk_shop_leibie`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE `id` = 218 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: caution C:\www\kj\snadmin\Runtime\Cache\Shop\e3336a36d5e7f6015c8807a35198cbb4.php 第 102 行.
+NOTIC: [8] Undefined variable: caution C:\www\kj\snadmin\Runtime\Cache\Shop\e3336a36d5e7f6015c8807a35198cbb4.php 第 200 行.
+NOTIC: [8] Undefined variable: page C:\www\kj\snadmin\Runtime\Cache\Shop\e3336a36d5e7f6015c8807a35198cbb4.php 第 304 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-12-18T14:19:10+08:00 ] 127.0.0.1 /admin8899.php/Shop/Project/updateProject/id/218
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0130s ]
+SQL: UPDATE `jk_shop_project` SET `pid`='21',`name`='超级矿机',`title`='超级矿机',`old_price`='700',`price`='700',`point`='7000',`stock`='99999',`fjed`='1.361111111111111',`imagepath`='/Uploads/Pic/2018-02-11/5a7fbe387c4b8.png',`b_imagepath`='/Public/bang/images/kj_icon_dxy.png',`content`='超级矿机：价格700AD，算力为10GH/s，运行周期为720小时，每小时产量1.361111111111111AD，总收益为980AD（GEC可在交易中心获得）',`encontent`='Super mining machine : price 700AD,computing power 10GH/s,Operation period is 720 hours,Output per hour 1.361111111111111AD,Total revenue was 980AD（AD&amp;nbsp;can be obtained at the trading center）',`qwsl`='',`kjsl`='10',`yxzq`='720',`enname`='Super mining machine',`ads_condition`='3' WHERE `id` = 218 [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-12-18T14:19:13+08:00 ] 127.0.0.1 /admin8899.php/Shop/Project/project/id/218
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_leibie` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `jk_shop_leibie`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE `id` = 218 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: caution C:\www\kj\snadmin\Runtime\Cache\Shop\e3336a36d5e7f6015c8807a35198cbb4.php 第 102 行.
+NOTIC: [8] Undefined variable: caution C:\www\kj\snadmin\Runtime\Cache\Shop\e3336a36d5e7f6015c8807a35198cbb4.php 第 200 行.
+NOTIC: [8] Undefined variable: page C:\www\kj\snadmin\Runtime\Cache\Shop\e3336a36d5e7f6015c8807a35198cbb4.php 第 304 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-12-18T14:19:20+08:00 ] 127.0.0.1 /admin8899.php/Shop/Project/updateProject/id/218
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0140s ]
+SQL: UPDATE `jk_shop_project` SET `pid`='21',`name`='超级矿机',`title`='超级矿机',`old_price`='700',`price`='700',`point`='7000',`stock`='99999',`fjed`='1.361111111111111',`imagepath`='/Uploads/Pic/2018-02-11/5a7fbe387c4b8.png',`b_imagepath`='/Public/bang/images/kj_icon_dxy.png',`content`='超级矿机：价格700AD，算力为10GH/s，运行周期为720小时，每小时产量1.361111111111111AD，总收益为980AD（AD可在交易中心获得）',`encontent`='Super mining machine : price 700AD,computing power 10GH/s,Operation period is 720 hours,Output per hour 1.361111111111111AD,Total revenue was 980AD（AD&amp;nbsp;can be obtained at the trading center）',`qwsl`='',`kjsl`='10',`yxzq`='720',`enname`='Super mining machine',`ads_condition`='3' WHERE `id` = 218 [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-12-18T14:19:22+08:00 ] 127.0.0.1 /admin8899.php/Shop/Project/project/id/218
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_leibie` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `jk_shop_leibie`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE `id` = 218 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: caution C:\www\kj\snadmin\Runtime\Cache\Shop\e3336a36d5e7f6015c8807a35198cbb4.php 第 102 行.
+NOTIC: [8] Undefined variable: caution C:\www\kj\snadmin\Runtime\Cache\Shop\e3336a36d5e7f6015c8807a35198cbb4.php 第 200 行.
+NOTIC: [8] Undefined variable: page C:\www\kj\snadmin\Runtime\Cache\Shop\e3336a36d5e7f6015c8807a35198cbb4.php 第 304 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-12-18T14:19:24+08:00 ] 127.0.0.1 /admin8899.php/Shop/Project/listProject
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0120s ]
+NOTIC: [8] Undefined index: p C:\www\kj\snadmin\Shop\Controller\ProjectController.class.php 第 41 行.
+SQL: SELECT jk_shop_project.*,jk_shop_leibie.name as pidname FROM `jk_shop_project` INNER JOIN jk_shop_leibie ON jk_shop_project.pid = jk_shop_leibie.id  LIMIT 0,12   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_shop_project` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-12-18T14:19:32+08:00 ] 127.0.0.1 /admin8899.php/Shop/Project/project/id/217
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_leibie` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `jk_shop_leibie`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE `id` = 217 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: caution C:\www\kj\snadmin\Runtime\Cache\Shop\e3336a36d5e7f6015c8807a35198cbb4.php 第 102 行.
+NOTIC: [8] Undefined variable: caution C:\www\kj\snadmin\Runtime\Cache\Shop\e3336a36d5e7f6015c8807a35198cbb4.php 第 200 行.
+NOTIC: [8] Undefined variable: page C:\www\kj\snadmin\Runtime\Cache\Shop\e3336a36d5e7f6015c8807a35198cbb4.php 第 304 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-12-18T14:19:38+08:00 ] 127.0.0.1 /admin8899.php/Shop/Project/listProject
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0160s ]
+NOTIC: [8] Undefined index: p C:\www\kj\snadmin\Shop\Controller\ProjectController.class.php 第 41 行.
+SQL: SELECT jk_shop_project.*,jk_shop_leibie.name as pidname FROM `jk_shop_project` INNER JOIN jk_shop_leibie ON jk_shop_project.pid = jk_shop_leibie.id  LIMIT 0,12   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_shop_project` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-12-18T14:19:42+08:00 ] 127.0.0.1 /admin8899.php/Shop/Project/project/id/216
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_leibie` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `jk_shop_leibie`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `jk_shop_project` WHERE `id` = 216 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: caution C:\www\kj\snadmin\Runtime\Cache\Shop\e3336a36d5e7f6015c8807a35198cbb4.php 第 102 行.
+NOTIC: [8] Undefined variable: caution C:\www\kj\snadmin\Runtime\Cache\Shop\e3336a36d5e7f6015c8807a35198cbb4.php 第 200 行.
+NOTIC: [8] Undefined variable: page C:\www\kj\snadmin\Runtime\Cache\Shop\e3336a36d5e7f6015c8807a35198cbb4.php 第 304 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-12-18T14:20:51+08:00 ] 127.0.0.1 /admin8899.php/Shop/Project/listProject
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0160s ]
+NOTIC: [8] Undefined index: p C:\www\kj\snadmin\Shop\Controller\ProjectController.class.php 第 41 行.
+SQL: SELECT jk_shop_project.*,jk_shop_leibie.name as pidname FROM `jk_shop_project` INNER JOIN jk_shop_leibie ON jk_shop_project.pid = jk_shop_leibie.id  LIMIT 0,12   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_shop_project` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

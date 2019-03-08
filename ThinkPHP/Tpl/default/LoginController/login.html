@@ -1,0 +1,190 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Mifcurrencyclub</title>
+<link href="/css/css.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/js/jquery-1.8.3.min.js"></script>
+
+<script type="text/javascript" src="/js/DD_belatedPNG_0.0.8a.js"></script>	
+	
+<script type="text/javascript">
+	DD_belatedPNG.fix('.login_button');
+</script>
+</head>
+
+<!--表单-->
+<script language="javascript" type="text/javascript">
+function clearText(field)
+{
+    if (field.defaultValue == field.value) field.value = '';
+    else if (field.value == '000000') field.value = field.defaultValue;
+}
+
+function clearText2(field)
+{
+    if (field.defaultValue == field.value){
+		field.value = '';
+		//document.getElementById("myHeader").innerHTML = "<img id='showcode' src='./include/tools/verify/VerCode.php?"+ Math.random() +"'/>"
+		
+	}
+    else if (field.value == '') field.value = field.defaultValue;
+}
+</script>
+ 
+
+ 
+ <script language="javascript" type="text/javascript">
+      	function formCheck1(){
+			var account	 = document.getElementById("account").value;
+			var password = document.getElementById("password").value;
+	        var verCode  = document.getElementById("verCode").value;
+			document.cookie="userId=1";
+			
+			if(account=='' || account=='UserName'){
+			
+				alert('請填寫會員編號！');
+				return false;
+			}else if(password=='' || password=='000000'){
+			
+				alert('請填寫密碼！');
+				return false;
+			}else if(verCode==''||verCode=='Captcha'){
+				alert('請填驗證碼！');
+				return false;
+			}else{
+
+				document.logFrm.submit();
+			}
+		}
+						
+ </script>
+ 
+
+  
+ <script language='javascript' type='text/javascript'>
+//window.onload=ChangeCode;
+
+function ChangeCode(){
+	document.images["showcode"].src="./include/tools/verify/VerCode.php?"+ Math.random();
+	$id("verCode").value = "";
+	$id("verCode").focus();
+
+//	loginform.username.focus();
+
+//	password1=null; initCalc();	//密码输入器初始化
+}
+
+//点击验证码框获取验证码
+function GetVerCode(str){
+	if ($id("showVerCode").innerHTML=="点击获取验证码"){
+		$id("showVerCode").innerHTML = "<img id='showcode' src='./include/tools/verify/VerCode.php?"+ Math.random() +"' align='top' style='cursor:pointer;' onclick=\"ChangeCode('change')\" alt='点击更换' />";	
+	}else if (str == "change"){
+		ChangeCode();
+	}
+}
+
+
+</script>
+
+ 
+
+<body id="loginbg">
+
+<div class="logo1"><img src="../../images/logo1.png"></div>
+<div class="lastdiv">
+
+
+<!--<a href="javascript:void(0);" id="close" class="fixed_qr_close"><s class="qricon s_s_close"></s></a>-->
+<div class="weixin_tit fl"><span style=" font-size:14px; color:#fff;"><a href="/2.html" target="_blank">二維碼掃描登錄(點擊查看大圖)</a></span></div>
+<div class="logo_en fl"><a href="/index.php?sn=home_en">English</a><a href="/index.php?sn=home_f">　简体</a><a href="/">繁體</a> </div>
+<div class="logo_en fl"><span id="siteseal"></span></div>
+
+<!--<script>
+$(function(){
+	$(".fixed_qr_close").click(function(){
+		$(".mod_qr").hide();
+	})
+})
+</script>-->
+
+</div>
+<div style="margin:0 auto;">
+<div id="log_wra_1000">
+
+<div class="login_div">
+
+<form name="logFrm" action="/user/act_login" method="post">
+
+
+
+<table id="sfdff" width="100" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><table id="dsfdfertgg" width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="185" valign="top"><div id="dr1"><input type="text" name="user_name" id="account" class="inp_sty_220x35" value="UserName" onFocus="clearText(this)" onBlur="clearText(this)"></div><div id="dr2"><input type="password" class="inp_sty_220x35" id="password"  value="000000" name="password" onFocus="clearText(this)" onBlur="clearText(this)"></div><div id="dr3"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td valign="top"><input type="text" name="validate_code" class="inp_sty_135x35" id="verCode" value="Captcha" onFocus="clearText2(this)" onBlur="clearText2(this)"></td>
+    <td valign="top">&nbsp;&nbsp;<img src="/index/verify/" name="myHeader" id="myHeader" onClick="this.src='/index/verify/'+ Math.random();" />
+	
+	</td>
+  </tr>
+
+</table>
+</div><div id="dr5">&nbsp;&nbsp;<a href="forget2.html" target="_blank">忘記密碼?</a></div></td>
+    <td valign="top"><div id="dr4">
+      <input name="buy22" id="t11" type="button" class="login_button login" value="" ></div></td>
+  </tr>
+  
+</table></td>
+  </tr>
+</table>
+<div class="link1">
+<span id="siteseal">
+</span>
+</div>
+</form>
+</div>
+
+<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="77%" align="right">
+    <td width="21%" align="right"></td>
+  </tr>
+</table>
+</div>
+</div>
+
+<script type="text/javascript">
+		$(function() {
+			
+			$(".login").click(function() {
+				$.ajax({
+					type: "post",
+					dataType : "json",
+					global : false,
+					url : "/User/act_login",
+					data : {
+						'user_name' : $("input[name='user_name']").val(),
+						'validate_code' : $("input[name='validate_code']").val(),
+						'password' : $("input[name='password']").val()
+					},
+					success : function(data, textStatus) {
+						if (data.status == 0) {
+							alert("login success");
+							window.location.href = "/";
+						}
+						else
+							alert(data.msg);
+						return ;
+					}
+					
+				});
+			});
+			});
+			
+	</script>
+</body>
+</html>
+
+

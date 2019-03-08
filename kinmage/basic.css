@@ -1,0 +1,335 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a {
+    color: #000;
+    font-size: 14px;
+    text-decoration: none;
+    border: none;
+}
+body {
+    width: 1200px;
+    margin: 0 auto;
+    font-family: 微软雅黑;
+    font-size: 13px;
+}
+.header {
+    width: 1200px;
+    height: 385px;
+    margin: 0 auto;
+    border-top: 5px solid #ffae00;
+}
+.header_top {
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    color: #777;
+    text-align: right;
+    border-bottom: 1px solid #ccc;
+}
+.header_top a {
+    font-size: 14px;
+    color: #777;
+}
+.icon_home {
+    margin-bottom: -3px;
+    width: 20px;
+    height: 20px;
+    color: #777;
+    display: inline-block;
+    background: url(/kinmage/icon_home.png);
+    background-size: cover;
+}
+.nav_top {
+    height: 45px;
+    line-height: 45px;
+    text-align: right;
+}
+.logo {
+    width: 200px;
+    text-align: left;
+    text-indent: 20px;
+    font-size: 30px;
+    color: #000;
+    float: left;
+}
+.navlist {
+    display: inline-block;
+    *display:inline;
+    *zoom:1;
+    width: 100px;
+    text-align: center;
+    cursor: pointer;
+}
+.navlist a {
+    font-size: 16px;
+}
+.navlist1 {
+    margin-right: -5px;
+}
+.nav_top .navlist1 {
+    *position: relative;
+    *top: -16px;
+}
+.key {
+    display: block;
+    width: 100px;
+}
+.selected {
+    background: url(/kinmage/nv_bg.png) repeat-x;
+}
+.nav_left .selected {
+    width: 252px;
+    height: 62px;
+    border: none;
+}
+.selected span[class^='span'] {
+    color: #fff;
+}
+.selected .key,.navhover .key {
+    background: url(/kinmage/nv_bg.png) repeat-x;
+}
+.navul {
+    *margin-left: -50px;
+    width: 150px;
+    position: absolute;
+    background: #ffae00;
+    opacity: .9;
+    z-index: 9999;
+}
+.navul li a {
+    display: block;
+    font-size: 14px;
+}
+.reporten{
+    display: block;
+    font-size: 14px;text-align:right;padding:0px 20px 0px 5px;
+}
+.navul li:hover {
+    background: #e58e11;
+}
+.navul li:hover a {
+    color: #fff;
+}
+.header_img {
+    position: relative;
+}
+.header_img img {
+    height: 300px;
+    width: 1200px;
+}
+.header_a {
+    position: relative;
+    width: 100px;
+    height: 20px;
+    margin: 10px auto;
+}
+.circle {
+	display: block;
+	width: 16px;
+	height: 16px;
+    position: absolute;
+    border-radius: 8px;
+    background: #ccc;
+}
+.circle-current {
+	background: #fbc858;
+}
+.main_top {
+    margin-top: 30px;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+}
+.part_tit {
+    display: inline-block;
+    width: 130px;
+    height: 30px;
+    font-size: 15px;
+    color: #fff;
+    text-indent: 10px;
+    background: url(/kinmage/nv_bg.png) repeat-x;
+    background-size: contain;
+    float: left;
+}
+.p_title {
+    display: block;
+    width: 1060px;
+    height: 29px;
+    color: #666;
+    font-size: 13px;
+    text-indent: 10px;
+    border-bottom: 1px solid #ffae00;
+    float: left;
+}
+.p_title a {
+    width: 60px;
+    color: #00aeef;
+    float: right;
+}
+.nav_left {
+    margin-top: 10px;
+    float: left;
+}
+.nav_left ul li {
+    margin-top: 10px;
+    width: 250px;
+    height: 60px;
+    border: 1px solid #ccc;
+}
+.nav_left ul li:hover {
+    width: 252px;
+    height: 62px;
+    border: none;
+    background: url(/kinmage/nv_bg.png) repeat-x;
+}
+.nav_left ul li:hover span {
+    color: #fff;
+}
+.span1,.span2 {
+    margin-left: 45px;
+    width: 150px;
+    font-size: 15px;
+    float: left;
+}
+.span1 {
+    margin-top: 10px;
+}
+.span2 {
+    font-size: 14px;
+    color: #aaa;
+}
+.span3 {
+    *margin-top: -30px;
+    display: block;
+    font-size: 30px;
+    color: #aaa;
+    position: relative;
+    top: 8px;
+}
+.main {
+    margin: 15px 0 0 20px;
+    width: 920px;
+    float: left;
+}
+.basic_title {
+    margin-bottom: 10px;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    position: relative;
+}
+.info_cn {
+    font-size: 17px;
+    border-bottom: 4px solid #ffb81e;
+}
+.info_en {
+    font-size: 12px;
+    color: #aaa;
+}
+.space {
+    z-index: -9999;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    width: 800px;
+    height: 25px;
+    border-bottom: 4px solid #ececec;
+}
+.basic_table {
+    margin-bottom: 20px;
+    width: 926px;
+    border: 1px solid #ebebeb;
+}
+.basic_table td {
+}
+.basic_table ul li {
+    display: inline;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    color: #777;
+    border-bottom: 1px solid #ebebeb;
+    float: left;
+}
+.baskey {
+    width: 130px;
+    font-weight: bold;
+    text-align: center;
+    background: #fff8e8;
+}
+.basval {
+    text-indent: 40px;
+    width: 312px;
+}
+.baskeyen {
+    width: 130px;
+    font-weight: bold;
+    text-align: right;padding-right:20px;
+    background: #fff8e8;
+}
+.basvalen {
+    text-indent: 40px;
+    width: 312px;
+}
+.mail_list {
+    width: 100%;
+    color: #777;
+    margin-bottom: 10px;
+    border: 1px solid #ececec;
+}
+.mail_list a {
+    color: #777;
+}
+.mail_list ul li {
+    width: 100%;
+    height: 40px;
+    font-size: 14px;
+    line-height: 40px;
+    text-indent: 20px;
+    border-bottom: 1px solid #ececec;
+}
+.mail_list li>a {
+    float: left;
+}
+.mail_list ul li:hover {
+    background: #fff8e8;
+}
+.mail_list .mail_title {
+    font-size: 16px;
+    font-weight: bold;
+}
+.mail_list .date {
+    margin-right: 20px;
+    color: #aaa;
+    float: right;
+}
+.page {
+    margin-top: 20px;
+    text-align: center;
+}
+.page .now_page {
+    color: #ccc;
+}
+.page_link img {
+    border: none;
+    display: inline-block;
+}
+.footer {
+    margin: 50px 0;
+    width: 100%;
+    height: 150px;
+    font-size: 14px;
+    background: #f1f1f1;
+    text-align: center;
+    float: left;
+}
+.foot_cont {
+    margin-top: 50px;
+}
+.foot_nav li {
+    display: inline;
+}

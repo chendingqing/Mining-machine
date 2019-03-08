@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link type="text/css" rel="stylesheet" href="__PUBLIC__/web/css/lib.css?2">
+   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1, minimum-scale=1.0"/>
+   <meta content="telephone=no" name="format-detection">
+    <title>Password management</title>
+    <script src="__PUBLIC__/web/js/jquery-1.8.3.min.js"></script>
+    <link rel="stylesheet" href="__PUBLIC__/web/css/weui.min.css"/>
+    <link rel="stylesheet" href="__PUBLIC__/web/css/jquery-weui.min.css">
+    <link href="__PUBLIC__/web/css/font-awesome.min.css" rel="stylesheet">
+    <link href="__PUBLIC__/web/fonts/iconfont.css" rel="stylesheet">
+    <script src="__PUBLIC__/web/js/layer.js"></script>
+</head>
+<body>
+    <div style="position: fixed;z-index: -1000;width: 100%;height: 100vh;top:0;left: 0;"><img src="__PUBLIC__/web/img/body_bg.jpg" style="width:100%;height: 100vh"></div>
+    <header class="header">
+        <span class="header_l" style="padding-left: 0"><a href="javascript:history.go(-1);"><img src="__PUBLIC__/web/img/back.png" style="display: inline-block;height: 40px"></a></span>
+        <span class="header_c">Password management</span>
+		<span style="position: absolute;right: 40px;top: 0px;text-align:center;width:70px;white-space:nowrap; overflow:hidden; text-overflow:ellipsis;font-size: 12px; ">{$userData['ue_truename']}</span>
+        <span class="header_r"><a href="/index.php/Home/Index/index"><i class="fa fa-user"></i></a></span>
+    </header>
+    <div class="height40;"></div>
+    <!--顶部结束-->
+    <!--列表开始-->
+	<form action="/index.php/Home/Info/enmmgl/" method="POST" style="font-size:14px">
+		<ul style="width: 80%;margin-left: 10%;color: #000;padding-top:100px" >
+			<li style="height: 60px;line-height: 30px;margin-top: 5px;width:100%"><span style="display:inline-block;width:100%;">Original login password：</span><input type="password" name="password"  placeholder="Please input original login password"style="height: 30px;line-height: 30px;width: 100%;border-radius: 5px;border: 1px solid #eeeeee;padding-left: 5px"/></li>
+			
+			<li style="height: 60px;line-height: 30px;margin-top: 5px;width:100%"><span style="display:inline-block;width:100%;">New login password：</span><input type="password" placeholder="Please input New login password" name="password1" required="required" id="phone" style="height: 30px;line-height: 30px;width: 100%;border-radius: 5px;border: 1px solid #eeeeee;padding-left: 5px">
+			</li>
+			<li style="height: 60px;line-height: 30px;margin-top: 5px;width:100%"><span style="display:inline-block;width:100%;">Confirm password：</span><input type="password" placeholder="Please re-enter New login password" name="password2" required="required" id="phone" style="height: 30px;line-height: 30px;width: 100%;border-radius: 5px;border: 1px solid #eeeeee;padding-left: 5px">
+			</li>
+			<li><input type="submit" value="complete" style="width: 100%;height: 30px;line-height: 30px;border-radius: 5px;border: 0px; background-color:#02d2f5;margin-top: 5px;color: #FFFFFF;-webkit-appearance: none;"/></li>
+		</ul>
+	</form>
+	<form action="/index.php/Home/Info/enmmgl1/" method="POST" style="font-size:14px;margin-bottom:70px">
+		<ul style="width: 80%;margin-left: 10%;color: #000;padding-top:20px" >
+			<li style="height: 60px;line-height: 30px;margin-top: 5px;width:100%"><span style="display:inline-block;width:100%;">Original security password：</span><input type="password" name="password"  value="{$v.idcard}" placeholder="Please input Original security password"style="height: 30px;line-height: 30px;width: 100%;border-radius: 5px;border: 1px solid #eeeeee;padding-left: 5px"/></li>
+			
+			<li style="height: 60px;line-height: 30px;margin-top: 5px;width:100%"><span style="display:inline-block;width:100%;">New security password：</span><input type="password" placeholder="Please input New security password" name="password1" required="required" id="phone" style="height: 30px;line-height: 30px;width: 100%;border-radius: 5px;border: 1px solid #eeeeee;padding-left: 5px">
+			</li>
+			<li style="height: 60px;line-height: 30px;margin-top: 5px;width:100%"><span style="display:inline-block;width:100%;">Confirm password：</span><input type="password" placeholder="Please re-enter New security password" name="password2" required="required" id="phone" style="height: 30px;line-height: 30px;width: 100%;border-radius: 5px;border: 1px solid #eeeeee;padding-left: 5px">
+			</li>
+			<li><input type="submit" value="complete" style="width: 100%;height: 30px;line-height: 30px;border-radius: 5px;border: 0px; background-color:#02d2f5;margin-top: 5px;color: #FFFFFF;-webkit-appearance: none;"/></li>
+		</ul>
+	</form>
+</div>
+<!--底部开始-->
+<style>
+    .footer ul li{
+        width: 25%;
+    }
+</style>
+<div class="footer">
+        <ul>
+            <li><a href="/index.php/Shop/Index/enIndex" class="block"><i class="iconfont">&#xe604;</i>Mills Mall</a></li>
+			<li><a href="/index.php/Home/Info/enmykuangche/" class="block"><i class="iconfont">&#xe601;</i>My mine</a></li>
+            <li><a href="/index.php/Home/Info/enIndex" class="block"><i class="iconfont">&#xe645;</i>Trading market</a></li>
+            <li><a href="/index.php/Home/Index/enindex" class="block"><i class="iconfont">&#xe684;</i>Personal Center</a></li>
+        </ul>
+    </div>
+<!--底部结束-->
+<script src="__PUBLIC__/web/js/jquery-weui.min.js"></script>
+<script>
+	function code(){
+	   	      var pd=/^1[3|4|5|7|8][0-9]{9}$/;
+	   	      if(pd.test($("#phone").val())){
+	   	    	$.ajax({
+					url:"{:U('index.php/Home/Ajax/getmobilecode')}",
+					type:"POST",
+					data:{mobile:$("#phone").val()},
+					dataType:"json",
+					success:function(data){
+							$.alert(data,"提示");
+					}
+				})
+				$(".code span").css({"background":"#ddd","color":"#444"}).html("60秒重新发送").unbind("click");
+				var num=59;
+				var time=setInterval(function(){
+                      $(".code span").html(num-- + "后重新发送");
+                      if(num<0){
+                      	clearTimeout(time);
+                      	$(".code span").css({"background":"#02d2f5","color":"#fff"}).html("重新发送");
+                      	$(".code span").bind("click",code);
+                      }
+				},1000);
+			}else{
+             $.alert("手机号码不正确","提示");
+			}
+	        }
+	$(function(){
+		$(".code span").bind("click",code);
+		});
+</script>
+</body>
+</html>

@@ -1,0 +1,175 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+<meta charset="utf-8">
+<title>商城</title>
+
+    <link rel="stylesheet" href="/assets/vendor/fontawesome/css/font-awesome.css">
+	<link rel="stylesheet" href="/assets/vendor/bootstrap/dist/css/bootstrap.css">
+	<script src="/cssmmm/jquery.min.js"></script>
+<link href="__ROOT__/css/shop_index.css" rel="stylesheet">
+
+ <script src="/cssmmm/jquery.min.js"></script>
+<script src="/cssmmm/jquery-ui.min.js"></script>
+<script src="/cssmmm/jquery.slimscroll.min.js"></script>
+<script src="/cssmmm/bootstrap.min.js"></script>
+<script src="/cssmmm/jquery.flot.js"></script>
+<script src="/cssmmm/jquery.flot.resize.js"></script>
+<script src="/cssmmm/jquery.flot.pie.js"></script>
+<script src="/cssmmm/curvedLines.js"></script>
+<script src="/cssmmm/index.js"></script>
+<script src="/cssmmm/metisMenu.min.js"></script>
+<script src="/cssmmm/icheck.min.js"></script>
+<script src="/cssmmm/jquery.peity.min.js"></script>
+<script src="/cssmmm/index(1).js"></script>
+<script src="/cssmmm/toastr.min.js"></script>
+<script src="/cssmmm/jquery.countdown.min.js"></script>
+<!-- App scripts -->
+<script src="/cssmmm/homer.js"></script>
+<script src="/cssmmm/alert.js"></script>
+<script src="/cssmmm/charts.js"></script>
+<script src="jquery.js"></script>
+    <!-- App styles -->
+    <link rel="stylesheet" href="/assets/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
+    <link rel="stylesheet" href="/assets/fonts/pe-icon-7-stroke/css/helper.css">
+    <link rel="stylesheet" href="/assets/styles/style.css">
+</head>
+
+<body>
+<include file="User/Home/View/default/top.html" />
+<include file="User/Home/View/default/left.html" /> 
+<div class="main">
+<div class="bannerBox" style="width:20%;float:left;">
+     	<div class="towNav" style="width:80%;">
+			<foreach name="title" item="v">
+                <div class="small">
+                	<a href="?pid={$v.id}">
+                        <dt>{$v.name}</dt>
+                        <dd>〉</dd>
+                        <div class="clearfix"></div>
+                	</a>
+                 </div>
+           </foreach>
+            <!--<div class="small" style="width:100%;text-align:center;">
+                	<a style="width:100%;text-align:center;">
+                        <dt style="width:100%;text-align:center;">︾</dt>
+                        <dd></dd>
+                        <div class="clearfix"></div>
+                	</a>
+                 </div>-->
+            
+         </div>
+
+
+</div>
+
+<style>.pages a,.pages span {
+    display:inline-block;
+    padding:2px 5px;
+    margin:0 1px;
+    border:1px solid #f0f0f0;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border-radius:3px;
+}
+.pages a,.pages li {
+    display:inline-block;
+    list-style: none;
+    text-decoration:none; color:#58A0D3;
+}
+.pages a.first,.pages a.prev,.pages a.next,.pages a.end{
+    margin:0;
+}
+.pages a:hover{
+    border-color:#50A8E6;
+}
+.pages span.current{
+    background:#50A8E6;
+    color:#FFF;
+    font-weight:700;
+    border-color:#50A8E6;
+}</style>
+
+<div class="contentBox" style="float:left;width:80%;">
+
+                <div class="hBox">
+                    <dl>商家推荐</dl>
+                    <dt>以真心换真心，给你最正确的选择！</dt>
+            
+                    <div class="clearfix"></div>
+                </div>
+                
+                <div class="bigBox">
+                    <div class="smallBox">
+					<empty name="list">
+					<div style="width:100%;padding:50px;text-align:center;font-size:16px;color:;#DDD">暂无数据</div>
+					<else/>
+                    <foreach name="list" item="value">
+                        <div class="small_box" style="margin-left:20px;margin-bottom:20px;">
+                            <a href="__MODULE__/index/project?id={$value.id}"><img width="300" height="300" style="margin-top:40px;margin-bottom:20px;" src="{$value.imagepath}"></a>
+                            <dt style="margin-left:20px">{$value.name}</dt>
+                            <dd style="margin-right:30px"><strong>价格:{$value.price}元</strong></dd>
+                        </div>                        
+                    </foreach>                       
+                     </empty>    
+                        <div class="clearfix"></div>
+                      </div>
+                  </div>
+                  <div class="pages" style="margin:50px 0 ;text-align: center;">{$show}</div>
+      				 	<div class="No_box">
+                
+             
+           
+      </div>
+
+</div>
+</div>
+<script>
+$(function(){
+		$(".bannerBox img").hide().eq(0).show()
+		$(".yuanBox span").removeClass(".yuanBox current").eq(0).addClass(".yuanBox current")
+		var n=0
+		function move(){
+		if(n<$(".bannerBox img").length-1){
+		n=n+1}
+		else{n=0}
+		
+		$(".bannerBox img").hide().eq(n).show()
+		$(".yuanBox span").removeClass(".yuanBox current").eq(n).addClass(".yuanBox current")
+		}
+		t=setInterval(move,2500)
+		$(".bannerBox").mouseenter(function(){
+		clearInterval(t)
+		}).mouseleave(function(){
+		t=setInterval(move,2500)
+				}
+		
+		)
+		$(".yuanBox span").mouseenter(
+		function(){
+			n=$(this).index()
+		$(".bannerBox img").hide().eq(n).show()
+		$(".bannerBox span").removeClass(".yuanBox current")
+		$(this).addClass(".yuanBox current")
+		clearInterval(ting)
+			
+			
+			}
+		
+		
+		
+		)
+	}
+
+		
+
+
+
+
+
+)
+</script>
+</body>
+</html>
+

@@ -1,0 +1,484 @@
+[ 2018-12-18T13:28:52+08:00 ] 127.0.0.1 /admin8899.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-12-18T13:28:54+08:00 ] 127.0.0.1 /admin8899.php/Home/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-12-18T13:28:54+08:00 ] 127.0.0.1 /admin8899.php/Home/login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-18T13:29:06+08:00 ] 127.0.0.1 /admin8899.php/Home/Login/logincl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jk_member` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `jk_member` WHERE `MB_username` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-12-18T13:29:28+08:00 ] 127.0.0.1 /admin8899.php/Home/login/verify?0.1296474607031739
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-12-18T13:29:34+08:00 ] 127.0.0.1 /admin8899.php/Home/Login/logincl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_member` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `jk_member` WHERE `MB_username` = 'test' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_drrz` [ RunTime:0.0140s ]
+SQL: INSERT INTO `jk_drrz` (`date`,`ip`,`user`,`leixin`) VALUES ('2018-12-18 13:29:34','106.87.150.13','test','1') [ RunTime:0.0010s ]
+
+[ 2018-12-18T13:29:36+08:00 ] 127.0.0.1 /admin8899.php/Home/Index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-12-18T13:29:36+08:00 ] 127.0.0.1 /admin8899.php/home/index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-12-18T13:29:37+08:00 ] 127.0.0.1 /admin8899.php/home/index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-12-18T13:29:38+08:00 ] 127.0.0.1 /admin8899.php/home/index/counts
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_user` WHERE (  UNIX_TIMESTAMP('2018-12-18 00:00')<UNIX_TIMESTAMP(UE_regTime) and UNIX_TIMESTAMP(UE_regTime)<UNIX_TIMESTAMP('2018-12-19 00:00') ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_user` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jk_ppdd` [ RunTime:0.0090s ]
+SQL: SELECT SUM(jb) AS tp_SUM FROM `jk_ppdd` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(jb) AS tp_SUM FROM `jk_ppdd` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(lkb) AS tp_sum FROM `jk_ppdd` WHERE `datatype` = 'cslkb' AND `zt` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(lkb) AS tp_sum FROM `jk_ppdd` WHERE `datatype` = 'qglkb' AND `zt` = 0 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(lkb) AS tp_sum FROM `jk_ppdd` WHERE `datatype` = 'qglkb' AND `zt` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(lkb) AS tp_sum FROM `jk_ppdd` WHERE ( `jydate` > '2018-12-18 00:00:00' AND `jydate` < '2018-12-18 23:59:59'  ) AND `zt` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(jb) AS tp_sum FROM `jk_ppdd` WHERE ( `jydate` > '2018-12-18 00:00:00' AND `jydate` < '2018-12-18 23:59:59'  ) AND `zt` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(jb) AS tp_sum FROM `jk_ppdd` WHERE `zt` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(jb) AS tp_sum FROM `jk_ppdd` WHERE `zt` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(jb) AS tp_sum FROM `jk_ppdd` WHERE `zt` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: userdata C:\www\kj\snadmin\Runtime\Cache\Home\febcf21df52c043b369b5a44d43ac5ff.php 第 45 行.
+NOTIC: [8] Undefined variable: jl C:\www\kj\snadmin\Runtime\Cache\Home\febcf21df52c043b369b5a44d43ac5ff.php 第 114 行.
+NOTIC: [8] Undefined variable: tj C:\www\kj\snadmin\Runtime\Cache\Home\febcf21df52c043b369b5a44d43ac5ff.php 第 125 行.
+NOTIC: [8] Undefined variable: lx C:\www\kj\snadmin\Runtime\Cache\Home\febcf21df52c043b369b5a44d43ac5ff.php 第 155 行.
+NOTIC: [8] Undefined variable: ab C:\www\kj\snadmin\Runtime\Cache\Home\febcf21df52c043b369b5a44d43ac5ff.php 第 163 行.
+NOTIC: [8] Undefined variable: page C:\www\kj\snadmin\Runtime\Cache\Home\febcf21df52c043b369b5a44d43ac5ff.php 第 182 行.
+NOTIC: [8] Undefined variable: tj C:\www\kj\snadmin\Runtime\Cache\Home\febcf21df52c043b369b5a44d43ac5ff.php 第 242 行.
+NOTIC: [8] Undefined variable: jl C:\www\kj\snadmin\Runtime\Cache\Home\febcf21df52c043b369b5a44d43ac5ff.php 第 242 行.
+NOTIC: [8] Undefined variable: lx C:\www\kj\snadmin\Runtime\Cache\Home\febcf21df52c043b369b5a44d43ac5ff.php 第 242 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-12-18T13:29:43+08:00 ] 127.0.0.1 /admin8899.php/home/kf/fkj
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_shop_project` [ RunTime:0.0130s ]
+NOTIC: [8] Undefined index: p C:\www\kj\snadmin\Home\Controller\KfController.class.php 第 46 行.
+SQL: SELECT jk_shop_project.*,jk_shop_leibie.name as pidname FROM `jk_shop_project` INNER JOIN jk_shop_leibie ON jk_shop_project.pid = jk_shop_leibie.id  LIMIT 0,12   [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: userdata C:\www\kj\snadmin\Runtime\Cache\Home\6e947c7b76e8a9858eef190cefa3a7ee.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-12-18T13:29:57+08:00 ] 127.0.0.1 /admin8899.php/home/index/jbzs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_userget` [ RunTime:0.0170s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_userget` WHERE `UG_dataType` = 'xtzs' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jk_userget` WHERE `UG_dataType` = 'xtzs' ORDER BY UG_ID DESC LIMIT 0,20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: userdata C:\www\kj\snadmin\Runtime\Cache\Home\5da695a2c3b8808e2fba288086be86d6.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-12-18T13:30:30+08:00 ] 127.0.0.1 /admin8899.php/home/index/config
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jk_config` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `jk_config`  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\www\kj\snadmin\Home\Controller\IndexController.class.php 第 20 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-12-18T13:30:47+08:00 ] 127.0.0.1 /admin8899.php/home/index/userlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_account` = '' LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: map C:\www\kj\snadmin\Home\Controller\IndexController.class.php 第 1242 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_user` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: map C:\www\kj\snadmin\Home\Controller\IndexController.class.php 第 1247 行.
+SQL: SELECT * FROM `jk_user` ORDER BY UE_ID DESC LIMIT 0,20   [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: counts C:\www\kj\snadmin\Runtime\Cache\Home\29d2a3ceb21716e1a2ac40deb79761c9.php 第 109 行.
+NOTIC: [8] Undefined variable: counts C:\www\kj\snadmin\Runtime\Cache\Home\29d2a3ceb21716e1a2ac40deb79761c9.php 第 109 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_user` WHERE `UE_accName` = '15696109391' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: counts C:\www\kj\snadmin\Runtime\Cache\Home\29d2a3ceb21716e1a2ac40deb79761c9.php 第 116 行.
+NOTIC: [8] Undefined variable: counts C:\www\kj\snadmin\Runtime\Cache\Home\29d2a3ceb21716e1a2ac40deb79761c9.php 第 116 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_user` WHERE `UE_accName` = '15696109391' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_user` WHERE `UE_regIP` = '' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: counts C:\www\kj\snadmin\Runtime\Cache\Home\29d2a3ceb21716e1a2ac40deb79761c9.php 第 109 行.
+NOTIC: [8] Undefined variable: counts C:\www\kj\snadmin\Runtime\Cache\Home\29d2a3ceb21716e1a2ac40deb79761c9.php 第 109 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_user` WHERE `UE_accName` = '15555555555' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: counts C:\www\kj\snadmin\Runtime\Cache\Home\29d2a3ceb21716e1a2ac40deb79761c9.php 第 116 行.
+NOTIC: [8] Undefined variable: counts C:\www\kj\snadmin\Runtime\Cache\Home\29d2a3ceb21716e1a2ac40deb79761c9.php 第 116 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_user` WHERE `UE_accName` = '15555555555' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_user` WHERE `UE_regIP` = '' LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-12-18T13:30:47+08:00 ] 127.0.0.1 /admin8899.php/home/index/images/ticon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-18T13:30:52+08:00 ] 127.0.0.1 /admin8899.php/home/index/kjsy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0170s ]
+SQL: SHOW COLUMNS FROM `jk_userget` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `jk_shop_orderform` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_user` WHERE `UE_stop` = 1 ORDER BY UE_ID DESC LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\www\kj\snadmin\Home\Controller\IndexController.class.php on line 3617 and defined C:\www\kj\ThinkPHP\Library\Think\Model.class.php 第 1777 行.
+NOTIC: [8] Undefined variable: where C:\www\kj\ThinkPHP\Library\Think\Model.class.php 第 1785 行.
+NOTIC: [8] Undefined variable: where C:\www\kj\ThinkPHP\Library\Think\Model.class.php 第 1788 行.
+NOTIC: [8] Undefined variable: where C:\www\kj\ThinkPHP\Library\Think\Model.class.php 第 1796 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_userget` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Illegal string offset 'ug_gettime' C:\www\kj\snadmin\Home\Controller\IndexController.class.php 第 3619 行.
+NOTIC: [2] Illegal string offset 'yxzq' C:\www\kj\snadmin\Home\Controller\IndexController.class.php 第 3633 行.
+NOTIC: [2] Illegal string offset 'yxzq' C:\www\kj\snadmin\Home\Controller\IndexController.class.php 第 3634 行.
+NOTIC: [2] Illegal string offset 'lixi' C:\www\kj\snadmin\Home\Controller\IndexController.class.php 第 3636 行.
+NOTIC: [2] Illegal string offset 'lixi' C:\www\kj\snadmin\Home\Controller\IndexController.class.php 第 3637 行.
+NOTIC: [2] Illegal string offset 'status' C:\www\kj\snadmin\Home\Controller\IndexController.class.php 第 3637 行.
+NOTIC: [2] Illegal string offset 'kcid' C:\www\kj\snadmin\Home\Controller\IndexController.class.php 第 3638 行.
+SQL: SELECT * FROM `jk_shop_orderform` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Illegal string offset 'ug_account' C:\www\kj\snadmin\Home\Controller\IndexController.class.php 第 3639 行.
+SQL: SELECT * FROM `jk_user` WHERE `UE_account` = '4' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] Illegal string offset 'yxzq' C:\www\kj\snadmin\Home\Controller\IndexController.class.php 第 3640 行.
+NOTIC: [2] Illegal string offset 'kcid' C:\www\kj\snadmin\Home\Controller\IndexController.class.php 第 3641 行.
+SQL: UPDATE `jk_shop_orderform` SET `zt`='2' WHERE `id` = 4 [ RunTime:0.0010s ]
+NOTIC: [2] Illegal string offset 'status' C:\www\kj\snadmin\Home\Controller\IndexController.class.php 第 3644 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-12-18T13:30:57+08:00 ] 127.0.0.1 /admin8899.php/home/index/kcsy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: user C:\www\kj\snadmin\Home\Controller\IndexController.class.php 第 416 行.
+SQL: SHOW COLUMNS FROM `jk_userget` [ RunTime:0.0150s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_userget` WHERE `UG_dataType` = 'kjsr' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jk_userget` WHERE `UG_dataType` = 'kjsr' ORDER BY UG_ID DESC LIMIT 0,20   [ RunTime:0.0020s ]
+SQL: SELECT SUM(UG_money) AS tp_sum FROM `jk_userget` WHERE `UG_dataType` = 'kjsr' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-12-18T13:30:57+08:00 ] 127.0.0.1 /admin8899.php/home/index/images/ticon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-12-18T13:30:57+08:00 ] 127.0.0.1 /admin8899.php/home/index/settings
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: userdata C:\www\kj\snadmin\Runtime\Cache\Home\f106aa941a30d73e4f643a2d9545de66.php 第 53 行.
+NOTIC: [8] Undefined variable: userdata C:\www\kj\snadmin\Runtime\Cache\Home\f106aa941a30d73e4f643a2d9545de66.php 第 102 行.
+NOTIC: [8] Undefined variable: userdata C:\www\kj\snadmin\Runtime\Cache\Home\f106aa941a30d73e4f643a2d9545de66.php 第 142 行.
+NOTIC: [8] Undefined variable: userdata C:\www\kj\snadmin\Runtime\Cache\Home\f106aa941a30d73e4f643a2d9545de66.php 第 189 行.
+NOTIC: [8] Undefined variable: userdata C:\www\kj\snadmin\Runtime\Cache\Home\f106aa941a30d73e4f643a2d9545de66.php 第 232 行.
+NOTIC: [8] Undefined variable: userdata C:\www\kj\snadmin\Runtime\Cache\Home\f106aa941a30d73e4f643a2d9545de66.php 第 351 行.
+NOTIC: [8] Undefined variable: userdata C:\www\kj\snadmin\Runtime\Cache\Home\f106aa941a30d73e4f643a2d9545de66.php 第 405 行.
+NOTIC: [8] Undefined variable: userdata C:\www\kj\snadmin\Runtime\Cache\Home\f106aa941a30d73e4f643a2d9545de66.php 第 440 行.
+NOTIC: [8] Undefined variable: page C:\www\kj\snadmin\Runtime\Cache\Home\f106aa941a30d73e4f643a2d9545de66.php 第 513 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-12-18T13:31:58+08:00 ] 127.0.0.1 /admin8899.php/home/index/csdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jk_ppdd` [ RunTime:0.0130s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_ppdd` WHERE `zt` = 0 AND `datatype` = 'cslkb' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE `zt` = 0 AND `datatype` = 'cslkb' ORDER BY id desc LIMIT 0,20   [ RunTime:0.0010s ]
+SQL: SELECT SUM(lkb) AS tp_sum FROM `jk_ppdd` WHERE `zt` = 0 AND `datatype` = 'cslkb' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(jb) AS tp_sum FROM `jk_ppdd` WHERE `zt` = 0 AND `datatype` = 'cslkb' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-12-18T13:31:58+08:00 ] 127.0.0.1 /admin8899.php/home/index/images/ticon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-12-18T13:32:03+08:00 ] 127.0.0.1 /admin8899.php/home/index/qiugou
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `jk_ppdd` [ RunTime:0.0130s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_ppdd` WHERE `zt` = 0 AND `datatype` = 'qglkb' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_ppdd` WHERE `zt` = 0 AND `datatype` = 'qglkb' ORDER BY id desc LIMIT 0,20   [ RunTime:0.0000s ]
+SQL: SELECT SUM(lkb) AS tp_sum FROM `jk_ppdd` WHERE `zt` = 0 AND `datatype` = 'qglkb' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT SUM(jb) AS tp_sum FROM `jk_ppdd` WHERE `zt` = 0 AND `datatype` = 'qglkb' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-12-18T13:32:03+08:00 ] 127.0.0.1 /admin8899.php/home/index/images/ticon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-12-18T13:32:08+08:00 ] 127.0.0.1 /admin8899.php/home/Index/change
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `jk_changelist` [ RunTime:0.0150s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jk_changelist` WHERE ( 1  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_changelist` WHERE ( 1  ) ORDER BY addtime  desc LIMIT 0,20   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `jk_user` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 7 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `jk_user` WHERE `UE_ID` = 7 LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-12-18T13:32:08+08:00 ] 127.0.0.1 /admin8899.php/home/Index/images/ticon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+

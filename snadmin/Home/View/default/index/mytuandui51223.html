@@ -1,0 +1,183 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<link href="/sncss/css/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/sncss/js/jquery.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function(){
+  $(".click").click(function(){
+  $(".tip").fadeIn(200);
+  });
+  
+  $(".tiptop a").click(function(){
+  $(".tip").fadeOut(200);
+});
+
+  $(".sure").click(function(){
+  $(".tip").fadeOut(100);
+});
+
+  $(".cancel").click(function(){
+  $(".tip").fadeOut(100);
+});
+
+});
+</script>
+
+
+</head>
+
+
+<body>
+
+	<div class="place">
+    <span>位置：</span>
+    <ul class="placeul">
+    <li><a href="#">首页</a></li>
+    <li><a href="#">数据表</a></li>
+    <li><a href="#">基本内容</a></li>
+    </ul>
+    </div>
+    
+    <div class="rightinfo">
+    
+    <div class="tools">
+    
+    	 <form id="form1" name="form1" method="post" action="/admin8899.php/Home/Index/userlist">
+	 
+   <input name="user" type="text" class="dfinput" id="user" />
+	<input name="" type="submit" class="btn" value="确认搜索"/>
+      </form>
+    </div>
+<div>注册总人数：{$count}
+</div>
+    <table class="tablelist">
+    	<thead>
+    	<tr>
+        <th>序号<i class="sort"><img src="/sncss/images/px.gif" /></i></th>
+        <th>姓名</th>
+        <th style="width:7%">会长</th>
+		<th style="width:7%">冻结</th>
+        <th>会员编号</th>
+        <th>会员等级</th>
+        <th>推荐人</th>
+        <th>莱肯币</th>
+		<th>我的团队</th>
+		<th>购买矿车</th>
+		<th>推广收益</th>
+		<th>矿车收益</th>
+		<th>注册时间</th>
+		<th>操作</th>
+      </tr>
+      </thead>
+      <tbody>
+		
+		<foreach name='list' item='v'>
+        <tr>
+		  <td>{$v.ue_id}</td>
+		  <td>{$aab=$v.ue_truename}</td>
+		  <td><if condition="$v.sfjl eq '0'" >不是</if>
+			<if condition="$v.sfjl eq '1'" ><span style="color:red">是</span></if>	</td>
+			<td>
+			<if condition="$v.ue_status eq '1'" >否</if>
+			<if condition="$v.ue_status eq '3'" ><span style="color:red">是</span></if>	</td>
+			</td>		  
+      <td>{$ab=$v.ue_account}</td>
+      <td>
+        <if condition = "$v.ue_level eq '0'">Vip0</if>
+        <if condition = "$v.ue_level eq '1'">Vip1</if>
+        <if condition = "$v.ue_level eq '2'">Vip2</if>
+        <if condition = "$v.ue_level eq '3'">Vip3</if>
+        <if condition = "$v.ue_level eq '4'">Vip4</if>
+        <if condition = "$v.ue_level eq '5'">Vip5</if>
+        <if condition = "$v.ue_level eq '6'">Vip6</if>
+
+      </td>
+		  <td>{$v.ue_accname}</td>
+		  <td>{$v.ue_money}</td>
+	   <!--  <td>{$counts}{$counts|user_count=$ab,###}</td> -->
+		 <td><a href="/admin8899.php/Home/Index/mytuandui/user/{$v.ue_account}">一级()</a>|二级()|三级()<br />
+			 &nbsp;&nbsp;&nbsp;四级()|五级()|六级()<br />
+			 &nbsp;&nbsp;&nbsp;七级()|八级()
+		 </td>
+		<td>
+			 <if condition = "$v.kjzt eq '0'">否</if>
+			 <if condition = "$v.kjzt eq '1'">是</if>
+		</td>
+		<td>  <a href="/admin8899.php/Home/Index/tgsy/user/{$v.ue_account}" class="tablelink">查看</a> </td>
+		<td>  <a href="/admin8899.php/Home/Index/kcsy/user/{$v.ue_account}" class="tablelink">查看</a> </td>
+        <td>{$v.ue_regtime}</td>
+       <!--  <td>{$v.ue_regip|ipjc} <a href="/admin8899.php/Home/Index/userlist/ip/{$v.ue_regip}">查看</a></td>
+        <td>{$v.ue_regip}</td> -->
+        <td><!-- <a href="/admin8899.php/Home/Index/team/user/{$v.ue_account}" class="tablelink">團隊</a> -->   <a href="/admin8899.php/Home/Index/user_xg/user/{$v.ue_account}" class="tablelink">修改</a> <a href="/admin8899.php/Home/Index/user_xx/user/{$v.ue_account}" class="tablelink">向下</a>     <a onClick="javascript:if(!confirm('确定删除此会员？'))  return  false; " href="/admin8899.php/Home/Index/userdel/id/{$v.ue_id}" >删除</a>   <!--  <a onClick="javascript:if(!confirm('确定重置保密？'))  return  false; " href="/admin8899.php/Home/Index/usermb/id/{$v.ue_id}" >重置保密</a> --> <a href="/index.php/Home/Login/loginadmin/account/{$v.ue_account}/password/{$v.ue_password}/secpw/{$v.ue_secpwd}" target="_blank">登入</a><!--<a href="/admin8899.php/Home/index/shenghe/account/{$v.ue_account}" target="_blank">审核</a>--></td>
+        </tr> 
+       </foreach>
+        </tbody>
+    </table>
+    <style>.pages a,.pages span {
+    display:inline-block;
+    padding:2px 5px;
+    margin:0 1px;
+    border:1px solid #f0f0f0;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border-radius:3px;
+}
+.pages a,.pages li {
+    display:inline-block;
+    list-style: none;
+    text-decoration:none; color:#58A0D3;
+}
+.pages a.first,.pages a.prev,.pages a.next,.pages a.end{
+    margin:0;
+}
+.pages a:hover{
+    border-color:#50A8E6;
+}
+.pages span.current{
+    background:#50A8E6;
+    color:#FFF;
+    font-weight:700;
+    border-color:#50A8E6;
+}</style>
+   
+   <div class="pages"><br />
+
+                        <div align="right">{$page}
+                        </div>
+   </div>
+    
+    
+    <div class="tip">
+    	<div class="tiptop"><span>提示信息</span><a></a></div>
+        
+      <div class="tipinfo">
+        <span><img src="images/ticon.png" /></span>
+        <div class="tipright">
+        <p>是否确认对信息的修改 ？</p>
+        <cite>如果是请点击确定按钮 ，否则请点取消。</cite>
+        </div>
+      </div>
+        
+        <div class="tipbtn">
+        <input name="" type="button"  class="sure" value="确定" />&nbsp;
+        <input name="" type="button"  class="cancel" value="取消" />
+        </div>
+    
+    </div>
+    
+    
+    
+    
+    </div>
+    
+    <script type="text/javascript">
+	$('.tablelist tbody tr:odd').addClass('odd');
+	</script>
+
+</body>
+
+</html>

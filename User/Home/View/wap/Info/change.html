@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link type="text/css" rel="stylesheet" href="__PUBLIC__/web/css/lib.css?2">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1, minimum-scale=1.0"/>
+	<meta content="telephone=no" name="format-detection">
+    <title>GEC转换</title>
+    <script src="__PUBLIC__/web/js/jquery-1.8.3.min.js"></script>
+    <link rel="stylesheet" href="__PUBLIC__/web/css/weui.min.css"/>
+    <link rel="stylesheet" href="__PUBLIC__/web/css/jquery-weui.min.css">
+    <script src="__PUBLIC__/web/js/layer.js"></script>
+    <link href="__PUBLIC__/web/css/font-awesome.min.css" rel="stylesheet">
+    <link href="__PUBLIC__/web/fonts/iconfont.css" rel="stylesheet">
+    <link rel="stylesheet" href="__PUBLIC__/web/css/style.css"/>
+</head>
+<style>
+#qiugou{margin-top:0px;}
+</style>
+<script>
+function showhidediv(id){
+	var qiugou = document.getElementById("qiugou1");
+    var chushou=document.getElementById("qiugou2");
+    var qiugoubg=document.getElementById("qiugoubg");
+    var chushoubg=document.getElementById("chushoubg");
+		if (id == "qiugou1") {
+            qiugou.style.display = 'block';
+            chushou.style.display = 'none'; 
+			
+			qiugoubg.style.backgroundColor = "#288eff"; 
+			qiugoubg.style.color = "#fff"; 
+			
+			chushoubg.style.backgroundColor = "#fff"; 
+			chushoubg.style.color = "#000"; 
+        }else if (id =='qiugou2') {
+            qiugou.style.display = 'none';
+            chushou.style.display = 'block'; 
+			
+			qiugoubg.style.backgroundColor = "#fff"; 
+			qiugoubg.style.color = "#000"; 
+			
+			chushoubg.style.backgroundColor = "#288eff"; 
+			chushoubg.style.color = "#fff"; 
+        }
+}
+function onlyNum() {
+    if(!(event.keyCode==46)&&!(event.keyCode==8)&&!(event.keyCode==37)&&!(event.keyCode==39))
+    if(!((event.keyCode>=48&&event.keyCode<=57)||(event.keyCode>=96&&event.keyCode<=105)))
+    event.returnValue=false;
+}
+</script>
+<body>
+<!--顶部开始-->
+<div style="position: fixed;z-index: -1000;width: 100%;height: 100vh;top:0;left: 0;"><img src="__PUBLIC__/web/img/body_bg.jpg" style="width:100%;height: 100vh"></div>
+	<header class="header">
+		<span class="header_l" style="padding-left: 0"><a href="javascript:history.go(-1);"><img src="__PUBLIC__/web/img/back.png" style="display: inline-block;height: 40px"></a></span>
+		<span class="header_c">GEC转换中心</span>
+		<span style="position: absolute;right: 40px;top: 0px;text-align:center;width:70px;white-space:nowrap; overflow:hidden; text-overflow:ellipsis;font-size: 12px; ">{$userData['ue_truename']}</span>
+		<span class="header_r"><a href="/index.php/Home/Index/index/"><i class="fa fa-user"></i></a></span>
+	</header>
+<div class="height40"></div>
+
+<!--矿车列表-->
+<div style="width: 90%;margin-left: 5%;margin-top: 20px;overflow:hidden;border-radius:5px">
+    <p id="qiugoubg"onclick='showhidediv("qiugou1")'style="float: left;width: 50%;text-align: center;background-color: #288eff;height: 30px;line-height: 30px;color:#fff">转换</p>
+    <p id="chushoubg"onclick='showhidediv("qiugou2")'style="float: left;width: 50%;text-align: center;background-color: #fff;height: 30px;line-height: 30px;color:#000">兑换</p>
+   
+</div>
+<!--顶部结束-->
+<div id="qiugou">
+
+	<div id="qiugou1">
+		<!--矿车列表-->
+		<form style="margin-top: 25px" action="/Index.php/Home/Info/edit_change" method= "POST">
+			<p><font color="white">GEC：</font></p>
+			<input type="number" autocomplete="off" onkeydown="onlyNum();"   name="lkb" placeholder="请输入要转换的数量,现有{$kymoney}"/>
+		  
+		   <button type="submit">确认转换</button>
+			<button type="reset">转换重置</button>
+		</form>
+
+
+		<style>
+		.qiugou:after , .qiugou:before{clear:both}
+		.wk-list .p1{width:25%!important;}
+		.wk-list:after , .wk-list:before{clear:both}
+		</style>
+		<div class="qiugou" style="-left: 5%;margin-bottom:80px;margin-top:30px">
+			<foreach name="list" item = "v">
+			<div class="wk-list"> 
+				<p><font color="white">串码:</font></p><input type="text" readonly value="{$v.bs}" placeholder="{$v.bs}"/>
+				<p class="p1"><font color="white">是否使用:</font></p><p class="p1"> <if condition="$v.bid gt 0 "> <font color="red">已使用 </font><else /> 未使用</if></p>
+				<p class="p1"><font color="white">价值:</font></p><p class="p1"><font color="red"> {$v.money}</font></p>
+				<div style="clear:both;height:0px;"></div>
+			</div>
+			</foreach>	
+		 </div>
+		<!--底部开始-->
+	</div>
+	
+	<div id="qiugou2" style="display:none;">
+		<!--矿车列表-->
+		<form style="margin-top: 25px" action="/Index.php/Home/Info/edit_exchange" method= "POST">
+			<p><font color="white">GEC：</font></p>
+			<input type="text" name="lkb" placeholder="请输入串码"/>
+		   <button type="submit">确认兑换</button>
+			<button type="reset">兑换重置</button>
+		</form>
+
+		<style>
+		#qiugou:after , #qiugou:before{clear:both}
+		.wk-list .p1{width:25%!important;}
+		.wk-list:after , .wk-list:before{clear:both}
+		</style>
+		<div style="-left: 5%;margin-bottom:80px;margin-top:30px">
+			<foreach name="list2" item = "v1">
+			<div class="wk-list"> 
+				<p><font color="white">串码:</font></p><input type="text" disabled value="{$v1.bs}" placeholder="{$v1.bs}"/>
+				<p class="p1"><font color="white">是否使用:</font></p><p class="p1"> <if condition="$v1.bid gt 0 "> <font color="red">已使用 </font><else /> 未使用</if></p>
+				<p class="p1"><font color="white">价值:</font></p><p class="p1"><font color="red"> {$v1.money}</font></p>
+				<div style="clear:both;height:0px;"></div>
+			</div>
+			</foreach>	
+		 </div>
+		<!--底部开始-->
+	
+	</div>
+</div>
+
+ 
+<!--底部开始-->
+<style>
+    .footer ul li{
+        width: 25%;
+    }
+</style>
+		<div class="footer">
+     <ul>
+           <li><a href="/index.php/Shop/Index/" class="block"><i class="iconfont">&#xe620;</i>矿机商城</a></li> <li><a href="/index.php/Home/Info/mykuangche/" class="block"><i class="iconfont">&#xe612;</i>我的矿机</a></li> <li><a href="/index.php/Home/Info/Index/" class="block"><i class="iconfont">&#xe61e;</i>交易中心</a></li>       <li><a href="/index.php/Home/Index/Index/" class="block"><i class="iconfont">&#xe619;</i>个人中心</a></li>
+     </ul>
+</div>
+<script>
+</script>
+<!--底部结束-->
+<script src="__PUBLIC__/web/js/jquery-weui.min.js"></script>
+</body>
+</html>

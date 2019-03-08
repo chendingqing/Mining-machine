@@ -1,0 +1,225 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<link href="/sncss/css/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/sncss/js/jquery.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function(){
+  $(".click").click(function(){
+  $(".tip").fadeIn(200);
+  });
+  
+  $(".tiptop a").click(function(){
+  $(".tip").fadeOut(200);
+});
+
+  $(".sure").click(function(){
+  $(".tip").fadeOut(100);
+});
+
+  $(".cancel").click(function(){
+  $(".tip").fadeOut(100);
+});
+
+});
+</script>
+
+
+</head>
+
+
+<body>
+
+	<div class="place">
+    <span>位置：</span>
+    <ul class="placeul">
+    <li><a href="#">首页</a></li>
+    <li><a href="#">提现申请</a></li>
+  
+    </ul>
+    </div>
+    
+    <div class="rightinfo">
+    
+    <!--<div class="tools">
+    
+    	 <form id="form1" name="form1" method="post" action="/admin8899.php/Home/Index/userlist">
+	 
+   <input name="user" type="text" class="dfinput" id="user" />
+	<input name="" type="submit" class="btn" value="确认搜索"/>
+      </form>
+    
+    </div>-->
+    
+    <p>提现申请列表：</p>
+    <table class="tablelist">
+    	<thead>
+    	<tr>
+        <th>序号<i class="sort"><img src="/sncss/images/px.gif" /></i></th>
+        <th>会员编号</th>
+		    <th>姓名</th>
+        <th>现金余额</th>
+       
+		<!-- <th>开户行</th> -->
+		 <!-- <th>电话</th> -->
+        <!-- <th>银行信息</th> -->
+        <th>提现金额</th>
+		    <th>支付宝</th>
+    <th>微信</th>
+    <!-- <th>应付</th> -->
+        <th>状态</th>
+		<th>操作</th>
+        </tr>
+        </thead>
+        <tbody>
+		
+		<foreach name='list' item='v'>
+        <tr>
+		 <td>{$v.ue_id}</td>
+		 <td>{$aab=$v.ue_account}</td>
+		 <td>{$v.truename}</td>
+		 <!-- <td><if condition="$v.sfjl eq '0'" >不是</if>
+					  <if condition="$v.sfjl eq '1'" >是</if>	</td>
+		  <td>{$v.ue_accname}</td>
+		  <td>{$v.zcr}</td>-->
+		  <td>{$v.ue_money}</td>
+       <td>{$v.duihuan_money}</td>
+		  <td>{$v.zfb}</>
+	      <td>{$v.weixin}</td>
+        <!-- <td>{$v.yhzh}</td> -->
+         
+		  <!-- <td>{$v.charge}</td> -->
+      <!-- <td>{$v.chongxiao}</td> -->
+      <!-- <td>{$v.true}</td> -->
+        <!-- <td>{$v.ue_regtime}</td>
+        <td>{$v.ue_regip|ipjc} <a href="/admin8899.php/Home/Index/userlist/ip/{$v.ue_regip}">查看</a></td>
+        <td>{$v.ue_regip}</td>-->
+        <td><span style="color:red"><if condition="$v.status eq '1'" >未审核</if></span>
+                      <if condition="$v.status eq '2'" >审核通过</if>    </td>
+        <td><a href="/admin8899.php/Home/Index/passtixians/id/{$v.id}" class="tablelink">通过</a>   <a href="/admin8899.php/Home/Index/nopasstixians/id/{$v.id}" class="tablelink">拒绝</a> </td>
+        </tr> 
+       </foreach>
+        </tbody>
+    </table>
+     <div class="pages"><br />
+
+                        <div align="right">{$page}
+                        </div>
+   </div>
+   <br/>
+   <br/>
+   <br/>
+   <br/>
+   <br/>
+    <p>提现记录</p>
+     <table class="tablelist">
+      <thead>
+      <tr>
+        
+        <th>序号<i class="sort"><img src="/sncss/images/px.gif" /></i></th>
+        <th>会员编号</th>
+		     <th>姓名</th>
+		   
+        <th>支付宝</th>
+        <th>微信</th>
+        <th>提现金额</th>
+        <th>申请提现时间</th>
+        <th>审核时间</th>
+        <th>状态</th>
+        
+        <th>现金余额</th>
+        <th>操作</th>
+        </tr>
+        </thead>
+        <tbody>
+    
+    <foreach name='list1' item='v1'>
+        <tr>
+     
+     <td>{$v1.ue_id}</td>
+     <td>{$v1.ue_account}</td>
+	   <td>{$v1.truename}</td>
+
+      <td>{$v1.zfb}</td>
+      <td>{$v1.weixin}</td>
+     <td>{$v1.duihuan_money}</td>
+     <td>{$v1.duihuan_time}</td>
+     <td>{$v1.pass_time}</td>
+      <td><span style="color:red"><if condition="$v1.status eq '1'" >待审核</if></span>
+            <span style="color:green"><if condition="$v1.status eq '2'">审核通过</if></span>  
+            <span style="color:red"><if condition="$v1.status eq '3'" >审核未通过</if></span> </td>
+      
+        <td>{$v1.ue_money}</td>
+        <td><a href="/admin8899.php/Home/Index/delete/id/{$v1.id}" class="tablelink">删除</a></td>
+        
+        </tr> 
+       </foreach>
+        </tbody>
+    </table>
+    <style>.pages a,.pages span {
+    display:inline-block;
+    padding:2px 5px;
+    margin:0 1px;
+    border:1px solid #f0f0f0;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border-radius:3px;
+}
+.pages a,.pages li {
+    display:inline-block;
+    list-style: none;
+    text-decoration:none; color:#58A0D3;
+}
+.pages a.first,.pages a.prev,.pages a.next,.pages a.end{
+    margin:0;
+}
+.pages a:hover{
+    border-color:#50A8E6;
+}
+.pages span.current{
+    background:#50A8E6;
+    color:#FFF;
+    font-weight:700;
+    border-color:#50A8E6;
+}</style>
+   
+   <div class="pages"><br />
+
+                        <div align="right">{$page1}
+                        </div>
+   </div>
+    
+    
+    <div class="tip">
+    	<div class="tiptop"><span>提示信息</span><a></a></div>
+        
+      <div class="tipinfo">
+        <span><img src="images/ticon.png" /></span>
+        <div class="tipright">
+        <p>是否确认对信息的修改 ？</p>
+        <cite>如果是请点击确定按钮 ，否则请点取消。</cite>
+        </div>
+      </div>
+        
+        <div class="tipbtn">
+        <input name="" type="button"  class="sure" value="确定" />&nbsp;
+        <input name="" type="button"  class="cancel" value="取消" />
+        </div>
+    
+    </div>
+    
+    
+    
+    
+    </div>
+    
+    <script type="text/javascript">
+	$('.tablelist tbody tr:odd').addClass('odd');
+	</script>
+
+</body>
+
+</html>

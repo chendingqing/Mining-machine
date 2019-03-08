@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link type="text/css" rel="stylesheet" href="__PUBLIC__/web/css/lib.css?2">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta content="telephone=no" name="format-detection">
+    <title>运行</title>
+    <script src="__PUBLIC__/web/js/jquery-1.8.3.min.js"></script>
+    <link rel="stylesheet" href="__PUBLIC__/web/css/weui.min.css"/>
+    <link rel="stylesheet" href="__PUBLIC__/web/css/jquery-weui.min.css">
+    <link href="__PUBLIC__/web/css/font-awesome.min.css" rel="stylesheet">
+    <link href="__PUBLIC__/web/fonts/iconfont.css" rel="stylesheet">
+    <script src="__PUBLIC__/web/js/layer.js"></script>
+    <style>
+        @-webkit-keyframes gogogo {
+            0% {
+                -webkit-transform: rotate(0deg);
+            }
+            50% {
+                -webkit-transform: rotate(180deg);
+            }
+            100% {
+                -webkit-transform: rotate(360deg);
+            }
+        }
+        .loading{
+            -webkit-animation:gogogo 2s infinite linear ;
+        }
+    </style>
+</head>
+</head>
+<body>
+<div style="position: fixed;z-index: -1000;width: 100%;height: 100vh;top:0;left: 0;"><img src="__PUBLIC__/web/img/body_bg.jpg" style="width:100%;height: 100vh"></div>
+<header class="header">
+    <span class="header_l" style="padding-left: 0"><a href="javascript:history.go(-1);"><img src="__PUBLIC__/web/img/back.png" style="display: inline-block;height: 40px"></a></span>
+    <span class="header_c">运行</span>
+	<span style="position: absolute;right: 40px;top: 0px;text-align:center;width:70px;white-space:nowrap; overflow:hidden; text-overflow:ellipsis;font-size: 12px; ">{$userData['ue_truename']}</span>
+    <span class="header_r"><a href="/index.php/Home/Index/index"><i class="fa fa-user"></i></a></span>
+</header>
+
+<canvas id="matrix"style="position:absolute;z-index:-1;width: 100%;height: 100%"></canvas>
+
+<!--顶部结束-->
+<div style="width: 90%;margin-left: 5%;float: left;margin-top: 50px">
+    <p style="height: 20px;line-height: 20px;font-size: 1em;color:#fff;">我的:{$kcmc}</p>
+    <div style="text-align: center;position: relative;width: 100%;height: 100%;height: 100vw;">
+        <!--<img src="__PUBLIC__/web/img/bg2.png" alt=""style="width: 100%"/>-->
+        <img class="quan loading" src="__PUBLIC__/web/img/1.png" alt=""style="display:block;width:56%;position: absolute;top: 17%;left: 22%;z-index: 100; "/>
+        <!--<img class="wquan" src="__PUBLIC__/web/img/2.png" alt=""style="width:56%;position: absolute;top: 22%;left: 22%;z-index: 50;"/>-->
+        <!--<img class="quanb" src="__PUBLIC__/web/img/2b.png" alt=""style="display:none;width:29%;position: absolute;top: 21%;left: 22%;z-index: 500;"/>-->
+        <p class="wakuang" data-id="1" style="z-index:1000;width:100px;height:100px;line-height:100px;position: absolute;top:45%;left:50%;margin-left:-50px;margin-top:-60px;color: #FFFFFF;background-color: green;border-radius: 50%;background-color: rgba(0,128,0,0.5);">运行中</p>
+    </div>
+	<div style=" position:fixed; bottom:60px;">
+		<p  style="margin-top:-20px;height: 30px;line-height: 30px;font-size:12px;"><span id="drGEC" style="font-size:3em;color:#fff">{$jrsy}</span>&nbsp;&nbsp;&nbsp;GEC</p>
+		<p  style="height: 30px;line-height: 30px;color:#fff;margin-top:10px;">我的算力：<span>{$kjsl}</span>&nbsp;GH/s</p>
+		<p style="height: 30px;line-height: 30px;font-size:12px;;color:#aaa;">累计获得：<span id="ljGEC">{$yjzsy}</span>&nbsp;GEC</p>
+		<p  style="height: 30px;line-height: 30px;font-size:10px;color:#aaa;">全网算力：<span>{$qwsl}</span>&nbsp;GH/s</p>
+	</div>
+</div>
+
+<div class="height55"></div>
+<!--底部开始-->
+<style>
+    .footer ul li{
+        width: 25%;
+    }
+</style>
+		<div class="footer">
+     <ul>
+        <li><a href="/index.php/Shop/Index/" class="block"><i class="iconfont">&#xe620;</i>矿机商城</a></li> <li><a href="/index.php/Home/Info/mykuangche/" class="block"><i class="iconfont">&#xe612;</i>我的矿机</a></li> <li><a href="/index.php/Home/Info/Index/" class="block"><i class="iconfont">&#xe61e;</i>交易中心</a></li>       <li><a href="/index.php/Home/Index/Index/" class="block"><i class="iconfont">&#xe619;</i>个人中心</a></li>
+    </ul>
+</div>
+<!--底部结束-->
+<script src="__PUBLIC__/web/js/jquery-weui.min.js"></script>
+<script>
+    $.ajax({
+        url:"",
+        type:"get",
+        data:"",
+        dataType:"json",
+        success:function(data){
+            if(data.static==1){
+                $(".quanb").show();
+                $('.wquan').hide();
+                $('.quan').addClass('loading').show();
+                $(".wakuang").text("挖矿中");
+                $(".wakuang").attr("data-id","1");
+                var time=setTimeout(function(){
+                    $(".quanb").hide();
+                },1000);
+            }else{
+                $(".quanb").show();
+                $('.quan').removeClass('loading').hide();
+                $('.wquan').show();
+                $(".wakuang").text("挖矿");
+                $(".wakuang").attr("data-id","0");
+            }
+        }
+    })
+//    $('.wakuang').bind('click', function(){
+//        if($(".wakuang").attr("data-id")==0){
+//            $(".quanb").show();
+//            $('.wquan').hide();
+//            $('.quan').addClass('loading').show();
+//            $(".wakuang").text("挖矿中");
+//            $(".wakuang").attr("data-id","1");
+//            var time=setTimeout(function(){
+//                $(".quanb").hide();
+//            },1000);
+//        }else{
+//            $(".quanb").show();
+//            $('.quan').removeClass('loading').hide();
+//            $('.wquan').show();
+//            $(".wakuang").text("挖矿");
+//            $(".wakuang").attr("data-id","0");
+//        }
+//    });
+</script>
+    <script type="text/javascript">
+    var matrix=document.getElementById("matrix");
+    var context=matrix.getContext("2d");
+    matrix.height=window.innerHeight;
+    matrix.width=window.innerWidth;
+    var drop=[];
+    var font_size=16;
+    var columns=matrix.width/font_size;
+    for(var i=0;i<columns;i++)
+        drop[i]=1;
+
+    function drawMatrix(){
+
+        context.fillStyle="rgba(0, 0, 0, 0.1)";
+        context.fillRect(0,0,matrix.width,matrix.height);
+
+        context.fillStyle="green";
+        context.font=font_size+"px";
+        for(var i=0;i<columns;i++){
+            context.fillText(Math.floor(Math.random()*2),i*font_size,drop[i]*font_size);/*get 0 and 1*/
+
+            if(drop[i]*font_size>(matrix.height*2/3)&&Math.random()>0.85)/*reset*/
+                drop[i]=0;
+            drop[i]++;
+        }
+    }
+    setInterval(drawMatrix,40);
+
+</script>
+<!--数字递增-->
+<script type="text/javascript">
+    var i=parseFloat(document.getElementById("drGEC").innerHTML);
+    var max=parseFloat(i+({$mmsy}));
+    var time1=setInterval(function() {
+        var time2=setInterval(function(){
+            i=parseFloat((i+0.000222).toFixed(8));
+			console.log(i);
+            if(i>=max){
+                clearInterval(time2);
+				i=max;
+            }
+            $("#drGEC").html(i.toFixed(8));
+        },10);
+        max=i+({$mmsy});
+        $("#drGEC").html(i);
+    }, 5000);
+    var s=parseFloat(document.getElementById("ljGEC").innerHTML);
+//    console.log(s);
+    var time2=setInterval(function() {
+        console.log(s);
+        s=parseFloat((s+({$mmsy})).toFixed(8));
+		$("#ljGEC").html(s.toFixed(8));
+    }, 5000);
+</script>
+
+</body>
+</html>

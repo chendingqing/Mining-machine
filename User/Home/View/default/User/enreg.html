@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>User registration</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+    <link rel="stylesheet" href="__PUBLIC__/Home/css/weui.min.css">
+    <link rel="stylesheet" href="__PUBLIC__/web/css/jquery-weui.min.css">
+	<script charset="UTF-8" src="__PUBLIC__/Home/js/jquery-1.11.3.min.js"></script>
+	<script src="__PUBLIC__/web/js/jquery-weui.min.js"></script>
+	   <!--[if lte IE 8]>
+    <script src="__JS__/html5shiv.min.js"></script>
+    <script src="__JS__/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body style="background-color: #eee">
+	<div id="logo"style="margin: 0 auto;padding: 10px 0; width: 90%; height: auto;text-align: center;margin-top: 20px">
+		<img src="/Public/web/img/logo.png" id="logo" style="width:60%;margin-top:10px;border-radius:10px;margin-bottom:10px" alt=""/>
+	</div>
+	<form action="{:U('/index.php/Home/Login/enregister')}" id="myform" method="post"style="margin-top:20px">
+		<input type="hidden" name="uid" value="{$id}">
+    	<!--<input type="text" placeholder="用户名,只能使用数字,字母,汉字且长度为1-6" name="username" required="required" id="name" pattern="[A-Za-z0-9\u4e00-\u9fa5]{1,6}" title="只能使用数字,字母,汉字且长度为1-6">-->
+		<div style=" margin: 0 auto;width: 94%;background: #fff;border: 1px solid #e3e3e3;border-radius: 5px;">
+			<div style="margin-left: 5%;width: 95%; height: auto;border-bottom: 1px solid #e3e3e3;padding: 10px 0 10px;">
+				Mailbox number：<input id="phone" type="text" placeholder="Please enter the mailbox number" name="phone" required="required" style="width: 70%;color: #999999;font-size: 1em;-webkit-appearance: none;border: none;outline: medium;" >
+			</div>
+			<div class="code" style="margin-left: 5%;width: 95%; height: auto;border-bottom: 1px solid #e3e3e3;padding: 10px 0 10px;">
+				Verification Code：<input type="text" placeholder="Verification Code" name="code" required="required" id="code" class="fl"style="width:40%;color: #999999;font-size: 1em;-webkit-appearance: none;border: none;outline: medium;">
+				<span class="fr" style="background-color: #02d2f5;display: inline-block;width: 35%;text-align: center;font-size: 1em;padding: 0px 0 0px;border-radius: 5px">send</span>
+			</div>
+			<!-- <div  style="margin-left: 5%;width: 95%; height: auto;border-bottom: 1px solid #e3e3e3;padding: 10px 0 10px;">
+				&nbsp;&nbsp;&nbsp;&nbsp;验证码：<input type="text" placeholder="请输入邮箱收到的验证码
+				" name="code" required="required" style="width: 70%;color: #999999;font-size: 1em;-webkit-appearance: none;border: none;outline: medium;" >
+			</div> -->
+			<div style="margin-left: 5%;width: 95%; height: auto;border-bottom: 1px solid #e3e3e3;padding: 10px 0 10px;">
+				Login password：<input type="password" placeholder="Please enter password" required="required" name="pwd"  id="paw"style="width: 70%;color: #999999;font-size: 1em;-webkit-appearance: none;border: none;outline: medium;">
+			</div>
+			<div style="margin-left: 5%;width: 95%; height: auto;border-bottom: 1px solid #e3e3e3;padding: 10px 0 10px;">
+			  	Confirm password：<input type="password" placeholder="Confirm Login password" required="required" name="pwd2"  id="paw2"style="width: 70%;color: #999999;font-size: 1em;-webkit-appearance: none;border: none;outline: medium;">
+			</div>
+			
+			<div style="margin-left: 5%;width: 95%; height: auto;border-bottom: 1px solid #e3e3e3;padding: 10px 0 10px;">
+				Security password：<input type="password" placeholder="Please enter a secure password" required="required" name="aqpwd"  id="aqpaw"style="width: 70%;color: #999999;font-size: 1em;-webkit-appearance: none;border: none;outline: medium;">
+			</div>
+			<div style="margin-left: 5%;width: 95%; height: auto;border-bottom: 1px solid #e3e3e3;padding: 10px 0 10px;">
+			  	Confirm password：<input type="password" placeholder="Confirm Login password" required="required" name="aqpwd2"  id="aqpaw2"style="width: 70%;color: #999999;font-size: 1em;-webkit-appearance: none;border: none;outline: medium;">
+			</div>
+		</div>
+		  <div id="yinsi" style="padding: 10px 0 10px;margin-left: 5%"><input name="agree" type="checkbox" value="1" class="text"  id="check" checked/>&nbsp;<span>I have read and agree<span id='btnBook'>《Service agreement and privacy clause》</span></span></div>
+		<button type="submit" id="submit"style="margin-left: 5%;width: 90%;height: 2.5em;line-height: 2.5em;font-size: 1em;letter-spacing: 1px;text-align: center;color: #fff;border-radius: 5px;-webkit-border-radius: 5px;-moz-border-radius: 5px;background-color: #02d2f5;border: 0">register</button>
+	</form>
+</body>
+<script>
+     function code(){
+	   	      var pd=/^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+	   	      if(pd.test($("#phone").val())){
+	   	    	$.ajax({
+					url:"{:U('index.php/Home/Login/enyanzhengma')}",
+					type:"POST",
+					data:{mobile:$("#phone").val()},
+					dataType:"json",
+					success:function(data){
+							$.alert(data,"Prompt");
+					}
+				})
+				$(".code span").css({"background":"#ddd","color":"#444"}).html("60 seconds to resend").unbind("click");
+				var num=59;
+				var time=setInterval(function(){
+                      $(".code span").html(num-- + "Post resend");
+                      if(num<0){
+                      	clearTimeout(time);
+                      	$(".code span").css({"background":"#e4393c","color":"#fff"}).html("Post resend");
+                      	$(".code span").bind("click",code);
+                      }
+				},1000);
+			}else{
+             $.alert("mailbox error","Prompt");
+			}
+	        }
+	$(function(){
+		$(".code span").bind("click",code);
+		if($(window).width()>768){
+		$("#logo").css({"width":"240px","height":"240px"});
+		}
+			$("#submit").bind("click",function(){
+						  var reg=/[0-9A-z]{6,}/;
+					 if(reg.test($("#paw").val())){
+					   if(reg.test($("#paw2").val())){
+						   if(reg.test($("#aqpaw").val())){
+								  if(reg.test($("#aqpaw2").val())){
+						   return true;
+						 }else{
+						  $.alert("Please enter at least 6 digits or letters");
+						   return false;
+					 };
+						 }else{
+						  $.alert("Please enter at least 6 digits or letters");
+						   return false;
+						 };
+					 }else{
+					  $.alert("Please enter at least 6 digits or letters");
+					   return false;
+					 };
+					 }else{
+					  $.alert("Please enter at least 6 digits or letters");
+					   return false;
+					 };
+			 
+			  })
+		});
+
+</script>
+</html>

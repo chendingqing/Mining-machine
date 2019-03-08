@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>用户注册</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+    <link rel="stylesheet" href="__CSS__/weui.min.css">
+    <link rel="stylesheet" href="__CSS__/jquery-weui.min.css">
+	<script charset="UTF-8" src="__JS__/jquery-1.11.3.min.js"></script>
+	<script src="__JS__/jquery-weui.min.js"></script>
+	   <!--[if lte IE 8]>
+    <script src="__JS__/html5shiv.min.js"></script>
+    <script src="__JS__/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body style="background-color: #eee">
+	<div id="logo"style="margin: 0 auto;padding: 10px 0; width: 90%; height: auto;text-align: center;margin-top: 20px">
+		<img src="/Public/web/img/logo.jpg" style="width:60%;margin-top:10px;border-radius:10px;margin-bottom:10px" alt=""/>
+	</div>
+	<form action="{:U('/Index.php/Weixin/Business/register')}" id="myform" method="post"style="margin-top:20px">
+		<input type="hidden" name="uid" value="{$uid}">
+    	<!--<input type="text" placeholder="用户名,只能使用数字,字母,汉字且长度为1-6" name="username" required="required" id="name" pattern="[A-Za-z0-9\u4e00-\u9fa5]{1,6}" title="只能使用数字,字母,汉字且长度为1-6">-->
+		<div style=" margin: 0 auto;width: 94%;background: #fff;border: 1px solid #e3e3e3;border-radius: 5px;">
+			<div style="margin-left: 5%;width: 95%; height: auto;border-bottom: 1px solid #e3e3e3;padding: 10px 0 10px;">
+				<input type="tel" placeholder="请输入手机号" name="phone" required="required" id="phone"style="width: 100%;color: #999999;font-size: 1em;-webkit-appearance: none;border: none;outline: medium;" >
+			</div>
+			<div class="code"style="margin-left: 5%;width: 95%; height: auto;border-bottom: 1px solid #e3e3e3;padding: 10px 0 10px;">
+				<input type="text" placeholder="手机收到的验证码" name="code" required="required" id="code" class="fl"style="width:60%;color: #999999;font-size: 1em;-webkit-appearance: none;border: none;outline: medium;">
+				<span class="fr" style="background-color: #F04447;display: inline-block;width: 35%;text-align: center;font-size: 1em;padding: 0px 0 0px;border-radius: 5px">发送验证码</span>
+			</div>
+			<div style="margin-left: 5%;width: 95%; height: auto;border-bottom: 1px solid #e3e3e3;padding: 10px 0 10px;">
+				<input type="password" placeholder="请输入二级密码" required="required" name="pwd" id="paw"style="width: 100%;color: #999999;font-size: 1em;-webkit-appearance: none;border: none;outline: medium;">
+			</div>
+			<div style="margin-left: 5%;width: 95%; height: auto;border-bottom: 1px solid #e3e3e3;padding: 10px 0 10px;">
+			  	<input type="password" placeholder="确定输入密码" required="required" name="paw2" id="paw2"style="width: 100%;color: #999999;font-size: 1em;-webkit-appearance: none;border: none;outline: medium;">
+			</div>
+		</div>
+		  <div id="yinsi" style="padding: 10px 0 10px;margin-left: 5%"><input name="agree" type="checkbox" value="1" class="text"  id="check" checked/>&nbsp;<span>我已阅读和同意<span id='btnBook'>《服务协议及隐私条款》</span></span></div>
+		<button type="submit" id="submit"style="margin-left: 5%;width: 90%;height: 2.5em;line-height: 2.5em;font-size: 1em;letter-spacing: 1px;text-align: center;color: #fff;border-radius: 5px;-webkit-border-radius: 5px;-moz-border-radius: 5px;background-color: #F04447;border: 0">注&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;册</button>
+	</form>
+</body>
+<script>
+       
+	   function code(){
+	   	      var pd=/^1[3|4|5|7|8][0-9]{9}$/;
+	   	      if(pd.test($("#phone").val())){
+	   	    	$.ajax({
+					url:"{:U('/Index.php/Home/Ajax/getmobilecode')}",
+					type:"POST",
+					data:{mobile:$("#phone").val()},
+					dataType:"json",
+					success:function(data){
+							$.alert(data,"提示");
+					},
+					error:function(){
+						$.alert("发送失败，请刷新重试","提示");
+					}
+				})
+				$(".code span").css({"background":"#ddd","color":"#444"}).html("60秒重新发送").unbind("click");
+				var num=59;
+				var time=setInterval(function(){
+                      $(".code span").html(num-- + "后重新发送");
+                      if(num<0){
+                      	clearTimeout(time);
+                      	$(".code span").css({"background":"#e4393c","color":"#fff"}).html("重新发送");
+                      	$(".code span").bind("click",code);
+                      }
+				},1000);
+			}else{
+             $.alert("手机号码不正确","提示");
+			}
+	        }
+	    $(function(){
+            $(".code span").bind("click",code);
+            $("#submit").click(function(){
+            	// 用户名验证正则
+            	var upd=/^[A-Za-z0-9\u4e00-\u9fa5]{1,6}$/;
+            	//手机好验证正则
+            	var ppd=/^1[3|4|5|7|8][0-9]{9}$/;
+            	if (!ppd.test($("#phone").val())||$("#phone").val().length==0) {
+            		  $.alert("手机号码不正确","错误");
+                      return false;
+            	}else if ($("#code").val().length==0) {
+            		  $.alert("验证码不能为空","错误");
+            		  return false;
+            	}else if ($("#paw").val().length==0) {
+            		  $.alert("密码不能为空","错误");
+                      return false;
+            	}else if ($("#paw").val()!=$("#paw2").val()) {
+            		   $.alert("两次密码不同","错误");
+                      return false;
+            	}else {
+					return true;
+				}
+            })
+	    })
+</script>
+</html>

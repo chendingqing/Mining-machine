@@ -1,0 +1,58 @@
+.mui-table-view-cell:after{
+    margin-right: 15px;
+}
+.mui-pull-right>img{
+    padding-top: 10px;
+}
+.kj_kuangji_icon{
+    width: 15%;
+    float: left;
+    padding-top: 3%;
+    padding-bottom: 15px;
+}
+.kj_kuangji_icon img{
+    width: 100%;
+}
+.kj_kuangji_text{
+    position: absolute;
+    left: 20%;
+    padding-left: 5px;
+}
+.kj_kuangji_text p span{
+    font-size: 12px;
+}
+.kj_kuangji_text strong{
+    padding-right: 4px;
+}
+.kj_kuangji_btngroup{
+    float: right;
+    width: 20%;
+    margin-top: 10px;
+}
+.kj-kuangji-btn1{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42;
+    text-align: center;
+    padding: 6px 5px;
+    border-radius: 12px;
+    background-color: #30b4ff;
+}
+.kj-kuangji-btn1 a{
+    color: #ffffff;
+}
+.kj-kuangji-btn2{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42;
+    text-align: center;
+    padding: 6px 5px;
+    border-radius: 12px;
+    margin-top: 10px;
+    background-color: #999999;
+    color: #ffffff;
+}
+.mui-table-view:after,.mui-table-view:before{
+    background-color: transparent;
+}
+

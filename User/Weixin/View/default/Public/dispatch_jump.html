@@ -1,0 +1,142 @@
+<?php
+    if(C('LAYOUT_ON')) {
+        echo '{__NOLAYOUT__}';
+    }
+?>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>正在跳转...</title>
+  <style>
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+body {
+	background: #19182A;
+}
+
+canvas {
+  width: 100%;
+  margin: 0;
+	background: #19182A;
+	border: 1px solid #666;
+	display: block;
+        left: 0;
+	position: absolute;
+	top:245px;
+	border-left:none;
+	border-right:none;
+}
+p{
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 600;
+}
+span{
+  color: #fff;
+  font-size: 14px;
+  font-family: "微软雅黑";
+}
+span>i{
+  display: inline-block;
+  width: 25px;
+  height: 1px;
+  background: #fff;
+  margin-bottom: 4px;
+}
+h1{
+  font-size: 77px;
+  font-weight: 600;
+  color: #fff;
+  width: 150px;
+  height: 127px;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 10px;
+  background: rgba(255,255,255,.1);
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+h1>p{
+  font-size: 14px;
+  margin-top: 10px;
+  color:#fff;
+  font-family:"微软雅黑";
+}
+a{
+  color: #fff;
+  font-weight:500;
+  text-decoration: none; 
+}
+</style>
+  <script src="__JS__/prefixfree.min.js"></script>
+</head>
+<body>
+  <script src="__JS__/index007.js"></script>
+  <present name="message">
+  <h1 style="color:green;">√<br/><p><?php echo($message); ?></p></h1>
+  <else/>
+  <h1 style="color:red;">×<br/><p><?php echo($error); ?></p></h1>
+  </present>
+  <p class="xx">正在<a id="href" href="<?php echo($jumpUrl);?>">跳转</a> <span><i></i> 请稍后(<span id="wait"><?php echo($waitSecond); ?></span>)...</span></p>
+<div style="text-align:center;clear:both">
+</div>
+<script>
+(function(){
+var wait = document.getElementById('wait'),href = document.getElementById('href').href;
+var interval = setInterval(function(){
+  var time = --wait.innerHTML;
+  if(time <= 0) {
+    location.href = href;
+    clearInterval(interval);
+  };
+}, 1000);
+})();
+</script>
+</body>
+
+</html>

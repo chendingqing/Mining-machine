@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	   <link rel="stylesheet" href="__CSS__/font/iconfont.css">
+	<title>佣金提现</title>
+	<style>
+	    body{
+	    	margin: 0;padding: 0;list-style: none;
+	    	font-family: "微软雅黑";
+			font-size:10px;
+	    }
+	        ul,li{
+        	padding: 0;
+        	margin: 0;
+        	list-style: none;
+        }
+        .fl{
+        	float: left;
+        }
+        a{
+        	color: #fff;
+        	text-decoration: none;
+        }
+		form{
+			width: 100%;
+			margin: 0 auto;
+			position: relative;
+			top: 20px;
+		}
+		#header{
+			line-height:50px;
+			font-size:16px;
+			color:#333;;
+			padding-left:10px;
+			border-bottom:1px solid #ddd;
+		}
+		#header span{
+		    line-height:50px;
+			font-size:20px;
+			color:#e4393c;
+			font-weight:600;
+			margin-left:10px;
+			margin-right:10px;
+		}
+		form span{
+			display: inline-block;
+			height: 30px;
+			border: 1px solid #ddd;
+			text-align: center;
+			line-height: 30px;
+			padding-left: 10px;
+			background: #efefef;
+		    color: #444;
+		    vertical-align: middle;
+		}
+		form .box2,form .box1{
+			width: 100%;
+			margin: 0 auto;
+			margin-top: 10px;
+		}
+		form input{
+			    display: block;
+    width: 270px;
+    margin: 0 auto;
+    margin-top: 10px;
+    height: 30px;
+    border-radius: 10px;
+    padding-left: 10px;
+    outline: none;
+		}
+		button{
+	    display: block;
+    width: 300px;
+    background: #e4393c;
+    color: #fff;
+    height: 35px;
+    line-height: 35px;
+    border: none;
+    outline: none;
+    box-shadow: 1px 1px 1px 1px #ddd;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 25px;
+    font-size: 16px;
+		}
+/* footer */
+#footer{
+	height: 50px;
+	width: 100%;
+	background: #131224;
+	position: fixed;
+	bottom: 0;
+}
+#footer ul>li{
+   width: 25%;
+   text-align:  center;
+   height: 50px;
+   color: #999;
+}
+#footer ul>li>a{
+	display: block;
+    line-height: 20px;
+    width: 100%;
+    color: #999;
+}
+#footer ul>li>p{
+    margin:0;
+	margin-top: 10px;
+}
+#footer ul> .active{
+	color: #0067AC;
+}
+#footer ul> .active>a{
+	color: #0067AC;
+}   
+#share {
+       	display: none;
+       	position: absolute;
+       	top: 0;
+       	left: 0;
+       	width: 100%;
+       }
+	#footer ul>li>a p{
+	margin:0;
+		    margin-top:5px;
+		}
+	</style>
+</head>
+<body>
+<div style="height:50px;width:100%;text-align:center;line-height:50px;background:#0067AC;color:#fff;font-size:20px;">
+	    <a href="{:U('Jjr/jjrsy')}" style="float:left;margin-top:8px;margin-left:10px;height:30px;width:30px;border-radius:30px;"><img src="__IMG__/lf.png" width="100%";></a><span style="margin-left:-51px;">佣金提现</span>
+	</div>
+	<div id="header" >可提现佣金:<span>￥{$result['yjye']}</span>元</div>
+	<form action="{:U('Home/Jjr/txorder')}" method="post">
+		<div class="box1">
+		  <input type="text" placeholder="请输入转出的金额" value="" name="money">
+		</div>
+		<div class="box2">
+		<input type="text" placeholder="请输入经纪人交易密码"value="" name="pwd">
+		</div>
+		<button type="submit">确&nbsp;定&nbsp;转&nbsp;出</button>
+	</form>
+    <!-- 底部 -->
+ <div id="footer">
+		<ul>
+			<li class="fl">
+			<a href="{:U('Index/index')}" >
+			<p class="iconfont">&#xe860;</p>首页   </a>
+			</li>
+			<li class="fl">
+			<a href="{:U('User/holdentrepot')}">
+			<p class="iconfont">&#xe6a4;</p>持仓单  </a>
+			</li>
+			<li class="fl">
+			<a href="{:U('News/index')}">
+			<p class="iconfont">&#xe6cb;</p>投资学院</a>
+			</li>
+			<li class="fl">
+			<a href="{:U('User/memberinfo')}">
+			<p class="iconfont">&#xe66b;</p>个人中心</a>
+			</li>
+		</ul>
+	</div>
+</html>

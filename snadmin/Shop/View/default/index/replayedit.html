@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>微信回复管理</title>
+	<link rel="stylesheet" href="/css/article-add.css"
+	type="text/css" media="screen" />
+</head>
+<body>
+	
+<div class="container-fluid">
+	<div id="pad-wrapper" class="form-page">
+		<div class="row-fluid header">
+			<h3>微信管理&nbsp;&nbsp;回复管理</h3>
+		</div>
+		<div class="span8 column">
+			<form action="/admin8899.php/Shop/Index/replayedit" method="post">
+				<input name="id" type="hidden" value="{$rsplay['id']}">
+				<div class="field-box">
+					<label>回复名称:</label> <input class="span8" name="message_name"
+						type="text" value="{$rsplay['message_name']}" />
+				</div>
+				<div class="field-box">
+					<label>自动应答回复:</label>
+					<textarea class="span8" name='replay' rows="4" placeholder='自动应答文字'>{$rsplay['replay']}</textarea>
+				</div>
+				<div class="field-box">
+					<label>新增关注回复:</label>
+					<textarea class="span8" name='replay1' rows="4"
+						placeholder='自动应答文字'>{$rsplay['replay1']}</textarea>
+					<span class="help-block">全文样例:<span style="color: blue">恭喜您由【张三】邀请成为【某某某商城】的第【100】位会员</span>
+						<span style="color: red;">XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</span><br>
+					<strong>注意前面<span style="color: blue">蓝色</span>字符为默认，您只能填写<span
+							style="color: red;">红色XXX</span>字体部分，任意填写
+					</strong></span>
+				</div>
+				<div class="span11 field-box actions">
+					<input type="submit" class="btn-glow primary" value="提 交" /> <span>OR</span>
+					<input type="reset" class="btn-glow error" value="重 置"
+						class="reset" />
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+</div>
+<!-- end main container --> <!-- scripts for this page --> <script
+	src="__JS__/wysihtml5-0.3.0.js"></script> <script
+	src="__JS__/jquery-latest.js"></script> <script
+	src="__JS__/bootstrap.min.js"></script> <script
+	src="__JS__/bootstrap-wysihtml5-0.0.2.js"></script> <script
+	src="__JS__/bootstrap.datepicker.js"></script> <script
+	src="__JS__/jquery.uniform.min.js"></script> <script
+	src="__JS__/select2.min.js"></script> <script src="__JS__/theme.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		var eqli = $("#dashboard-menu").children().eq(2);
+		eqli.attr('class','active');
+		$("#dashboard-menu .active .submenu").css("display","block");
+	});
+</script> <!-- call this page plugins --> <script type="text/javascript">
+    $(function () {
+
+        // add uniform plugin styles to html elements
+        $("input:checkbox, input:radio").uniform();
+
+        // select2 plugin for select elements
+        $(".select2").select2({
+            placeholder: "Select a State"
+        });
+
+        // datepicker plugin
+        $('.datepicker').datepicker().on('changeDate', function (ev) {
+            $(this).datepicker('hide');
+        });
+
+        // wysihtml5 plugin on textarea
+        $(".wysihtml5").wysihtml5({
+            "font-styles": false
+        });
+    });
+</script>
+</body>
+</html>

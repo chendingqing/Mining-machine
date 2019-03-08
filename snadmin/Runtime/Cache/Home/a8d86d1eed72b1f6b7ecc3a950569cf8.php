@@ -1,0 +1,147 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<link href="/sncss/css/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/sncss/js/jquery.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function(){
+  $(".click").click(function(){
+  $(".tip").fadeIn(200);
+  });
+  
+  $(".tiptop a").click(function(){
+  $(".tip").fadeOut(200);
+});
+
+  $(".sure").click(function(){
+  $(".tip").fadeOut(100);
+});
+
+  $(".cancel").click(function(){
+  $(".tip").fadeOut(100);
+});
+
+});
+</script>
+
+
+</head>
+
+
+<body>
+
+	<div class="place">
+    <span>位置：</span>
+    <ul class="placeul">
+    <li><a href="#">首页</a></li>
+    <li><a href="#">数据表</a></li>
+    <li><a href="#">基本内容</a></li>
+    </ul>
+    </div>
+    
+    <div class="rightinfo">
+    
+    <div class="tools">
+    
+    	 <form id="form1" name="form1" method="post" action="/admin8899.php/Home/Index/userlist">
+	 
+   <input name="user" type="text" class="dfinput" id="user" />
+	<input name="" type="submit" class="btn" value="确认搜索"/>
+      </form>
+    </div>
+<div>总投诉条数：<?php echo ($count); ?>
+</div>
+    <table class="tablelist">
+    	<thead>
+    	<tr>
+        <th>序号<i class="sort"><img src="/sncss/images/px.gif" /></i></th>
+        <th>投诉人</th>
+        <th style="width:7%">被投诉人</th>
+        <th>投诉理由</th>
+		    <th>投诉时间</th>
+			<th>操作</th>
+		 <th>状态</th>
+      </tr>
+      </thead>
+      <tbody>
+		
+		<?php if(is_array($list)): foreach($list as $key=>$v): ?><tr>
+		  <td><?php echo ($v["id"]); ?></td>
+		  <td><?php echo ($v["user"]); ?></td>
+		  <td><?php echo ($v["buser"]); ?></td>
+	    <td><?php echo ($v["text"]); ?></td>
+        <td><?php echo ($v["date"]); ?></td>
+		
+		<td><a href="/admin8899.php/Home/Index/tscl/id/<?php echo ($v["id"]); ?>" class="tablelink">冻结账号</a>|<a href="/admin8899.php/Home/Index/tsdel/id/<?php echo ($v["id"]); ?>" class="tablelink">删除</a></td>
+		<td><?php if($v["status"] == 0): ?>未处理<?php endif; if($v["status"] == 1): ?>已处理<?php endif; ?></td>
+       
+        </tr><?php endforeach; endif; ?>
+        </tbody>
+    </table>
+    <style>.pages a,.pages span {
+    display:inline-block;
+    padding:2px 5px;
+    margin:0 1px;
+    border:1px solid #f0f0f0;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border-radius:3px;
+}
+.pages a,.pages li {
+    display:inline-block;
+    list-style: none;
+    text-decoration:none; color:#58A0D3;
+}
+.pages a.first,.pages a.prev,.pages a.next,.pages a.end{
+    margin:0;
+}
+.pages a:hover{
+    border-color:#50A8E6;
+}
+.pages span.current{
+    background:#50A8E6;
+    color:#FFF;
+    font-weight:700;
+    border-color:#50A8E6;
+}</style>
+   
+   <div class="pages"><br />
+
+                        <div align="right"><?php echo ($page); ?>
+                        </div>
+   </div>
+    
+    
+    <div class="tip">
+    	<div class="tiptop"><span>提示信息</span><a></a></div>
+        
+      <div class="tipinfo">
+        <span><img src="images/ticon.png" /></span>
+        <div class="tipright">
+        <p>是否确认对信息的修改 ？</p>
+        <cite>如果是请点击确定按钮 ，否则请点取消。</cite>
+        </div>
+      </div>
+        
+        <div class="tipbtn">
+        <input name="" type="button"  class="sure" value="确定" />&nbsp;
+        <input name="" type="button"  class="cancel" value="取消" />
+        </div>
+    
+    </div>
+    
+    
+    
+    
+    </div>
+    
+    <script type="text/javascript">
+	$('.tablelist tbody tr:odd').addClass('odd');
+	</script>
+
+</body>
+
+</html>

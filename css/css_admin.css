@@ -1,0 +1,67 @@
+*{margin:0;padding:0}
+body{font-size:12px;font-family:Arial;text-align:center;line-height:22px;color:#222;background: #F5FAFD;margin: 0;padding: 0px;}
+a:link,a:visited{text-decoration:none;color:#000;}
+a:hover{text-decoration:underline;color:blue;}
+img{vertical-align:middle;border:0px none;}
+ul{list-style-image:none;list-style-type:none;}
+li,p{}
+h1{font-size:12px;}
+h2,h3,h4,h5{font-size:12px;font-weight:normal;display:inline;text-align:left;}
+
+form{display:inline;}
+input{font-family:Tahoma,Arial;font-size:12px;}
+input.text{height:16px;padding:1px;color:#000000;border:1px solid #CCCCCC;background-color:#F9F9F9;}
+input.button{height:20px;color:#000000;border:1px solid #999999;border-top:1px solid #CCCCCC;border-left:4px solid #CCCCCC;background:#FFFFFF;}
+textarea{font-size:12px;font-family:Tahoma,Arial;color:#000000;border:1px solid #CCCCCC;background:#F9F9F9;height:100px;width:200px;}
+select{font-size:12px;font-family:Tahoma,Arial;color:#000000;background-color:#FFFFFF;}
+span.newstime{color:#888;width: 80px;display: block;float: left;font-family: Verdana,Arial;font-size: 12px;}
+.bt {height:28px;line-height: 28px;width:88px;border:0px;color:#fff;font-weight: bold;font-size: 14px;text-align: center;}
+.bt_a:link,.bt_a:visited {display: block;line-height: 28px;height:28px;width:88px;border:0px;color:#fff;font-weight: bold;font-size: 14px;text-align: center;}
+.ipt {height: 18px;line-height: 18px;padding: 3px 4px;font-family: Verdana,ËÎÌå,Î¢ÈíÑÅºÚ;border: 1px solid #9A9A9A;border-bottom: 1px solid #CDCDCD;border-right: 1px solid #CDCDCD;}
+
+.wrap_admin {padding: 10px;text-align: left;margin: 0 auto;}
+
+/*·ÖÒ³Ò³ÂëÑùÊ½*/
+.pagediv{clear:both;padding:0px;text-align:center;margin-top:10px;margin-bottom:6px;font-size:12px;}
+.pagediv a{border:1px solid #ccc;color:#666666;margin:2px;padding:3px 5px;text-decoration:none;background:#fff;}
+
+.querybox {margin: 0px 0 0px;}
+.commentbdiv {overflow-x: auto;width: 100%;word-wrap: break-word;padding-bottom: 30px;}
+.commentb {background: #D3E1F8;line-height: 30px;margin-top: 10px;color: #333;font-size: 12px;font-family: Verdana,ËÎÌå;}
+.commentb tr {background: #fff;}
+.commentb tr.tbhd {background: url(admin_hd.gif) 0 0px repeat-x;font-weight: bold;}
+.commentb tr td {white-space: nowrap;padding-left: 6px;padding-right: 6px;}
+.commentb tr th {white-space: nowrap;padding-left: 6px;padding-right: 6px;}
+
+.regwrap {margin-top: 10px;padding: 30px;margin: 0 auto;text-align: left;}
+.regwrap ul {display: block;padding-left: 20px;}
+.regwrap li {display: block;clear: both;margin-bottom: 10px;font-size: 14px;color: #111;}
+.regwrap label {width: 120px;text-align: right;display: block;float: left;margin-right: 5px;font-size: 14px;font-weight: normal;color: #999;}
+.regwrap font {color: #999;}
+.regwrap span.red {font-family: ËÎÌå;color: red;font-size: 12px;}
+.regwrap h3 {display: block;color: #EA7A01;font-size: 14px;font-weight: bold;line-height: 40px;height: 40px;border-top: 1px solid #eee;margin-bottom: 5px;}
+.regwrap .ipt {height: 18px;}
+.regwrap li a,.regwrap li a:link,.regwrap li a:visited {color: blue;font-size: 12px;}
+.txtarea {height: 180px;width: 500px;line-height: 18px;padding: 3px 4px;font-family: Verdana,ËÎÌå,Î¢ÈíÑÅºÚ;border: 1px solid #9A9A9A;border-bottom: 1px solid #CDCDCD;border-right: 1px solid #CDCDCD;}
+
+.pagelist {font-size: 12px;font-family: ËÎÌå,Î¢ÈíÑÅºÚ;line-height: 30px;}
+
+.welcomebox {background: #bbb;width: 115px;height: 127px;}
+.welcomebox tr td {background: #fff;text-align: center;}
+.netbox {width: 110px;text-align: center;background: #6790E8;line-height: 20px;font-family: ËÎÌå,Î¢ÈíÑÅºÚ;}
+.netbox tr {background: #fff;}
+.netbox tr.box1,.netbox tr.box6 {background:#8BADF7;}
+.netbox tr.box3 {font-size: 10px;}
+.netbox tr.box3 td {font-size: 12px;font-family: ËÎÌå,Î¢ÈíÑÅºÚ;}
+.netbox td {width: 33%;text-align: center;}
+
+
+
+.kongdan1 {width: 110px;text-align: center;background: green;line-height: 20px;font-family: ËÎÌå,Î¢ÈíÑÅºÚ;}
+.kongdan1 tr.box1,.kongdan1 tr.box6 {background:green;color: #fff;}
+.kongdan1 tr.box1 a,.kongdan1 tr.box1 a:link,.kongdan1 tr.box1 a:visited {color: #fff;}
+
+.jihuobox0 {width: 110px;text-align: center;background: red;line-height: 20px;font-family: ËÎÌå,Î¢ÈíÑÅºÚ;}
+.jihuobox0 tr.box1,.jihuobox0 tr.box6 {background:red;color: #fff;}
+.jihuobox0 tr.box1 a,.jihuobox0 tr.box1 a:link,.jihuobox0 tr.box1 a:visited {color: #fff;}
+

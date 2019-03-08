@@ -1,0 +1,187 @@
+<!-- header start -->
+<div id="header">
+<div class="header_bg mar_cen">
+<div class="header_tit fr">if88888888&nbsp;&nbsp;歡迎登陸系統平台！&nbsp;&nbsp;<a href="mymsg.html">我的消息(0)</a>&nbsp;&nbsp;<a href="javascript:if(confirm(' 確實要退出嗎?'))location='{:U('Login/logout')}'">安全退出</a>&nbsp;&nbsp;</div>
+</div>
+</div>
+<script language="javascript" type="text/javascript">
+function infoCheck55(){
+document.getElementById('zzan599').innerHTML= '正在驗證中···';
+            return true;
+			}
+</script>
+
+<!-- header end -->
+<!--------------------搶購金幣二級驗證--------------------------->
+<div  id="light27" class="white_content" style="height:20%;"><span class="dis_bl fr"><a href = "javascript:void(27)" onclick = "document.getElementById('light27').style.display='none';document.getElementById('fade').style.display='none'"><span class="span_style01">關閉窗口</span></a></span>
+<br>
+       <div>
+	   <form action="index.php?sn=jqjb_secpw" method="post"  onsubmit="return infoCheck55();">
+	    請輸入二級密碼：<input type="password" name="secPw"> <span  id="zzan599"><input type="submit" value="查詢" > </span>
+	   </form>
+       </div>
+</div> 
+
+<!--------------------------------------------------->
+
+
+       <div id="light30" class="white_content" style="height:15%"><span class="dis_bl fr"><a href = "javascript:void(30)" onclick = "document.getElementById('light30').style.display='none';document.getElementById('fade').style.display='none'"><span class="span_style01">關閉窗口</span></a></span>
+       <!--玩家身份等級說明---><br>
+       <div>
+       <p><a href="mymsg.html">您有壹條新的交易信息，點擊查看最新消息【查看詳細】</a></p>
+       <hr>
+       </div>
+       </div>
+
+
+
+<!-- nav start -->
+<div id="nav">
+
+<div class="nav_bg mar_cen">
+<ul id="sddm">	<li class="li_bg">
+	<a href=wjsy.html onMouseOver="mopen('m1')" onMouseOut="mclosetime()">玩家首頁</a>
+	</li>	<li class="li_bg"><a href=news.html onMouseOver="mopen('m2')" onMouseOut="mclosetime()">玩家公告</a>
+	</li>
+
+	
+	<li class="li_bg">
+		
+		
+		<a href="myinfo.html" onMouseOver="mopen('m3')" onMouseOut="mclosetime()">個人設置</a>
+	
+		
+		<div id="m3" onMouseOver="mcancelclosetime()" onMouseOut="mclosetime()">
+		<a href="myinfo.html">個人資料</a>
+		<a href="xgmm.html">修改密碼</a>
+        <a href="skzhgl.html">收款帳號</a>
+		</div>
+	</li>	<li class="li_bg"><a href="jysy.html" onMouseOver="mopen('m4')" onMouseOut="mclosetime()">交易系統</a>
+
+		<div id="m4" onMouseOver="mcancelclosetime()" onMouseOut="mclosetime()">
+		
+		
+		<a href="jysy.html">擔保交易</a>
+	
+		
+		
+		<a href="jysystem_qgjb">搶購金幣</a>
+		
+		
+
+        <a href="jysystem_qgjl">搶購記錄</a>
+
+		
+		
+		<a href="jysystem_jbmc">金幣賣出</a>
+
+		
+        <a href="jysystem_mcjl">賣出記錄</a>
+
+		</div>
+	</li>
+		<li class="li_bg">
+		
+		
+		<a href="yxjj.html" onMouseOver="mopen('m5')" onMouseOut="mclosetime()">財務中心</a>
+
+		
+		<div id="m5" onMouseOver="mcancelclosetime()" onMouseOut="mclosetime()">
+		
+		<a href="{:U('Index/jbzz')}">金幣轉帳</a>
+	
+		
+		
+		<a href="zzjl.html">轉帳記錄</a>
+
+		
+		
+        <a href="yxjj.html">獎金記錄</a>
+	
+		
+		
+		
+		<a href="jbmx.html">金幣明細</a>
+	
+		
+		</div>
+	</li>
+	
+
+    
+    <li class="li_bg">
+	
+	<a href="myuser" onMouseOver="mopen('m6')" onMouseOut="mclosetime()">帳號管理</a>
+	
+		<div id="m6" onMouseOver="mcancelclosetime()" onMouseOut="mclosetime()">
+		
+		<a href="{:U('Index/reg')}">註冊帳號</a>
+
+		
+		
+		<a href="myuser">我的帳號</a>
+	
+		
+		<a href="active.html">激活帳號</a>
+	
+	
+        <a href="xzzh.html">新增帳號</a>
+		</div>
+	</li>
+    <li class="li_bg">
+	
+	
+	<a href="llwm" onMouseOver="mopen('m7')" onMouseOut="mclosetime()">聯繫我們 </a>
+
+	
+		<div id="m7" onMouseOver="mcancelclosetime()" onMouseOut="mclosetime()">
+		<a href="llwm">提交留言</a>
+		<a href="llwm-if88888888">留言記錄</a>
+		</div>
+	</li>
+    <li><a href="{:U('Login/logout')}" onMouseOver="mopen('m8')" onMouseOut="mclosetime()">安全退出 </a>
+		
+	</li>
+</ul>
+
+</div>
+
+</div>
+<!-- nav end -->
+
+<!--tu biao start-->
+<div id="tb_bgcolor">
+<div id="tb">
+<div class="wid_1000 mar_cen">
+<ul>
+<li><a href="{:U('Index/news')}"><div>玩家公告</div></a></li>
+
+
+<li><a href="{:U('Index/jbmx')}"><div>遊戲獎金</div></a></li>
+
+
+
+<li><a href="{:U('Index/reg')}"><div>註冊帳號</div></a></li>
+
+
+
+<li><a href="myuser"><div>我的帳號</div></a></li>
+
+
+
+<li><a href="{:U('Index/jbzz')}">
+<div>金幣轉帳</div>
+</a></li>
+
+
+<li><a href="{:U('Index/novice')}"><div>新手入門</div></a></li>
+
+<li><a href="{:U('Index/helpCenter')}"><div>幫助中心</div></a></li>
+<li><a href="{:U('Index/safe')}"><div>帳號安全</div></a></li>
+<li><a href="{:U('Index/yjsb')}">
+<div> 一鍵收幣</div>
+</a></li>
+</ul>
+</div>
+</div>
+</div>

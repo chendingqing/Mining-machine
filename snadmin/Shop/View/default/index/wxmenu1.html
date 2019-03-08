@@ -1,0 +1,81 @@
+
+<link rel="stylesheet" href="__CSS__/compiled/new-user.css" type="text/css" media="screen" />  
+   <div class="container-fluid">
+            <div id="pad-wrapper" class="new-user">
+                <div class="row-fluid header">
+                    <h4>微信管理&nbsp;>&nbsp菜单管理</h4>
+                </div>
+                <div class="row-fluid form-wrapper">
+                    <div class="row-fluid table">
+                <table class="table table-hover">
+                 <thead>
+                    <tr>
+                    <th style="display: none">PID</th>
+                        <th>ID</th>
+                        <th>名称</th>
+                        <th>类型</th>
+                        <th>链接</th>
+                        <th>点击事件key</th>
+                    <th class="span3 sortable">
+                         <span class="line"></span>操作
+                     </th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <volist name="menu" id="menu">
+                        <tr>
+							<td style="display: none">{$menu.pid}</td>
+                            <td parent="{$menu.pid}">{$menu.menu_id}</td>
+                            <td width="200" >{$menu.menu_name}</td>
+                            <td>{$menu.menu_type}</td>
+                            <td>{$menu.view_url}</td>
+                            <td>{$menu.event_key}</td>
+                            <td style="text-align: center;">
+                            <a href="{:U('Menber/medit',array('id'=>$menu['menu_id']))}"class="btn btn-default btn-sm">修改</a>&nbsp 
+                            <a class="btn btn-danger btn-sm" href="{:U('Menber/delmenu',array('id'=>$menu['menu_id']))}" onclick="return confirm('你确定要删除吗？')">删除</a>
+                            </td>
+                        </tr>
+                    </volist>
+                    </tbody>
+                </table>
+                <table class="table table-hover">
+                    <span style="font-size: 16px;color: red;">一级菜单最多为三个，二级菜单最多为五个</span>
+                </table>
+                <table class="table table-hover">
+                    <span style="font-size: 16px;color: red;">如新增修改自定义菜单后,请点击下面的生成按钮重新生成，生成24小时后生效</span>
+                     <a href="{:U('Menber/creatmenu')}" class="btn-flat success pull-right" style="margin-right:150px;">重新生成菜单</a>
+                    <a href="{:U('Menber/medit')}" class="btn-flat error pull-right" style="margin-right:50px;"><span>&#43;</span>添加菜单</a>
+                </table>
+            </div>
+                </div>
+            </div>
+        </div>
+	<!-- scripts -->
+    <script src="__JS__/jquery-latest.js"></script>
+    <script src="__JS__/bootstrap.min.js"></script>
+    <script src="__JS__/theme.js"></script>
+    <script type="text/javascript">
+		$(document).ready(function(){
+			var eqli = $("#dashboard-menu").children().eq(9);
+			eqli.attr('class','active');
+			$("#dashboard-menu .active .submenu").css("display","block");
+		});
+	 </script>	
+	<script type="text/javascript">
+        $(function () {
+            var $buttons = $(".toggle-inputs button");
+            var $form = $("form.new_user_form");
+            $buttons.click(function () {
+                var mode = $(this).data("input");
+                $buttons.removeClass("active");
+                $(this).addClass("active");
+
+                if (mode === "inline") {
+                    $form.addClass("inline-input");
+                } else {
+                    $form.removeClass("inline-input");
+                }
+            });
+        });
+    </script>
+</block>

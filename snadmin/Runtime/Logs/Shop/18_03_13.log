@@ -1,0 +1,171 @@
+[ 2018-03-13T23:56:10+08:00 ] 27.196.226.115 /admin8899.php/Shop/index/wxme
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_wxconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_wxconfig` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: userdata C:\WWW\snadmin\Runtime\Cache\Shop\210296a7bb7883099a58633df6dfc8b8.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-13T23:56:34+08:00 ] 27.196.226.115 /admin8899.php/Shop/index/wxmenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_wxmenu` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_wxmenu` ORDER BY pid asc,menu_id asc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: one_arr C:\WWW\snadmin\Shop\Common\function.php 第 13 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\WWW\snadmin\Shop\Common\function.php 第 13 行.
+NOTIC: [8] Undefined variable: data C:\WWW\snadmin\Shop\Common\function.php 第 28 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-13T23:56:47+08:00 ] 27.196.226.115 /admin8899.php/Shop/Index/creatmenu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_wxmenu` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_wxmenu` ORDER BY pid asc,menu_id asc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: one_arr C:\WWW\snadmin\Shop\Common\function.php 第 13 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\WWW\snadmin\Shop\Common\function.php 第 13 行.
+NOTIC: [8] Undefined variable: data C:\WWW\snadmin\Shop\Common\function.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\WWW\snadmin\Shop\Controller\IndexController.class.php 第 289 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\WWW\snadmin\Shop\Controller\IndexController.class.php 第 293 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\WWW\snadmin\Shop\Controller\IndexController.class.php 第 299 行.
+NOTIC: [8] Undefined variable: tree C:\WWW\snadmin\Shop\Controller\IndexController.class.php 第 305 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\WWW\snadmin\Shop\Controller\IndexController.class.php 第 305 行.
+SQL: SHOW COLUMNS FROM `jk_wxconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_wxconfig` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-13T23:56:51+08:00 ] 27.196.226.115 /admin8899.php/Shop/index/wxme
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_wxconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_wxconfig` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: userdata C:\WWW\snadmin\Runtime\Cache\Shop\210296a7bb7883099a58633df6dfc8b8.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-13T23:56:55+08:00 ] 27.196.226.115 /admin8899.php/Shop/index/wxme
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_wxconfig` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_wxconfig` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: userdata C:\WWW\snadmin\Runtime\Cache\Shop\210296a7bb7883099a58633df6dfc8b8.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-13T23:57:37+08:00 ] 27.196.226.115 /admin8899.php/Shop/Index/wxme
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_wxconfig` [ RunTime:0.0000s ]
+SQL: UPDATE `jk_wxconfig` SET `num`='',`ini_num`='',`token`='',`appid`='',`appsecret`='',`encodingaeskey`='',`partnerid`='',`partnerkey`='' WHERE `id` = 1 [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_wxconfig` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: userdata C:\WWW\snadmin\Runtime\Cache\Shop\210296a7bb7883099a58633df6dfc8b8.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-13T23:57:41+08:00 ] 27.196.226.115 /admin8899.php/Shop/Index/wxme
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `jk_wxconfig` [ RunTime:0.0000s ]
+SQL: UPDATE `jk_wxconfig` SET `num`='',`ini_num`='',`token`='',`appid`='',`appsecret`='',`encodingaeskey`='',`partnerid`='',`partnerkey`='' WHERE `id` = 1 [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jk_wxconfig` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: userdata C:\WWW\snadmin\Runtime\Cache\Shop\210296a7bb7883099a58633df6dfc8b8.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

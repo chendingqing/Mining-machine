@@ -1,0 +1,276 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>
+			无标题文档
+		</title>
+		<link href="/sncss/css/style.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+		<div class="place">
+			<span>
+				位置：
+			</span>
+			<ul class="placeul">
+				<li>
+					<a href="#">
+						首页
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						表单
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="formbody">
+			<div class="formtitle">
+				<span>
+					分成设置
+				</span>
+			</div>
+			<form id="form1" name="form1" method="post" action="/admin8899.php/Home/Index/settings">
+				<input name="UE_account" type="hidden" class="dfinput" value="{$userdata['ue_account']}"
+				/>
+				<ul class="forminfo">
+					<i>
+					</i>
+					</li>
+<!-- added by skyrim -->
+<!-- purpose: seperate masses and managers -->
+<!-- version: 5.0 -->
+					<li>
+						<label>
+							会员提成
+						</label>
+						<input name="max_user_level" type="text" id="max_user_level"
+						class="dfinput" required="true" value="{$max_user_level}" />
+						代
+						<i>
+						</i>
+					</li>
+					<li>
+						<label>
+							最多可直推
+						</label>
+						<input name="max_user_zhitui" type="text" id="max_user_zhitui"
+						class="dfinput" required="true" value="{$max_user_zhitui}" />
+						个下线
+						<i>
+						</i>
+					</li>
+					<li>
+						<label>
+							按商品价格
+						</label>
+						<input name="shop_price_bl" type="text" id="shop_price_bl"
+						class="dfinput" required="true" value="{$shop_price_bl}" />
+						%发奖
+						<i>
+						</i>
+					</li>
+					<!-- <li>
+						<label>
+							普通会员推荐
+						</label>
+						<input name="up_to_jl_threshold" type="text" id="up_to_jl_threshold"
+						class="dfinput" required="true" value="{$up_to_jl_threshold}" />
+						人，可成为经理
+						<i>
+						</i>
+					</li>
+					<li>
+						<label>
+							经理提成
+						</label>
+						<input name="max_jl_level" type="text" id="max_jl_level"
+						class="dfinput" required="true" value="{$max_jl_level}" />
+						级
+						<i>
+						</i>
+					</li>
+<!-- added ends -->
+					<!-- <li>
+						<label>
+							最多提供帮助
+						</label>
+						<input name="supply_money_upper_limit" type="text" id="supply_money_upper_limit"
+						class="dfinput" required="true" value="{$supply_money_upper_limit}" />
+						元
+						<i>
+						</i>
+					</li>
+					<li>
+						<label>
+							最少提供帮助
+						</label>
+						<input name="supply_money_lower_limit" type="text" id="supply_money_lower_limit"
+						class="dfinput" required="true" value="{$supply_money_lower_limit}" />
+						元
+						<i>
+						</i>
+					</li>  -->
+					<!-- <li><label>普通会员提成</label><input type="text" value="6" id="ymm" class="dfinput" name="ymm" required="">
+					级</li>
+					<li><label>普通会员推荐</label><input type="text" value="10" id="ymm" class="dfinput" name="ymm" required="">
+					人，可成为经理</li>
+					<li><label>经理提成</label><input type="text" value="9" id="ymm" class="dfinput" name="ymm" required="">
+					级</li>
+					-->
+					<!-- <li>
+						<label>
+							冻结
+						</label>
+						<input type="text" value="{$withdraw_day_diff}" id="withdraw_day_diff"
+						class="dfinput" name="withdraw_day_diff" required="">
+						天能提现
+					</li>
+					<li>
+						<label>
+							强制
+						</label>
+						<input type="text" value="{$knock_out_day_diff}" id="knock_out_day_diff"
+						class="dfinput" name="knock_out_day_diff" required="">
+						天出局
+					</li>
+					<li>
+						<label>
+							推荐人分成
+						</label>
+						<input type="text" value="{$tjr_share}" id="tjr_share" class="dfinput"
+						name="tjr_share" required="">
+						%
+					</li> -->
+<!-- added by skyrim -->
+<!-- purpose: seperate masses and managers -->
+<!-- version: 5.0 -->
+					<?php for( $i=1; $i<$settings['max_user_level']+1; $i++ ) { ?>
+					<li>
+						<label>
+							会员<?php echo $i; ?>代
+						</label>
+						<input type="text" value="<?php echo $masses_share[$i]; ?>" id="masses_share[<?php echo $i; ?>]" class="dfinput"
+						name="masses_share[<?php echo $i; ?>]" required="">
+						%
+					</li>
+					<?php } ?>
+					
+					<?php for( $i=1; $i<$settings['max_jl_level']+1; $i++ ) { ?>
+					<li>
+						<label>
+							经理<?php echo $i; ?>级
+						</label>
+						<input type="text" value="<?php echo $jl_share[$i]; ?>" id="jl_share[<?php echo $i; ?>]" class="dfinput"
+						name="jl_share[<?php echo $i; ?>]" required="">
+						%
+					</li>
+					<?php } ?>
+					
+<!-- added ends -->
+<!-- deleted by skyrim -->
+<!-- purpose: seperate masses and managers -->
+<!-- version: 5.0 -->
+<!--
+					<li>
+						<label>
+							经理一级
+						</label>
+						<input type="text" value="{$jl_share[1]}" id="jl_share[1]" class="dfinput"
+						name="jl_share[1]" required="">
+						%
+					</li>
+					<li>
+						<label>
+							经理二级
+						</label>
+						<input type="text" value="{$jl_share[2]}" id="jl_share[2]" class="dfinput"
+						name="jl_share[2]" required="">
+						%
+					</li>
+					<li>
+						<label>
+							经理三级
+						</label>
+						<input type="text" value="{$jl_share[3]}" id="jl_share[3]" class="dfinput"
+						name="jl_share[3]" required="">
+						%
+					</li>
+					<li>
+						<label>
+							经理四级
+						</label>
+						<input type="text" value="{$jl_share[4]}" id="jl_share[4]" class="dfinput"
+						name="jl_share[4]" required="">
+						%
+					</li>
+					<li>
+						<label>
+							经理五级
+						</label>
+						<input type="text" value="{$jl_share[5]}" id="jl_share[5]" class="dfinput"
+						name="jl_share[5]" required="">
+						%
+					</li>
+					<li>
+						<label>
+							经理六级
+						</label>
+						<input type="text" value="{$jl_share[6]}" id="jl_share[6]" class="dfinput"
+						name="jl_share[6]" required="">
+						%
+					</li>
+					<li>
+						<label>
+							经理七级
+						</label>
+						<input type="text" value="{$jl_share[7]}" id="jl_share[7]" class="dfinput"
+						name="jl_share[7]" required="">
+						%
+					</li>
+					<li>
+						<label>
+							经理八级
+						</label>
+						<input type="text" value="{$jl_share[8]}" id="jl_share[8]" class="dfinput"
+						name="jl_share[8]" required="">
+						%
+					</li>
+					<li>
+						<label>
+							经理九级
+						</label>
+						<input type="text" value="{$jl_share[9]}" id="jl_share[9]" class="dfinput"
+						name="jl_share[9]" required="">
+						%
+					</li>
+-->
+<!-- deleted ends -->
+					<li>
+						<label>
+							&nbsp;
+						</label>
+						<input name="" type="submit" class="btn" value="确认保存" />
+					</li>
+				</ul>
+			</form>
+			<style>
+				.pages a,.pages span { display:inline-block; padding:2px 5px; margin:0
+				1px; border:1px solid #f0f0f0; -webkit-border-radius:3px; -moz-border-radius:3px;
+				border-radius:3px; } .pages a,.pages li { display:inline-block; list-style:
+				none; text-decoration:none; color:#58A0D3; } .pages a.first,.pages a.prev,.pages
+				a.next,.pages a.end{ margin:0; } .pages a:hover{ border-color:#50A8E6;
+				} .pages span.current{ background:#50A8E6; color:#FFF; font-weight:700;
+				border-color:#50A8E6; }
+			</style>
+			<div class="pages">
+				<br />
+				<div align="right">
+					{$page}
+				</div>
+			</div>
+		</div>
+	</body>
+
+</html>

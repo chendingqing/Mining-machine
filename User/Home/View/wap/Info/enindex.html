@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link type="text/css" rel="stylesheet" href="__PUBLIC__/web/css/lib.css?2">
+    <link rel="stylesheet" href="__PUBLIC__/web/js/morris.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
+    <meta content="telephone=no" name="format-detection">
+    <title>Trading Center</title>
+    <script src="__PUBLIC__/web/js/jquery-1.8.3.min.js"></script>
+    <link rel="stylesheet" href="__PUBLIC__/web/css/weui.min.css"/>
+    <link rel="stylesheet" href="__PUBLIC__/web/css/jquery-weui.min.css">
+    <link href="__PUBLIC__/web/css/font-awesome.min.css" rel="stylesheet">
+    <link href="__PUBLIC__/web/fonts/iconfont.css" rel="stylesheet">
+    <script src="__PUBLIC__/web/js/layer.js"></script>
+    <link rel="stylesheet" href="__PUBLIC__/web/css/style.css"/>
+    <style>
+        #chartNav{
+		display:none;
+            width: 100%;
+            height: 30px;
+            background: #EFEFF4;
+        }
+        #chartNav a{
+            float: left;
+            width: 100%;
+            line-height: 30px;
+            -ms-text-align-last: center;
+            text-align-last: center;
+					text-align:center;
+            color: #666666;
+        }
+        #chartNav a:hover,#chartNav a.active{
+            background: #02d2f5;
+            color: #fff;
+            -webkit-transform: all 0.3s;
+            -moz-transform: all 0.3s;
+            -ms-transform: all 0.3s;
+            -o-transform: all 0.3s;
+            transform: all 0.3s;
+        }
+        #myhend{
+            width: 100%;
+            height: 40px;
+            overflow: hidden;
+            border-bottom:1px solid #ddd;
+            color: #767676;
+        }
+         #myhend>div{
+            float: left;
+            width:calc( 50% - 10px );
+            text-align: left;
+            height:100%;
+            line-height: 40px;
+            font-size: 16px;
+            font-weight: 600;
+			padding-left:0;
+			padding-left:10px;
+        }
+		 #myhend>div:last-child{
+		 text-align:center;
+		 color:#02d2f5;
+		 font-size:24px;
+		 }
+        #myhend>div>p{
+		float:left;
+            width: 50%;
+            height: 20px;
+            line-height: 20px;
+            font-size: 12px;
+            font-weight: 500;
+        }
+			#mynav{
+			width:100%;
+			height:30px;
+			line-height:30px;
+			border-bottom:1px solid #ddd;
+		}
+		#mynav a{
+			float:left;
+			width:50%;
+			text-align:center;
+			line-height:30px;
+			color:#858585;
+		}
+		#mynav a:hover{
+			transition:all 0.5s;
+			background:#02d2f5;
+			color:#fff;
+		}
+		#mynav a.active{
+			transition:all 0.5s;
+			background:#02d2f5;
+			color:#fff;
+		}
+    </style>
+</head>
+<body>
+<div style="position: fixed;z-index: -1000;width: 100%;height: 100vh;top:0;left: 0;"><img src="__PUBLIC__/web/img/body_bg.jpg" style="width:100%;height: 100vh"></div>
+<header class="header">
+    <span class="header_l" style="padding-left: 0"><a href="javascript:history.go(-1);"><img src="__PUBLIC__/web/img/back.png" style="display: inline-block;height: 40px"></a></span>
+    <span class="header_c">Trading Center</span>
+    <span style="position: absolute;right: 40px;top: 0px;text-align:center;width:70px;white-space:nowrap; overflow:hidden; text-overflow:ellipsis;font-size: 12px; ">{$userData['ue_truename']}</span>
+    <span class="header_r"><a href="/index.php/Home/Index/enindex/"><i class="fa fa-user"></i></a></span>
+</header>
+<div class="height40"></div>
+<section class="content">
+    <div class="row">
+        <div class="col-md-13">
+            <div class="box box-info">
+                <div class="box-header with-border">
+                    <!-- <h3 class="box-title" style="color: #fff;/* background: #02d2f5; */ text-align: center;border-bottom: 1px solid #ddd;border-top: 1px solid #ddd;font-size: 18px;padding: 10px 0;">The price chart</h3> -->
+                </div>
+                <div id="myhend">
+                    <div>
+                        <p>Picture:&nbsp;{$fu}%</p>
+                        <p>amount:&nbsp;{$liang}</p>
+						 <p>Highest:&nbsp;{$gao}</p>
+                        <p>Lowest:&nbsp;{$di}</p>
+                    </div>
+					      <div>$: {$zuihou}</div>
+                </div>
+                <div id="chartNav">
+
+                </div>
+				<div id="mynav">
+				 <a class="active">Minute line</a>
+				 <a>Date line</a>
+				</div>
+                    <!--<div class="box-body chart-responsive" style="background-image: url('__PUBLIC__/user2/images/kx.png');">-->
+                    <div id="chart" style="width:100%;height:200px;"></div>
+                
+            </div>
+        </div>
+    </div>
+</section>
+<!--顶部结束-->
+<!--矿车列表-->
+<div style="width: 90%;margin-left: 5%;margin-top: 20px;overflow:hidden;border-radius:5px">
+    <p id="qiugou_list"onclick='showhidediv("qiugou")'style="float: left;width: 50%;text-align: center;background-color: #02d2f5;height: 30px;line-height: 30px;color:#fff;border-bottom-left-radius: 5px;border-top-left-radius: 5px">Buy GEC</p>
+    <p id="chushou_list" onclick='showhidediv("chushou")'style="float: left;width: 50%;text-align: center;background-color: #fff;height: 30px;line-height: 30px;border-top-right-radius: 5px;border-bottom-right-radius: 5px">Sell GEC</p>
+</div>
+<div id="qiugou" style="padding-bottom:50px;background-color:#fff;margin-top:0px;width:100%;margin-left:0%">
+    <form id="qiugou" class="mmform" style="margin-top: 25px" action="/index.php/Home/Info/enmyjiaoyis" method= "POST" onsubmit="return false">
+        <input type="text" name="lkb" id="gmsl" placeholder="Please enter a quantity to purchase"style="width:60%"  onpaste="this.value=this.value.replace(/[^\d]/g,'')" onkeyup="this.value=this.value.replace(/[^\d]/g,'')"/>
+        <input type="text" name="price" id="mmp"  placeholder="Please enter the purchase price"style="width:60%"/>
+		
+        <button type="submit" id="mmm" style="float:right;width:33%;margin-top:-20px;background-color: #02d2f5;height: 30px;line-height: 30px;background-color: #02d2f5;height: 30px;line-height: 30px;border-radius:5px;border:0px;color:#fff">Buy</button>
+    </form>
+    <table class="jyzx_list" style="margin-top:20px;margin-bottom:80px;border-collapse:collapse;table-layout: fixed">
+        <thead>
+        <tr style="width:100%;">
+            <th style="padding:10px 0">nickname</th>
+            <th style="padding:10px 0">Level</th>
+            <th style="padding:10px 0;width:20%">GEC</th>
+            <th style="padding:10px 0;">total price($)</th>
+            <th style="padding:10px 0">state</th>
+        </tr>
+        </thead>
+        <tbody>
+        <foreach name="list" item="v">
+            <tr style="margin-bottom:100px">
+                <td class="name" style="padding:10px 0;text-align:center;overflow:hidden;text-overflow:ellipsis;white-space: nowrap;">{$v.p_name}</td>
+                <td class="range iconfont" style="padding:10px 0;text-align:center;">
+                    <if condition = "$v.p_level eq 0">&#xe667;</if>
+                    <if condition = "$v.p_level eq 1">&#xe668;</if>
+                    <if condition = "$v.p_level eq 2">&#xe669;</if>
+                    <if condition = "$v.p_level eq 3">&#xe66a;</if>
+                    <if condition = "$v.p_level eq 4">&#xe64f;</if>
+                    <if condition = "$v.p_level eq 5">&#xe66c;</if>
+                    <if condition = "$v.p_level eq 6">&#xe66d;</if>
+
+
+                </td>
+                <td class="lkMoney" style="padding:10px 0;text-align:center;">{$v.lkb}</td>
+                <td style="padding:10px 0;text-align:center;"><span  class="money">{$v.jb}</span></td>
+                <if condition = "$v.zt eq 0">
+                    <td style="padding:5px 0;text-align:center;"><input class="ppid" type="hidden" value="{$v.id}">
+                        <button style="background-color:#02d2f5;width: 100%;height: 90% ;border: 0px;border-radius: 5px;color: #FFFFFF;cursor: pointer;" class="btnchushou">Waiting</button>
+                    </td>
+                </if>
+                <if condition = "$v.zt eq 1">
+                    <td style="padding:5px 0;text-align:center;"><input class="ppid" type="hidden" value="{$v.id}">
+                        <button style="background-color:#666;width: 100%;height: 90% ;border: 0px;border-radius: 5px;color: #FFFFFF;cursor: pointer;" >Transaction</button>
+                    </td>
+                </if>
+                <if condition = "$v.zt eq 2">
+                    <td style="padding:5px 0;text-align:center;"><input class="ppid" type="hidden" value="{$v.id}">
+                        <button style="background-color:#02d2f5;width: 100%;height: 90% ;border: 0px;border-radius: 5px;color: #FFFFFF;cursor: pointer;" class="wancheng">交易完成</button>
+                    </td>
+                </if>
+            </tr>
+        </foreach>
+        <!-- <tr>
+            <td style="padding:10px 0;text-align:center;">三九</td>
+            <td style="padding:10px 0;text-align:center;">V3</td>
+            <td style="padding:10px 0;text-align:center;">100.0001</td>
+            <td style="padding:10px 0;text-align:center;">100.00</td>
+            <td style="padding:5px 0;text-align:center;"><input class="ppid" type="hidden" value="2"><button class="btnchushou" style="background-color:#E64340;width: 100%;height: 100% ;border: 0px;border-radius: 5px;;color: #FFFFFF;cursor: pointer;">出售</button></td>
+        </tr> -->
+        </tbody>
+    </table>
+</div>
+<div id="chushou" style="display: none; padding-bottom:50px;background-color:#fff;">
+    <form id="qiugou" class="nnform" style="margin-top: 25px" action="/index.php/Home/Info/encslkb" method= "POST" onsubmit="return false">
+        <input type="text" name="lkb" id="mcsl" placeholder="Enter the number of sold"style="width:60%"  onpaste="this.value=this.value.replace(/[^\d]/g,'')" onkeyup="this.value=this.value.replace(/[^\d]/g,'')"/>
+        <input type="text" name="price" id="mcpic" placeholder="Please enter a sale price"style="width:60%"/>
+		<if condition="$level gt 1">
+		<input type="text" name="zdjy" id="mmp" placeholder="Please enter a user for the specified transaction"style="width:60%"/>
+		</if>
+        <button type="submit" id="nnn" style="float:right;width:33%;margin-top:-20px;background-color: #02d2f5;height: 30px;line-height: 30px;background-color: #02d2f5;height: 30px;line-height: 30px;border-radius:5px;border:0px;color:#fff">Sell</button>
+    </form>
+    <table class="jyzx_list" style="margin-top:20px;margin-bottom:80px;border-collapse:collapse;table-layout: fixed">
+        <thead>
+        <tr style="width:100%;">
+            <th style="padding:10px 0">nickname</th>
+            <th style="padding:10px 0">level</th>
+            <th style="padding:10px 0;width:20%">GEC</th>
+            <th style="padding:10px 0;">total price($)</th>
+            <th style="padding:10px 0">state</th>
+        </tr>
+        </thead>
+        <tbody>
+        <foreach name="lists" item="v">
+            <tr style="margin-bottom:100px">
+                <td class="name" style="padding:10px 0;text-align:center;overflow:hidden;text-overflow:ellipsis;white-space: nowrap;">{$v.p_name}</td>
+                <td class="range iconfont" style="padding:10px 0;text-align:center;">
+                    <if condition = "$v.p_level eq 0">&#xe667;</if>
+                    <if condition = "$v.p_level eq 1">&#xe668;</if>
+                    <if condition = "$v.p_level eq 2">&#xe669;</if>
+                    <if condition = "$v.p_level eq 3">&#xe66a;</if>
+                    <if condition = "$v.p_level eq 4">&#xe64f;</if>
+                    <if condition = "$v.p_level eq 5">&#xe66c;</if>
+                    <if condition = "$v.p_level eq 6">&#xe66d;</if>
+
+
+                </td>
+                <td class="lkMoney" style="padding:10px 0;text-align:center;">{$v.lkb}</td>
+                <td class="money" style="padding:10px 0;text-align:center;">{$v.jb}</td>
+                <if condition = "$v.zt eq 0">
+                    <td style="padding:5px 0;text-align:center;"><input class="ppid" type="hidden" value="{$v.id}">
+                        <button style="background-color:#02d2f5;width: 100%;height: 90% ;border: 0px;border-radius: 5px;color: #FFFFFF;cursor: pointer;" class="btnsc">Waiting</button>
+                    </td>
+                </if>
+                <if condition = "$v.zt eq 1">
+                    <td style="padding:5px 0;text-align:center;"><input class="ppid" type="hidden" value="{$v.id}">
+                        <button style="background-color:#666;width: 100%;height: 90% ;border: 0px;border-radius: 5px;color: #FFFFFF;cursor: pointer;" >Transaction</button>
+                    </td>
+                </if>
+                <if condition = "$v.zt eq 2">
+                    <td style="padding:5px 0;text-align:center;"><input class="ppid" type="hidden" value="{$v.id}">
+                        <button style="background-color:#02d2f5;width: 100%;height: 90% ;border: 0px;border-radius: 5px;color: #FFFFFF;cursor: pointer;" class="wancheng">交易完成</button>
+                    </td>
+                </if>
+            </tr>
+        </foreach>
+        <!-- <tr>
+            <td style="padding:10px 0;text-align:center;">三九</td>
+            <td style="padding:10px 0;text-align:center;">V3</td>
+            <td style="padding:10px 0;text-align:center;">100.0001</td>
+            <td style="padding:10px 0;text-align:center;">100.00</td>
+            <td style="padding:5px 0;text-align:center;"><input class="ppid" type="hidden" value="2"><button class="btnchushou" style="background-color:#E64340;width: 100%;height: 100% ;border: 0px;border-radius: 5px;;color: #FFFFFF;cursor: pointer;">出售</button></td>
+        </tr> -->
+        </tbody>
+    </table>
+</div>
+<!--底部开始-->
+<style>
+    .footer ul li{
+        width: 25%;
+    }
+</style>
+<div class="footer">
+    <ul>
+        <li><a href="/index.php/Shop/Index/enindex" class="block"><i class="iconfont">&#xe604;</i>Mills Mall</a></li>
+        <li><a href="/index.php/Home/Info/enmykuangche/" class="block"><i class="iconfont">&#xe601;</i>My mine</a></li>
+        <li><a href="/index.php/Home/Info/enIndex" class="block"><i class="iconfont">&#xe645;</i>Trading center</a></li>
+        <li><a href="/index.php/Home/Index/enindex" class="block"><i class="iconfont">&#xe684;</i>Personal Center</a></li>
+    </ul>
+</div>
+
+
+
+
+
+<script src="__PUBLIC__/user2/js/jquery.dataTables.min.js"></script>
+<script src="__PUBLIC__/user2/js/dataTables.bootstrap.min.js"></script>
+<script src="__PUBLIC__/user2/js/jQuery-2.1.4.min.js"></script>
+<script src="__PUBLIC__/web/js/echarts.min.js"></script>
+<script src="__PUBLIC__/chart/emychart.js"></script>
+<script src="__PUBLIC__/user2/js/bootstrap.min.js"></script>
+<script src="__PUBLIC__/user2/js/morris.min.js"></script>
+<script src="__PUBLIC__/user2/js/raphael-min.js"></script>
+<!--底部结束-->
+<script src="__PUBLIC__/web/js/jquery-weui.min.en.js"></script>
+<script>
+    function showhidediv(id) {
+        console.log(id);
+        var qiugou = document.getElementById("qiugou");
+        var zhengzai = document.getElementById("chushou");
+        var qiugoubg = document.getElementById("qiugou_list");
+        var zhengzaibg = document.getElementById('chushou_list');
+        if (id == "qiugou") {
+            zhengzai.style.display = 'none';
+            qiugou.style.display = 'block';
+            qiugoubg.style.backgroundColor = "#02d2f5"
+            qiugoubg.style.color = "#fff"
+            zhengzaibg.style.backgroundColor = "#fff";
+            zhengzaibg.style.color = "#000";
+        }else if(id=='chushou'){
+            zhengzai.style.display = 'block';
+            qiugou.style.display = 'none';
+            qiugoubg.style.backgroundColor = "#fff";
+            qiugoubg.style.color = "#000";
+            zhengzaibg.style.backgroundColor = "#02d2f5";
+            zhengzaibg.style.color = "#fff";
+        }
+    }
+</script>
+<script>
+
+
+    $(function(){
+        var s='<div id="popUpBox" style="position:absolute;top:30%;width:100%;height:100%;display:none;background-color:#DDD">'+
+            '<div style="margin:0 auto;width: 90%;height:150px;background-color: #fff;padding:15px 0 10px;border-radius: 10px">'+
+            '<div style="text-align:center;font-size:1.2em;margin-top:15px;">是否确认提交？</div><input class="opid" type="hidden" value="" />'+
+            '<div style="text-align:center;margin-top:35px;"><button style="font-size:1.2em;padding:5px 10px;background-color:#fff;border-radius: 5px;border: 0px;color:green"  id="confirmBtn">确认</button>&nbsp;&nbsp;<button style="padding:5px 10px;font-size:1.2em;border: 0px;background-color:#fff;border-radius: 5px" id="confirmBtnFalse">取消</button></div>'+
+            '</div>'+
+            '</div>';
+        $("body").append(s);
+    })
+
+    $(function(){
+        $(".btnchushou").bind("click",function(){
+
+
+            var huilv=$(this).parent().parent().find(".money").html();
+            $("#popUpBox").find(".opid").val($(this).parent().find(".ppid").val());
+            $.ajax({
+                url:"{:U('/index.php/Home/Info/huilv')}",
+                type:"get",
+                data:{id:$("#UpBox").find(".opid").val(),huilv:huilv},
+                dataType:"json",
+                success:function(data){
+                    console.log(data);
+                    $.confirm("USD($)："+huilv+"<br>"+"BTC："+data.btc,"Determine submit？",function(){
+                        $.ajax({
+                            url:"{:U('/index.php/Home/Info/enchushou')}",
+                            type:"get",
+                            data:{id:$("#popUpBox").find(".opid").val()},
+                            dataType:"json",
+                            success:function(data){
+                                console.log(data);
+                                if(data.status==1){
+                                    $.alert(data.msg,function(){
+                                        location.href="/index.php/Home/Info/enmyjiaoyi";
+                                    });
+                                }else{
+                                    $.alert(data.msg);
+                                }
+                            },
+                            error:function(){
+                                $.alert("network error");
+                            }
+                        })
+
+                    })
+
+                },
+                error:function(){
+                    $.alert("network error");
+                }
+            })
+
+
+
+
+
+        })
+
+
+
+    })
+
+
+</script>
+
+
+
+<!--价格走势图开始-->
+<script type="text/javascript">
+$(function(){
+	$("#mmm").bind("click",function(){
+		var price=$("#mmp").val();
+		var sum=/^[0-9]*[1-9][0-9]*$/;
+		if(sum.test($("#gmsl").val())){
+		}else{
+			$.alert("Please enter a positive integer");
+			return false;
+		}
+		console.log(price);
+		if(price==""){
+			$.alert("Please enter price");
+			return false;
+		}
+		if(!isNaN(price)){
+		}else{
+			$.alert("please enter a number");
+			return false;
+		}
+
+		if(price.indexOf(".")==-1){
+            $.alert("Please enter a decimal");
+			return false;
+		}
+		price=price.split(".")[1];
+		if(price.length>2){
+			$.alert("Please keep two decimal places");
+			return false;
+		}
+		<!-- $('.mmform').get(0).submit(); -->
+	$.showLoading("Being submitted");
+				console.log(1111);
+									$.ajax({
+									url:"/index.php/Home/Info/enmyjiaoyis",
+									type:"post",
+									 data:$(".mmform").serialize(),
+									 dataType:"json",
+									 success:function(data){
+									    if(data.status==1){
+										   $.alert(data.info,function(){
+										   location.href=data.link;
+										   })
+										}else{
+										$.alert(data.info);
+									}
+									  },error:function(){
+									    $.alert("network error");
+									  },complete:function(){
+									  $.hideLoading();
+									  }
+									})
+		 
+	})
+})
+<!-- 卖出 -->
+$(function(){
+	$("#nnn").bind("click",function(){
+		var price=$("#mcpic").val();
+		var sum=/^[0-9]*[1-9][0-9]*$/;
+		if(sum.test($("#mcsl").val())){
+		}else{
+			$.alert("Please enter a positive integer");
+			return false;
+		}
+		console.log(price);
+		if(price==""){
+			$.alert("Please enter price");
+			return false;
+		}
+		if(!isNaN(price)){
+		}else{
+			$.alert("please enter a number");
+			return false;
+		}
+
+		if(price.indexOf(".")==-1){
+            $.alert("Please enter a decimal");
+			return false;
+		}
+		price=price.split(".")[1];
+		if(price.length>2){
+			$.alert("Please keep two decimal places");
+			return false;
+		}
+		<!-- $('.mmform').get(0).submit(); -->
+	$.showLoading("Being submitted");
+				console.log(1111);
+									$.ajax({
+									url:"/index.php/Home/Info/encslkb",
+									type:"post",
+									 data:$(".nnform").serialize(),
+									 dataType:"json",
+									 success:function(data){
+									    if(data.status==1){
+										   $.alert(data.info,function(){
+										   location.href=data.link;
+										   })
+										}else{
+										$.alert(data.info);
+									}
+									  },error:function(){
+									    $.alert("network error");
+									  },complete:function(){
+									  $.hideLoading();
+									  }
+									})
+		 
+	})
+})
+
+
+
+
+
+
+
+
+    $.ajax({
+        url:'{:U('/index.php/Home/Ajax/getgp')}',
+        type:"post",
+        data:null,
+        dataType:"json",
+        success:function(data){
+            chart.oldData=data;
+            start(chart);
+        },error:function(){
+            console.log('没有获取到数据');
+        }
+    })
+    //配置信息
+    function start(chart){
+        chart.deploy={
+            //配置导航信息
+            nav:{
+                //导航容器的id 默认为chartNav
+                navId:"chartNav",
+                //设置导航信息
+                data:[
+                    {
+                        title:"Minute line",
+                        //每条数据额间隔时间 单位为妙
+                        interval:"60",
+                        //按钮图标
+                        icon:"",
+                        //按钮class类 需要至少有一个active
+                        class:"active",
+                        //图标的类型0为折线图,1为kline线图  candlestick
+                        type:0,
+                        //显示数据的条数 不存在的话为无穷大 0为不显示,-1为无穷大
+                        num:1440
+                    }/*,
+                    {
+                        title:"Date line",
+                        //每条数据额间隔时间 单位为妙
+                        interval:"0",
+                        //按钮图标
+                        icon:"",
+                        //按钮class类 需要至少有一个active
+                        class:"",
+                        //图标的类型0为折线图,1为kline线图  candlestick
+                        type:1,
+                        //显示数据的条数 不存在的话为无穷大 0为不显示,-1为无穷大
+                        num:0
+                    },  {
+                        title:"Week line",
+                        //每条数据额间隔时间 单位为妙
+                        interval:"0",
+                        //按钮图标
+                        icon:"",
+                        //按钮class类 需要至少有一个active
+                        class:"",
+                        //图标的类型0为折线图,1为kline线图  candlestick
+                        type:1,
+                        //显示数据的条数 不存在的话为无穷大 0为不显示,-1为无穷大
+                        num:0
+                    }*/
+                ]
+            }
+        };
+        chart.start();
+    }
+		$("#mynav a").bind("click",function(){
+	   $("#mynav a").removeClass("active");
+	   $(this).addClass("active");
+	})
+	$("#mynav a").eq(0).bind("click",function(){
+	     $.ajax({
+			url:'{:U('/index.php/Home/Ajax/getgp')}',
+			type:"post",
+			data:null,
+			dataType:"json",
+			success:function(data){
+				chart.oldData=data;
+				start(chart);
+			},error:function(){
+				console.log('没有获取到数据');
+			}
+		})
+	})
+	var cht = chart.mychart;
+	var option = chart.option;
+	$("#mynav a").eq(1).bind("click",function(){
+	   $.ajax({
+			url:'{:U('/index.php/Home/Ajax/getgps')}',
+			type:"post",
+			data:null,
+			dataType:"json",
+			success:function(data){
+			 
+			   	option.series.type='candlestick';
+	            option.tooltip.formatter=function(data){
+                return "time:"+data[0].name+"<br>"+
+                    "open:"+data[0].data[0]+"<br>"+
+                    "close:"+data[0].data[1]+"<br>"+
+                    "lowest"+data[0].data[2]+"<br>"+
+                    "highest"+data[0].data[3]+"<br>";
+             }
+			   var time=[];
+			   var dt=[];
+			   for(var key in data){
+			      var tt=new Date(data[key].date*1000);
+				  var mm=tt.getMonth()+1;
+				  var dd=tt.getDate();
+			      time.push(mm+"月"+dd+"日");
+				  dt[key]=[];
+				  dt[key].push(data[key].jinkai);
+				  dt[key].push(data[key].zuoshou);
+				  dt[key].push(data[key].jrzd);
+				  dt[key].push(data[key].jrzg);
+			   }
+			  option.xAxis.data=time;
+			  option.series.data=dt;
+			  cht.setOption(option);
+			},error:function(){
+				console.log('没有获取到数据');
+			}
+		})
+	})
+</script>
+<!--价格走势图结束-->
+
+
+
+<script>
+    $(function(){
+        var s='<div id="UpBox" style="position:absolute;top:30%;width:100%;height:100%;display:none;background-color:#DDD">'+
+            '<div style="margin:0 auto;width: 90%;height:150px;background-color: #fff;padding:15px 0 10px;border-radius: 10px">'+
+            '<div style="text-align:center;font-size:1.2em;margin-top:15px;">是否确认提交？</div><input class="opid" type="hidden" value="" />'+
+            '<div style="text-align:center;margin-top:35px;"><button style="font-size:1.2em;padding:5px 10px;background-color:#fff;border-radius: 5px;border: 0px;color:green"  id="firmBtn">确认</button>&nbsp;&nbsp;<button style="padding:5px 10px;font-size:1.2em;border: 0px;background-color:#fff;border-radius: 5px" id="confirmBtnFalse">取消</button></div>'+
+            '</div>'+
+            '</div>';
+        $("body").append(s);
+    })
+    $(function(){
+
+
+
+        $(".btnsc").bind("click",function(){
+
+
+
+            var huilv=$(this).parent().parent().find(".money").html();
+            $("#popUpBox").find(".opid").val($(this).parent().find(".ppid").val());
+            $.ajax({
+                url:"{:U('/index.php/Home/Info/huilv')}",
+                type:"get",
+                data:{id:$("#UpBox").find(".opid").val(),huilv:huilv},
+                dataType:"json",
+                success:function(data){
+                    console.log(data);
+                    $.confirm("USD($)："+huilv+"<br>"+"BTC："+data.btc,"Determine submit？",function(){
+                        $.ajax({
+                            url:"{:U('/index.php/Home/Info/enlksc')}",
+                            type:"get",
+                            data:{id:$("#popUpBox").find(".opid").val()},
+                            dataType:"json",
+                            success:function(data){
+                                console.log(data);
+                                if(data.status==1){
+                                    $.alert(data.msg,function(){
+                                        location.href="/index.php/Home/Info/enmyjiaoyi";
+                                    });
+                                }else{
+                                    $.alert(data.msg);
+                                }
+                            },
+                            error:function(){
+                                $.alert("network error");
+                            }
+                        })
+
+                    })
+
+                },
+                error:function(){
+                    $.alert("network error");
+                }
+            })
+
+
+
+
+
+        })
+
+
+
+
+    })
+</script>
+<!-- 汇率转换 -->
+<script>
+    $(function(){
+        $(".money").bind("click",function(){
+            var huilv=$(this).html();
+            $.ajax({
+                url:"{:U('/index.php/Home/Info/huilv')}",
+                type:"get",
+                data:{id:$("#UpBox").find(".opid").val(),huilv:huilv},
+                dataType:"json",
+                success:function(data){
+                    console.log(data);
+                    $.modal({
+                        title: data.name,
+                        text: "USD："+huilv+"<br>"+"BTC："+data.btc,
+                        buttons:[
+                            { text: "confirm", className: "default", onClick: function(){ } },
+                        ]
+                    })
+                },
+                error:function(){
+                    $.alert("网络错误请重试");
+                }
+            })
+        })
+        $("#firmBtnFalse").bind("click",function(){
+            $("#UpBox").fadeOut();
+        })
+    })
+</script>
+<if condition="$_SESSION['secpwd'] eq ''">
+    <script>
+        $(function(){
+            $.prompt("Please enter a secure password","",function(){
+                $.ajax({
+                    url:"{:U('/index.php/Home/Info/enerjimima')}",
+                    type:"get",
+                    data:{pwd:$("#weui-prompt-input").val()},
+                    dataType:"json",
+                    success:function(data){
+                        if(data.status==1){
+                            $.alert(data.msg);
+                        }else{
+                            $.alert(data.msg,function(){
+                                location.href=location.href;
+                            });
+                        }
+                    },error:function(){
+                        $.alert("网络错误",function(){
+                            history.back(-1);
+                        });
+                    }
+                })
+            },function(){
+                history.back(-1);
+            },1)
+        })
+    </script>
+</if>
+
+</body>
+</html>

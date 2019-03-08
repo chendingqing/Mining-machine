@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>验证手机号</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<link rel="stylesheet" href="__CSS__/font/iconfont.css">
+	<link rel="stylesheet" href="__CSS__/weui.min.css">
+    <link rel="stylesheet" href="__CSS__/jquery-weui.min.css">
+	<script charset="UTF-8" src="__JS__/jquery-1.11.3.min.js"></script>
+	<script src="__JS__/jquery-weui.min.js"></script>
+	<style>
+	li,ul{
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	.fl{
+		float: left;
+	}
+	.fr{
+		float: right;
+	}
+	body{
+		margin: 0;
+		padding: 0;
+		font-size: 10px;
+		color: #fff;
+		font-family:"微软雅黑";
+	}
+	a{
+		color: #fff;
+		text-decoration: none;
+	}
+		form{
+			width: 250px;
+			margin: 0 auto;
+			margin-top: 10px;
+		}
+		form>div{
+			border: 1px solid #eee;
+		}
+		.mytop>span{
+			display: inline-block;
+			width: 88px;
+			font-size: 12px;
+			color: #fff;
+			background: #e4393c;
+			line-height: 30px;
+			text-align: center;
+		}
+	button {
+    display: block;
+    width: 300px;
+    background: #e4393c;
+    color: #fff;
+    height: 45px;
+    line-height: 45px;
+    border: none;
+    outline: none;
+    box-shadow: 1px 1px 1px 1px #ddd;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+/* footer */
+#footer{
+	height: 50px;
+	width: 100%;
+	background: #131224;
+	position: fixed;
+	bottom: 0;
+}
+#footer ul>li{
+   width: 25%;
+   text-align:  center;
+}
+#footer ul>li>a{
+	display: block;
+    line-height: 50px;
+    width: 100%;
+}
+#footer ul>li .active{
+	background: #efefef;
+	color: #444;
+}
+p,div,h1{
+padding:0;
+margin:0;
+}
+/* footer */
+#footer{
+	height: 50px;
+	width: 100%;
+	background: #131224;
+	position: fixed;
+	bottom: 0;
+}
+#footer ul>li{
+   width: 25%;
+   text-align:  center;
+   height: 50px;
+   color: #999;
+}
+#footer ul>li>a{
+	display: block;
+    line-height: 20px;
+    width: 100%;
+    color: #999;
+}
+#footer ul>li>p{
+    margin:0;
+	margin-top: 10px;
+}
+#footer ul> .active{
+	color: #e4393c;
+}
+#footer ul> .active>a{
+	color: #e4393c;
+}
+		#footer ul>li>a p{
+		    margin-top:5px;
+}
+input {
+    display: block;
+    width: 80%;
+	border: 1px solid #eee;
+    margin: 0 auto;
+    margin-top: 10px;
+    height: 30px;
+    border-radius: 5px;
+    padding-left: 2%;
+    outline: none;
+	padding: 5px 0;
+}
+</style>
+</head>
+<body>
+<div style="height:50px;width:100%;text-align:center;line-height:50px;background:#e4393c;color:#fff;font-size:20px;">
+	    <a href="/index.php/Home/Index/index.html" style="float:left;margin-top:8px;margin-left:10px;height:30px;width:30px;border-radius:5px;"><img src="/Public/Home/images/lf.png" width="100%"></a><span style="margin-left:-51px;">找回密码</span>
+</div>
+	    <div class="mytop">
+		<input type="tel" name="phone" id="phone" placeholder="请输入手机号">
+		</div>
+		<button style="width: 82%;padding: 0 5px;" >找回密码</button>
+	<script>
+	        function code(){
+				var pd=/^1[3|4|5|7|8][0-9]{9}$/;
+				if(pd.test($("#phone").val())){
+				$("button").css({"background":"#ddd","color":"#444"}).html("60秒后重新发送").unbind("click");
+				var num=59;
+				var time=setInterval(function(){
+                      $("button").html(num-- + "秒后重新发送");
+                      if(num<0){
+                      	clearTimeout(time);
+                      	$("button").css({"background":"#e4393c","color":"#fff"}).html("重新发送");
+                      	$("button").bind("click",code);
+                      }
+				},1000);
+				$.ajax({
+					url:"{:U('/index.php/weixin/Ajax/getmobilecode1')}",
+					type:"post",
+					data:{mobile:$("#phone").val()},
+					dataType:"json",
+					success:function(data){
+						$.alert(data,"提示");
+					}
+				})
+				}else{
+					$.alert("手机号码不正确！","提示");
+				}
+	        }
+	        $(function(){
+				$("button").bind("click",code);
+	        })
+	</script>
+</body>
+</html>

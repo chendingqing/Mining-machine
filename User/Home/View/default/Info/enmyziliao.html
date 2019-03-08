@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link type="text/css" rel="stylesheet" href="__PUBLIC__/web/css/lib.css?2">
+   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1, minimum-scale=1.0"/>
+   <meta content="telephone=no" name="format-detection">
+    <title>personal data</title>
+    <script src="__PUBLIC__/web/js/jquery-1.8.3.min.js"></script>
+    <link rel="stylesheet" href="__PUBLIC__/web/css/weui.min.css"/>
+    <link rel="stylesheet" href="__PUBLIC__/web/css/jquery-weui.min.css">
+    <link href="__PUBLIC__/web/css/font-awesome.min.css" rel="stylesheet">
+    <link href="__PUBLIC__/web/fonts/iconfont.css" rel="stylesheet">
+    <script src="__PUBLIC__/web/js/layer.js"></script>
+</head>
+<body>
+    <div style="position: fixed;z-index: -1000;width: 100%;height: 100vh;top:0;left: 0;"><img src="__PUBLIC__/web/img/body_bg.jpg" style="width:100%;height: 100vh"></div>
+    <header class="header">
+        <span class="header_l" style="padding-left: 0"><a href="javascript:history.go(-1);"><img src="__PUBLIC__/web/img/back.png" style="display: inline-block;height: 40px"></a></span>
+        <span class="header_c">personal data</span>
+		<span style="position: absolute;right: 40px;top: 0px;text-align:center;width:70px;white-space:nowrap; overflow:hidden; text-overflow:ellipsis;font-size: 12px; ">{$userData['ue_truename']}</span>
+        <span class="header_r"><a href="/index.php/Home/Index/index"><i class="fa fa-user"></i></a></span>
+    </header>
+    <div class="height40;"></div>
+    <!--顶部结束-->
+    <!--列表开始-->
+	<form action="/index.php/Home/Info/enzlxg/" method="POST" style="margin-bottom:80px;font-size:14px">
+		<ul style="width: 80%;margin-left: 10%;color: #000" >
+		<foreach name="list" item="v">
+			<li style="text-align: center;width:100%"><div style="width: 60px;height: 60px;margin-bottom: 10px;border-radius: 100%" src= ></div></li>
+			
+			<!-- <li style="height: 30px;line-height: 30px;width:100%">身&nbsp;&nbsp;&nbsp;&nbsp;份：<span></span>&nbsp;&nbsp; <if condition = "$v.sfjl eq 0">普通会员</if> <if condition = "$v.sfjl eq 1">会长</if></li> -->
+			<li style="height: 30px;line-height: 30px;margin-top: 5px;width:100%">Member account：&nbsp;&nbsp;&nbsp;{$v.ue_account}</li>
+			<li style="height: 30px;line-height: 30px;margin-top: 5px;width:100%">Membership level：&nbsp;&nbsp;&nbsp;
+					<if condition = "$v.level eq 0">Member(not active)</if>
+					<if condition = "$v.level eq 1">GEC Miner</if>
+					<if condition = "$v.level eq 2">Guild president</if>
+					<if condition = "$v.level eq 3">Entrepreneurial Ambassador</if>
+					<if condition = "$v.level eq 4">Environmental Ambassador</if>
+					<if condition = "$v.level eq 5">International ambassador</if>
+			</li>
+			<li style="height: 30px;line-height: 30px;margin-top: 5px;width:100%"><span style="display:inline-block;width:23%;">nickname&nbsp;&nbsp;&nbsp;&nbsp;：</span><input type="text" name="nickname"  value="{$v.ue_truename}" style="height: 30px;line-height: 30px;width: 72%;border-radius: 5px;border: 1px solid #eeeeee;padding-left: 5px"/></li>
+			
+		<li style="height: 30px;line-height: 30px;margin-top: 5px;width:100%"><span style="display:inline-block;width:23%;">Nationality：</span>
+				
+				<select class="dfinput" name="guoji" id="guoji">
+						<option>---Please select---</option>
+						
+						<option value='AF'>Afghanistan </option>
+						<option value='AL'>Albania</option> 
+						<option value='AD'>Andorra</option> 
+						<option value='AO'>Angola</option> 
+						<option value='AI'>Anguilla</option> 
+						<option value='AQ'>Antarctica  </option>
+						<option value='AG'>ANtigua and Barbuda</option> 
+						<option value='AR'>Argentina </option>
+						<option value='AM'>Armenia </option>
+						<option value='AW'>Aruba </option> 
+						<option value='AU'>Australia </option>
+						<option value='AT'>Austria </option>
+						<option value='AZ'>Azerbaijan  </option>
+						<option value='AE'>United Arab Emirates</option>
+						<option value='BS'>Bahamas</option> 
+						<option value='BH'>Bahrain </option>
+						<option value='BD'>Bangladesh</option>
+						<option value='BB'>Barbados</option> 
+						<option value='BY'>Belarus </option>
+						<option value='BZ'>Belize</option> 
+						<option value='BE'>Belgium  </option>
+						<option value='BJ'>Benin </option>
+						<option value='BM'>Bermuda </option> 
+						<option value='BT'>Bhutan </option>
+						<option value='BO'>Bolivia</option> 
+						<option value='BA'>Bosnia Hercegovina </option>
+						<option value='BW'>Botswana </option>
+						<option value='BV'>Bouvet Island</option> 
+						<option value='BR'>Brazil</option>
+						<option value='BN'>Brunei Darussalam </option>
+						<option value='BG'>Bulgaria </option> 
+						<option value='BF'>Burkina Faso </option> 
+						<option value='BI'>Burundi </option> 
+						<option value='CN'>China</option> 
+						<option value='CM'>Cameroon </option> 
+						<option value='CA'>Canada  </option>
+						<option value='CV'>Cape Verde,Republic of  </option>
+						
+					    <option value='CL'>Chile  </option>
+						
+						<option value='CX'>Christmas Island </option> 
+						<option value='CC'>COCOS Islands  </option>
+						<option value='CO'>Colombia </option> 
+						<option value='CH'>tzerland</option> 
+						<option value='CG'>Congo </option> 
+						<option value='CK'>Cook Island </option> 
+						<option value='CR'>Costa rica </option> 
+
+						<option value='CI'>Lvory Coast  </option>
+						<option value='CU'>Cuba</option>
+						<option value='CY'>Cyprus </option>
+						<option value='CZ'>Czech Republic  </option>
+						<option value='DK'>Denmark </option>
+						<option value='DJ'>Djibouti  </option>
+						<option value='DM'>Gominica  </option>
+						<option value='DE'>Grmany </option>
+						<option value='DO'>Dominica </option>
+						<option value='DZ'>Algeria  </option>
+						<option value='EC'>Ecuador </option>
+						<option value='EG'>Egypt  </option>
+						<option value='EH'>West Sahara  </option>
+						<option value='ES'>Spain </option>
+						<option value='EE'>Estonia  </option>
+						<option value='ET'>Ethiopia </option>
+						<option value='FJ'>Fiji  </option>
+						<option value='FK'>Falkland Islands  </option>
+						<option value='FI'>Finland  </option>
+						<option value='FR'>France </option>
+						<option value='FM'>Micronesia  </option>
+						<option value='GA'>Gabon </option>
+						<option value='GQ'>Equatorial Guinea  </option>
+						<option value='GF'>French Guiana </option> 
+						<option value='GM'>Gambia </option>
+						<option value='GE'>Georgia </option> 
+						<option value='GH'>Ghana  </option>
+						<option value='GI'>Gibraltar </option> 
+						<option value='GR'>Greece  </option>
+						<option value='GL'>Greenland  </option>
+						<option value='GB'>United Kingdom  </option>
+						<option value='GD'>Grenada  </option>
+						<option value='GP'>Guadeloupe  </option>
+						<option value='GU'>Guam </option>
+						<option value='GT'>Guatemala  </option>
+						<option value='GN'>Guinea </option> 
+						<option value='GW'>Guinea-Bissau  </option>
+						<option value='GY'>Guyana </option>
+						<option value='HR'>Croatia  </option>
+						<option value='HT'>Haiti </option>
+						<option value='HN'>Honduras </option> 
+						<option value='HK'>Hong Kong  </option>
+						<option value='HU'>Hungary  </option>
+						<option value='IS'>Iceland </option>
+						<option value='IN'>India  </option>
+						<option value='ID'>Indonesia </option> 
+						<option value='IR'>Iran </option>
+						<option value='IQ'>Iraq </option> 
+
+
+						
+						<option value='IE'>Ireland  </option>
+						<option value='IL'>Israel  </option>
+						<option value='IT'>Italy  </option>
+						<option value='JM'>Jamaica  </option>
+						<option value='JP'>Japan  </option>
+						<option value='JO'>Jordan  </option>
+						<option value='KZ'>Kazakstan  </option>
+						<option value='KE'>Kenya </option>
+						<option value='KI'>Kiribati  </option>
+						<option value='KP'>North Korea</option> 
+						<option value='KR'>Korea  </option>
+						<option value='KH'>Cambodia  </option>
+						<option value='KM'>Comoros </option>
+						<option value='KW'>kuwait </option>
+						<option value='KG'>Kyrgyzstan  </option>
+						<option value='KY'>Cayman Islands </option> 
+						<option value='LA'>Laos </option>
+						<option value='LK'>Sri Lanka </option> 
+						<option value='LV'>Latvia  </option>
+						<option value='LB'>Lebanon </option>
+						<option value='LS'>Lesotho </option>
+						<option value='LR'>Liberia </option>
+						<option value='LY'>Libya </option>
+						<option value='LI'>Liechtenstein  </option>
+						<option value='LT'>Lithuania  </option>
+						<option value='LU'>Luxembourg  </option>
+						<option value='LC'>St. Lucia  </option>
+						<option value='MO'>Macao </option>
+						<option value='MG'>Malagasy  </option>
+						<option value='MW'>Malawi  </option>
+						<option value='MY'>Malaysia  </option>
+						<option value='MV'>Maldives  </option>
+						<option value='ML'>Mali </option>
+						<option value='MT'>Malta  </option>
+						<option value='MH'>Marshall Islands </option> 
+						<option value='MR'>Mauritania  </option>
+						<option value='MU'>Mauritius </option>
+						<option value='MX'>Mexico </option>
+						<option value='MD'>Moldova  </option>
+						<option value='MC'>Monaco </option>
+						<option value='MN'>Mongolia</option>
+						<option value='MS'>Montserrat  </option>
+						<option value='MA'>Morocco </option>
+						<option value='MZ'>Mozambique  </option>
+						<option value='MM'>Burma </option>
+						
+
+
+						<option value='NA'>Namibia  </option>
+						<option value='NR'>Naura </option>
+						<option value='NP'>Nepal  </option>
+						<option value='NL'>Netherlands  </option>
+						<option value='NT'>Neutral Zone </option>
+						<option value='NC'>New Caledonia  </option>
+						<option value='NZ'>New Zealand </option>
+						<option value='NI'>Nicaragua </option>
+						<option value='NE'>Niger </option>
+						<option value='NG'>Nigeria </option>
+						<option value='NU'>Niue </option>
+						<option value='NF'>Norfolk Island  </option>
+						<option value='NO'>Norway </option>
+						<option value='OM'>Oman </option>
+						<option value='PK'>Pakistan  </option>
+						<option value='PF'>French Polynesia </option>
+						<option value='PW'>Palau </option>
+						<option value='PA'>Panama </option>
+						<option value='PG'>Papua,Territory of </option> 
+						<option value='PY'>Paraguay </option>
+						<option value='PE'>Peru  </option>
+						<option value='PH'>Philippines  </option>
+						<option value='PN'>Pitcairn Islands  </option>
+						<option value='PL'>Poland </option>
+						<option value='PT'>Portugal  </option>
+						<option value='PR'>Puerto Rico  </option>
+						<option value='QA'>Qatar  </option>
+						<option value='RO'>Romania  </option>
+						<option value='RU'>Russia  </option>
+						<option value='RW'>Rwanda  </option>
+						<option value='SV'>El Salvador  </option>
+						<option value='SH'>St.Helena  </option>
+						<option value='SM'>San Marino  </option>
+						<option value='SA'>Saudi Arabia  </option>
+						<option value='SN'>Senegal </option>
+						<option value='SC'>Seychelles </option>
+						<option value='SL'>Sierra leone </option>
+						<option value='SG'>Singapore  </option>
+						<option value='SK'>Slovakia  </option>
+						<option value='SI'>Slovene  </option>
+						<option value='SB'>Solomon Islands </option>
+						<option value='SO'>Somali  </option>
+						<option value='SD'>Sudan </option>
+						<option value='SR'>Surinam </option> 
+						<option value='SZ'>Swaziland </option>
+						<option value='SZ'>Swaziland </option>
+				</select>
+		
+				</li>
+			
+		<!-- 	<li style="height: 30px;line-height: 30px;margin-top: 5px;width:100%"><span style="display:inline-block;width:23%;">IDcard：&nbsp;&nbsp;&nbsp;</span><input type="text" name="idcard"  value="{$v.idcard}" placeholder="Please enter your card number."style="height: 30px;line-height: 30px;width: 72%;border-radius: 5px;border: 1px solid #eeeeee;padding-left: 5px"/></li> -->
+			
+			<!-- <li style="height: 30px;line-height: 30px;margin-top: 5px;width:100%"><span style="display:inline-block;width:23%;">phone：&nbsp;&nbsp;&nbsp;</span><input type="tel" placeholder="Please enter your phone number" name="phone"value="{$v.phone}" required="required" id="phone" style="height: 30px;line-height: 30px;width: 72%;border-radius: 5px;border: 1px solid #eeeeee;padding-left: 5px">
+			</li>
+			
+			<li class="code"style="height: 30px;line-height: 30px;margin-top: 5px;width:100%"><i style="display:inline-block;width:23%;">Code：</i>
+				<input type="text" placeholder="Please enter the verification code" name="code" required="required" id="code" class="fl"style="height: 30px;line-height: 30px;width: 39%;border-radius: 5px;border: 1px solid #eeeeee;padding-left: 5px">
+				<span class="fr"style="height: 30px;line-height: 30px;background-color: #02d2f5;display: inline-block;width: 30%;text-align: center;font-size: 0.8em;border-radius: 5px;color: #fff">Send code</span>
+			</li> -->
+			
+			
+			
+			<li style="height: 30px;line-height: 30px;margin-top: 5px;width:100%"><span style="display:inline-block;width:23%;">BTC ep</span><input type="text" name="btc"  value="{$v.btcaddress}" placeholder="Please enter a bitcoin address"style="height: 30px;line-height: 30px;width: 72%;border-radius: 5px;border: 1px solid #eeeeee;padding-left: 5px"/></li>
+			
+			<li style="height: 30px;line-height: 30px;margin-top: 5px;width:100%"><span style="display:inline-block;width:23%;">user：</span><input type="text" name="zhxm"  value="{$v.zhxm}" placeholder="enter the account name"style="height: 30px;line-height: 30px;width: 72%;border-radius: 5px;border: 1px solid #eeeeee;padding-left: 5px"/></li>
+			
+		
+				<li style="height: 30px;line-height: 30px;margin-top: 5px;width:100%"><span style="display:inline-block;width:23%;">Bank：</span><input type="text" name="yhmc"  value="{$v.yhmc}" placeholder="Please enter the name of the bank"style="height: 30px;line-height: 30px;width: 72%;border-radius: 5px;border: 1px solid #eeeeee;padding-left: 5px"/></li>
+			
+			
+		
+		
+			<li style="height: 30px;line-height: 30px;margin-top: 5px;width:100%"><span style="display:inline-block;width:23%;">Bcard：</span><input type="text" name="banknum"  value="{$v.yhzh}" placeholder="Please enter bank card number"style="height: 30px;line-height: 30px;width: 72%;border-radius: 5px;border: 1px solid #eeeeee;padding-left: 5px"/></li>
+			<!-- <li style="height: 30px;line-height: 30px;margin-top: 5px;width:100%"><span style="display:inline-block;width:23%;">Alipay：</span><input type="text" name="zfbb"  value="{$v.zfb}" placeholder="Please enter Alipay numbe"style="height: 30px;line-height: 30px;width: 72%;border-radius: 5px;border: 1px solid #eeeeee;padding-left: 5px"/></li>
+			<li style="height: 30px;line-height: 30px;margin-top: 5px;width:100%"><span style="display:inline-block;width:23%;">WeChat：</span><input type="text" name="weixin" value="{$v.weixin}" placeholder="请输入你的微信账号"style="height: 30px;line-height: 30px;width: 72%;border-radius: 5px;border: 1px solid #eeeeee;padding-left: 5px"/></li> -->
+			
+			
+			<!-- <li style="height: 30px;line-height: 30px;margin-top: 5px;width:100%">微信绑定：已绑定</li> -->
+			<li><input type="submit" value="complete" style="width: 100%;height: 30px;line-height: 30px;border-radius: 5px;border: 0px; background-color:#02d2f5;margin-top: 5px;color: #FFFFFF;-webkit-appearance: none;"/></li>
+		</foreach>	
+		</ul>
+	</form>
+</div>
+<!--底部开始-->
+<style>
+    .footer ul li{
+        width: 25%;
+    }
+</style>
+<div class="footer">
+        <ul>
+            <li><a href="/index.php/Shop/Index/enIndex" class="block"><i class="iconfont">&#xe604;</i>Mills Mall</a></li>
+			<li><a href="/index.php/Home/Info/enmykuangche/" class="block"><i class="iconfont">&#xe601;</i>My mine</a></li>
+            <li><a href="/index.php/Home/Info/enIndex" class="block"><i class="iconfont">&#xe645;</i>Trading market</a></li>
+            <li><a href="/index.php/Home/Index/enindex" class="block"><i class="iconfont">&#xe684;</i>Personal Center</a></li>
+        </ul>
+    </div>
+<!--底部结束-->
+<script src="__PUBLIC__/web/js/jquery-weui.min.js"></script>
+<script>
+	function code(){
+	   	      var pd=/^1[3|4|5|7|8][0-9]{9}$/;
+	   	      if(pd.test($("#phone").val())){
+	   	    	$.ajax({
+					url:"{:U('index.php/Home/Ajax/getmobilecode')}",
+					type:"POST",
+					data:{mobile:$("#phone").val()},
+					dataType:"json",
+					success:function(data){
+							$.alert(data,"提示");
+					}
+				})
+				$(".code span").css({"background":"#ddd","color":"#444"}).html("60秒重新发送").unbind("click");
+				var num=59;
+				var time=setInterval(function(){
+                      $(".code span").html(num-- + "后重新发送");
+                      if(num<0){
+                      	clearTimeout(time);
+                      	$(".code span").css({"background":"#e4393c","color":"#fff"}).html("重新发送");
+                      	$(".code span").bind("click",code);
+                      }
+				},1000);
+			}else{
+             $.alert("手机号码不正确","提示");
+			}
+	        }
+	$(function(){
+		$(".code span").bind("click",code);
+		});
+</script>
+</body>
+</html>

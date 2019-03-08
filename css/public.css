@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* CSS Document */
+* {margin: 0; padding: 0;}
+body{font-family:"微软雅黑"; font-size:13px; color:#000000; line-height:24px;overflow-x:hidden;font-weight: bold;}
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,input,p,blockquote,th,td,form,p{margin:0; padding:0; list-style:none; font-weight:normal;}
+img{margin:0px; padding:0px; border:0px;}
+a{text-decoration:none; color:#000;}
+a:hover{text-decoration:underline;}
+.clear{ clear:both }

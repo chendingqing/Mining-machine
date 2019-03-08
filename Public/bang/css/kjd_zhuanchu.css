@@ -1,0 +1,40 @@
+.right-icon{
+	color: #FFFFFF;
+	position: absolute;
+	top: 0;
+	right: 5%;
+    height: 44px;
+    line-height: 44px;
+    width: 44px;
+    text-align: center;
+}
+.right-icon:hover{
+	color: #FFFFFF;
+	opacity: 0.8;
+}
+.mui-input-group:before,.mui-input-group:after{
+	height: 0;
+} 
+.mui-input-group{
+	padding: 15px;
+	background-color: transparent;
+}
+.kjd-btn{
+	background-color: #31B4FF;
+	color: #FFFFFF;
+	width: 40%;
+	padding: 10px 10px 10px 10px;
+	border-radius: 15px;
+	border: initial;
+	margin-bottom: 10px;
+}
+.div-form{
+    position: absolute;
+    top: 40%;
+    background: #F2F2F2;
+    width: 90%;
+    left: 5%;
+    z-index: 100;
+    text-align: center;
+    display: none;
+}
